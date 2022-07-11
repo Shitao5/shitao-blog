@@ -2,6 +2,4 @@
 
 ---
 
-# shitao
-
-这是吴诗涛个人网站<https://shitao.netlify.app/>的源文件。网站是用[Blogdown](https://github.com/rstudio/blogdown)搭建的，使用了[Stack](https://themes.gohugo.io/themes/hugo-theme-stack/)主题，评论系统采用的是[utterances/](https://utteranc.es/)。
+这是诗涛个人网站<https://shitao.netlify.app/>的源文件。网站是用[Blogdown](https://github.com/rstudio/blogdown)搭建的，使用了[Stack](https://themes.gohugo.io/themes/hugo-theme-stack/)主题，评论系统采用的是[utterances](https://utteranc.es/)。
