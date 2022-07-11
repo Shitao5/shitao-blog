@@ -1,5 +1,5 @@
 baseurl: /
-languageCode: en-us
+languageCode: zh-cn
 title: Shitao Wu
 theme: hugo-theme-stack
 googleAnalytics: ''
@@ -14,6 +14,7 @@ ignoreFiles:
   - \.utf8\.md$
 permalinks:
   post: /:year/:month/:day/:slug/
+
 menu:
   main:
     - name: 关于
@@ -31,9 +32,14 @@ menu:
     - name: TODO
       url: "/todo/"
       weight: 5
-    - name: GitHub
+
+  social:
+    - identifier: github
+      name: GitHub
       url: https://github.com/Shitao5
-      weight: 6
+      params:
+          icon: brand-github
+
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
@@ -49,16 +55,23 @@ params:
     height: 50
     url: logo.png
     width: 50
+
   mainSections:
     - life
+    - reading
+    - record
+  featuredImageField: image
+  rssFullContent: true
+  favicon:
+
   sidebar:
-    compact: false
     emoji: 👨‍🦼
     subtitle: "永远憧憬，永远努力"
     avatar:
       enable: true
       local: true
       src: img/logo.png
+
   article:
     math: true
     toc: true
@@ -66,9 +79,11 @@ params:
     license:
         enabled: false
         default: Licensed under CC BY-NC-SA 4.0
+
   footer:
     since: "2021"
     customText:
+
   comments:
     enabled: true
     provider: utterances
@@ -76,6 +91,7 @@ params:
       repo: Shitao5/blog-comments
       issueTerm: pathname
       label: 👋
+
   widgets:
     homepage:
         - type: search
@@ -90,15 +106,39 @@ params:
               limit: 10
     page:
         - type: toc
+
+  colorScheme:
+    toggle: true
+    # Available values: auto, light, dark
+    default: auto
+
+  imageProcessing:
+      cover:
+          enabled: true
+      content:
+          enabled: true
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+        - name: categories
+          weight: 200
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: yes
+
   tableOfContents:
     endLevel: 3
     ordered: true
     startLevel: 1
+
   highlight:
     noClasses: false
     codeFences: true

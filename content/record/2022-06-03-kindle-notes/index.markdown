@@ -52,7 +52,7 @@ text <- readLines(con = "My Clippings.txt")
 
 # 数据操作
 
-## 1. 数据皆可`tibble()`
+## 数据皆可`tibble()`
 
 **tibble**是**tidyverse**版本的数据框，优点包括：
 
@@ -79,7 +79,7 @@ text %>% as_tibble()
     ## 10 "=========="                                                                 
     ## # … with 4,640 more rows
 
-## 2. 识别“笔记块”
+## 识别“笔记块”
 
 转为**tibble**后可以看到每5行是一条完整记录，且称呼为“**笔记块**”吧。
 
@@ -117,7 +117,7 @@ text2
     ## 10 "=========="                                                             2005
     ## # … with 4,640 more rows
 
-## 3. 向整洁数据进军
+## 向整洁数据进军
 
 整洁数据([Wickham 2014](#ref-tidy-data))是数据清洗的目标，整洁数据的特点是：
 
