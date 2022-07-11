@@ -2,6 +2,7 @@
 title: 囊肿切除手术
 author: 吴诗涛
 date: '2022-07-06'
+description: "除了拔智齿以外，第一次坐上手术台。"
 slug: nangzhongqiechu
 categories:
   - 生活

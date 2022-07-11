@@ -2,6 +2,7 @@
 title: 对自己有办法
 author: 吴诗涛
 date: '2022-06-09'
+description: "人是目的，而不是手段和工具。"
 slug: see-myself
 categories:
   - 生活

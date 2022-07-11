@@ -62,7 +62,6 @@ params:
     - record
   featuredImageField: image
   rssFullContent: true
-  favicon:
 
   sidebar:
     emoji: 👨‍🦼

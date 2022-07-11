@@ -3,6 +3,7 @@ title: Kindle笔记整理
 author: 吴诗涛
 date: '2022-06-03'
 slug: kindle-notes
+description: "即将停运的泡面盖，陪我度过许多时光。"
 categories:
   - 技术贴
   - R
@@ -14,6 +15,7 @@ output:
      fig_caption: yes
 bibliography: references.bib
 link-citations: yes
+image: "images/kindle.jpg"
 ---
 
 Kindle要停运了，对于用kindle看电子书的小伙伴影响估计不小。之前买过一年亚马逊书店会员，书籍的高亮内容可以导出到邮箱，还算方便。后来自己通过calibre往kindle里边导入电子书，没有再购买过会员，现在都是飞行模式。

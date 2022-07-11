@@ -2,6 +2,7 @@
 title: 手机屏意外摔碎
 author: 吴诗涛
 date: '2022-07-01'
+description: "明天和意外，哪一个先来？"
 slug: shoujipingmu
 categories:
   - 生活

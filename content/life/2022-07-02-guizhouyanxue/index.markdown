@@ -2,6 +2,8 @@
 title: 遵义行
 author: 吴诗涛
 date: '2022-07-02'
+description: "行万里路，读一卷书。"
+image: img.jpg
 slug: guizhouyanxue
 categories:
   - 生活
