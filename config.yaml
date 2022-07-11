@@ -1,0 +1,109 @@
+baseurl: /
+languageCode: en-us
+title: Shitao Wu
+theme: hugo-theme-stack
+googleAnalytics: ''
+disqusShortname: 'shitao'
+footnotereturnlinkcontents: "↩"
+enableEmoji: true
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+  - \.knit\.md$
+  - \.utf8\.md$
+permalinks:
+  post: /:year/:month/:day/:slug/
+menu:
+  main:
+    - name: 关于
+      url: /about/
+      weight: 1
+    - name: 生活篇
+      url: "/life/"
+      weight: 2
+    - name: 阅读篇
+      url: "/reading/"
+      weight: 3
+    - name: 学习记录
+      url: "/record/"
+      weight: 4
+    - name: TODO
+      url: "/todo/"
+      weight: 5
+    - name: GitHub
+      url: https://github.com/Shitao5
+      weight: 6
+params:
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+  mainSections:
+    - life
+  sidebar:
+    compact: false
+    emoji: 👨‍🦼
+    subtitle: "永远憧憬，永远努力"
+    avatar:
+      enable: true
+      local: true
+      src: img/logo.png
+  article:
+    math: true
+    toc: true
+    readingTime: true
+    license:
+        enabled: false
+        default: Licensed under CC BY-NC-SA 4.0
+  footer:
+    since: "2021"
+    customText:
+  comments:
+    enabled: true
+    provider: utterances
+    utterances:
+      repo: Shitao5/blog-comments
+      issueTerm: pathname
+      label: 👋
+  widgets:
+    homepage:
+        - type: search
+        - type: archives
+          params:
+              limit: 5
+        - type: categories
+          params:
+              limit: 10
+        - type: tag-cloud
+          params:
+              limit: 10
+    page:
+        - type: toc
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
+  tableOfContents:
+    endLevel: 3
+    ordered: true
+    startLevel: 1
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4

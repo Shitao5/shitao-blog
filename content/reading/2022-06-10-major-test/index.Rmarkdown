@@ -1,0 +1,12 @@
+---
+title: 阅读篇测试
+author: 吴诗涛
+date: '2022-06-10'
+slug: major-test
+categories:
+  - 阅读
+tags:
+  - 测试
+---
+
+这是阅读篇的一个测试。
