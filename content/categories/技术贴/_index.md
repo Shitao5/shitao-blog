@@ -1,5 +1,5 @@
 ---
 title: "技术贴"
-description: "技术让生活更美好。"
+description: "技术服务生活。"
 image: "tech.jpg"
 ---
