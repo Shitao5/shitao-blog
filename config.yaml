@@ -3,8 +3,6 @@ languageCode: zh-cn
 title: Shitao Wu
 theme: hugo-theme-stack
 googleAnalytics: ''
-disqusShortname: 'shitao'
-footnotereturnlinkcontents: "↩"
 enableEmoji: true
 ignoreFiles:
   - \.Rmd$
@@ -41,21 +39,6 @@ menu:
           icon: brand-github
 
 params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
-  favicon: favicon.ico
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
-    - r
-    - yaml
-  highlightjsTheme: github
-  highlightjsVersion: 9.12.0
-  logo:
-    alt: Logo
-    height: 50
-    url: logo.png
-    width: 50
-
   mainSections:
     - life
     - reading
@@ -135,7 +118,7 @@ markup:
 
   tableOfContents:
     endLevel: 3
-    ordered: true
+    ordered: false
     startLevel: 1
 
   highlight:
