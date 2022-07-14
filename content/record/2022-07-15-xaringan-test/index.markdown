@@ -8,7 +8,7 @@ categories:
   - 技术贴
 tags:
   - Xaringan
-description: ~
+description: "Rmd替代PPT之旅发车了。"
 image: ~
 math: ~
 license: ~
