@@ -1,0 +1,99 @@
+---
+title: "Xaringan test"
+subtitle: "with Xaringan.club resources"  
+author: "shitao"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "editable",  "animate_css", "scribble", "tachyons", "panelset", "fit_screen", "clipboard"))
+```
+
+.can-edit[You can edit this silde]
+
+Hello, .can-edit[world], and welcome to my talk!
+
+## A few of my favorite things
+
+.can-edit.key-likes[
+- eating
+- writing
+- ......
+]
+
+---
+class: animated slideInRight backOutup
+
+## This slide...
+
+- slides in from the right 
+- and fades out to the left on exit
+
+---
+layout: true
+
+# Panelset
+---
+
+This is a panelset.
+
+.panelset[
+.panel[.panel-name[R Code]
+
+```{r eval=FALSE}
+summary(mtcats)
+```
+
+]
+
+.panel[.panel-name[Output]
+
+```{r echo=FALSE}
+summary(mtcars)
+```
+
+]
+]
+---
+layout: false
+
+# test-tachyons
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+The only way to write good code is to write tons of bad code first. 
+Feeling shame about bad code stops you from getting to good code
+
+.tr[
+— Hadley Wickham
+]]

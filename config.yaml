@@ -126,6 +126,6 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNoStart: 1
-    lineNos: true
-    lineNumbersInTable: true
+    lineNos: false
+    lineNumbersInTable: false
     tabWidth: 4
