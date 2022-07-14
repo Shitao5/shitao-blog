@@ -6,7 +6,7 @@ description: "行万里路，读一卷书。"
 image: img.jpg
 slug: guizhouyanxue
 categories:
-  - 生活
+  - 记录
 tags: 
   - 旅行
 ---

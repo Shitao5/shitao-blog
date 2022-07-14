@@ -5,7 +5,7 @@ date: '2022-06-18'
 description: "早知总有一天会毕业，当离别来临，那份不舍竟依然如此强烈。"
 slug: graduate
 categories:
-  - 生活
+  - 记录
 tags: []
 ---
 

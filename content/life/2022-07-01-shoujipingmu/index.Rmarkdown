@@ -5,7 +5,7 @@ date: '2022-07-01'
 description: "明天和意外，哪一个先来？"
 slug: shoujipingmu
 categories:
-  - 生活
+  - 记录
 tags: []
 ---
 
