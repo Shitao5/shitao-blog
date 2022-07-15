@@ -40,6 +40,8 @@ style_duo_accent(
 xaringanExtra::use_xaringan_extra(c("tile_view", "editable",  "animate_css", "scribble", "tachyons", "panelset", "fit_screen", "clipboard"))
 ```
 
+# Editable
+
 .can-edit[You can edit this silde]
 
 Hello, .can-edit[world], and welcome to my talk!
@@ -61,10 +63,7 @@ class: animated slideInRight backOutup
 - and fades out to the left on exit
 
 ---
-layout: true
-
 # Panelset
----
 
 This is a panelset.
 
@@ -86,9 +85,7 @@ summary(mtcars)
 ]
 ]
 ---
-layout: false
-
-# test-tachyons
+# Test-tachyons
 
 .bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 The only way to write good code is to write tons of bad code first. 
@@ -97,3 +94,87 @@ Feeling shame about bad code stops you from getting to good code
 .tr[
 — Hadley Wickham
 ]]
+
+---
+layout: true
+
+# Tables
+
+---
+## 静态
+
+```{r}
+knitr::kable(head(mtcars), format = "html")
+```
+
+---
+## 动态
+
+```{r}
+DT::datatable(head(mtcars), fillContainer = FALSE,
+              options = list(pageLength = 4))
+```
+
+---
+layout: true
+
+# Plots
+---
+
+```{r plot-example}
+library(ggplot2)
+(g <- ggplot(mpg) + aes(hwy, cty, color = class) + geom_point())
+```
+
+---
+
+```{r}
+g + xaringanthemer::theme_xaringan(text_font_size = 16, title_font_size = 18) +
+  {{ggtitle("A Plot About Cars")}}
+```
+
+.footnote[这里尝试了一下{{}}代码高亮]
+---
+layout: true
+
+# Images
+---
+<center><img src="https://octodex.github.com/images/labtocat.png" alt="GithHub Octocat" height="400px" /></center>
+
+.footnote[GitHub Octocat]
+
+---
+![A wide image with a diagram of branching in git.](https://docs.github.com/assets/images/help/repository/branching.png)
+
+.footnote[Wide images scale to 100% slide width]
+
+---
+.pull-left[
+![A GitHub Octocat, style "mother hubber"](https://octodex.github.com/images/motherhubbertocat.png)
+]
+
+.pull-right[
+![A GitHub Octocat, style "dinotcat"](https://octodex.github.com/images/dinotocat.png)
+]
+
+---
+layout: false
+
+# HTML控件
+
+```{r out.width='100%', fig.height=6, eval=require('leaflet')}
+library(leaflet)
+leaflet() %>% addTiles() %>% setView(-93.65, 42.0285, zoom = 17)
+```
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).

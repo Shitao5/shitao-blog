@@ -22,7 +22,7 @@ comments: yes
 
 ### 网上的
 
-今天学习了利用**Xaringan**包制作slides，现尝试将其嵌入到博文中。看到网上讨论的[方法](https://community.rstudio.com/t/posting-xaringan-presentation-on-blogdown/8212)是将knit好的`.html`文件挂网后，在博文中链接：
+今天学习利用**Xaringan**包制作slides，现尝试将其嵌入到博文中。看到网上讨论的[方法](https://community.rstudio.com/t/posting-xaringan-presentation-on-blogdown/8212)是将knit好的`.html`文件挂网后，在博文中链接：
 
 
 ```r
@@ -31,18 +31,26 @@ knitr::include_url('https://timmastny.rbind.io/slides/first_presentation#1')
 
 ### 我的
 
-虽然将写好的slides挂网可以在联网电脑直接使用，不需要插拔U盘或者登录一些社交软件（往往社死瞬间）。鄙人懒得去挂网，而且害怕对着浏览器输一串长网址。
+虽然将写好的slides挂网可以在联网电脑直接使用，不需要插拔U盘或者登录一些社交软件去传输（往往社死瞬间），但鄙人懒得去挂网，而且害怕对着浏览器输一串长网址。
 
-因此采用将knit好的整个xaringan文件夹放到博文文件夹下的方法，此篇博文的文件夹下的文件有：
+因此摸索了将knit好的整个xaringan文件夹放到博文文件夹下的方法，此篇博文的文件夹下的文件有：
 
+
+```r
+# 文件较多，只列举前六个
+list.files(recursive = TRUE)[1:6]
+```
 
 ```
-## [1] "index.markdown"                    "index.Rmarkdown"                  
-## [3] "index.Rmarkdown.lock~"             "xaringan-test/xaringan-test.html" 
-## [5] "xaringan-test/xaringan-test.Rmd"   "xaringan-test/xaringan-themer.css"
+## [1] "index.markdown"                                                    
+## [2] "index.Rmarkdown"                                                   
+## [3] "index.Rmarkdown.lock~"                                             
+## [4] "xaringan-test/xaringan-test.html"                                  
+## [5] "xaringan-test/xaringan-test.Rmd"                                   
+## [6] "xaringan-test/xaringan-test_files/animate.css/animate.xaringan.css"
 ```
 
-其中`index`开头的为博文内容，`xaringan-test`文件夹为slides的内容。也是使用`knitr::include_url()`函数，链接本地文件就OK。
+其中`index`开头的为博文内容，`xaringan-test`文件夹为slides的内容。和网上的方法一样，使用`knitr::include_url()`函数，链接本地文件就OK。
 
 
 ```r
@@ -57,7 +65,7 @@ knitr::include_url("xaringan-test/xaringan-test.html", height = "500px")
 
 ## 使用方法
 
-在xaringan上点一下，然后摁`h`（**h**lep)键调出帮助，根据帮助来。这里列出一些常用的：
+在Slides上点一下，然后按`h`（**h**lep)键调出帮助，根据帮助进行操作。这里列出一些常用的：
 
 - `f`键：全屏
 - `c`键：复制一份幻灯片（多一个标签页，两个标签页的slides同步）
@@ -68,7 +76,7 @@ knitr::include_url("xaringan-test/xaringan-test.html", height = "500px")
 
 # 制作Xaringan Slides
 
-怎么嵌入博文、怎么用都梳理好了，最重要的还是把这玩意儿做出来，毕竟内容为王。今天学习了一些基本的方法，笔记贴在下面。重要的还是多多练习。
+怎么嵌入博文、怎么用都梳理好了，最重要的还是把这玩意儿做出来，毕竟内容为王嘛。今天学习了一些基本的方法，笔记贴在下面。督促自己多多练习。
 
 ## 基本使用
 
@@ -82,11 +90,12 @@ knitr::include_url("xaringan-test/xaringan-test.html", height = "500px")
 
 ## 表格
 
-- 静态表格使用`knitr::kable(data, format = "html")`展示；动态表格使用`DT::datatable()`展示。
+- 静态表格使用`knitr::kable(data, format = "html")`展示。
+- 动态表格使用`DT::datatable()`展示。
 
 ## 图片
 
-- html：
+- html（设置了居中）：
   ```html
   <center><img src="https://octodex.github.com/images/labtocat.png" alt="GithHub Octocat" height="400px" /></center>
   ```
