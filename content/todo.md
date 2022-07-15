@@ -32,7 +32,7 @@ slug: todo
 
 - [Advance R](https://adv-r.hadley.nz/)
 - [Tidyverse design guide](https://principles.tidyverse.org/)（书还没写完呢）
-- [R Package](https://r-pkgs.org/)（需待时机成熟）
+- [R Packages](https://r-pkgs.org/)
 
 ## 计算机
 

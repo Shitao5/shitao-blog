@@ -59,12 +59,12 @@ params:
     toc: true
     readingTime: true
     license:
-        enabled: false
+        enabled: ture
         default: Licensed under CC BY-NC-SA 4.0
 
   footer:
     since: "2021"
-    customText:
+    customText: "Shitao's Blog"
 
   comments:
     enabled: true
