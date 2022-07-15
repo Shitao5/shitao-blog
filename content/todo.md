@@ -30,9 +30,12 @@ slug: todo
 
 ## R
 
-- [Advance R](https://adv-r.hadley.nz/)
-- [Tidyverse design guide](https://principles.tidyverse.org/)（书还没写完呢）
-- [R Packages](https://r-pkgs.org/)
+寻寻觅觅了好多学习R的资料，到最后还是绕不开[Hadley Wickham](https://hadley.nz/)，现在这里前三本是他的书，他的另一本[R for Data Science](https://r4ds.had.co.nz/)已经看了三四遍，终于有所提升。第四本是他团队开发的**Tidyverse**相关的设计指导书，但是好像烂尾了。
+
+1. [Advance R](https://adv-r.hadley.nz/)
+1. [R Packages](https://r-pkgs.org/)
+1. [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)（之前看了中文第二版，而且对R的了解不深，有空还是再看一遍英文第三版，巩固一下。）
+1. [Tidyverse design guide](https://principles.tidyverse.org/)（书还没写完呢！`2022-07-16`）
 
 ## 计算机
 
