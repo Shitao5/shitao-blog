@@ -11,17 +11,26 @@ slug: todo
 
 # 事务
 
-- 为网站设计logo
+## 网站
+
+- 设计logo
+- goldMark下脚注无法跳转
+- 添加RSS订阅功能
+
+## 其他
+
 - 四个月专业实习（计划在2022.12）
 
 # 阅读
 
 - [卡片笔记写作法](https://book.douban.com/subject/35503571/)
-- [当尼采哭泣](https://book.douban.com/subject/27018918/)
+- [当尼采哭泣](https://book.douban.com/subject/27018918/) （已读完，正在梳理笔记和感悟。 `2022-07-17`）
 - [亲密关系](https://book.douban.com/subject/26585065/)
 
 # 输出
 
+- 《道德经》感悟梳理
+- 《公正》感悟梳理
 - 我在团队工作中遇到的困境与选择
 - 大学恋爱带给我的改变——致谢小王
 - 我与英语
