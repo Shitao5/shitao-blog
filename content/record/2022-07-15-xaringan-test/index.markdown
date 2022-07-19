@@ -5,7 +5,6 @@ date: '2022-07-15'
 slug: xaringan-test
 categories:
   - R
-  - 技术贴
 tags:
   - Xaringan
 description: "Rmd替代PPT之旅发车了。"
@@ -65,7 +64,7 @@ knitr::include_url("xaringan-test/xaringan-test.html", height = "500px")
 
 ## 使用方法
 
-在Slides上点一下，然后按`h`（**h**lep)键调出帮助，根据帮助进行操作。这里列出一些常用的：
+在Slides上点一下，然后按`h`（**h**elp)键调出帮助，根据帮助进行操作。这里列出一些常用的：
 
 - `f`键：全屏
 - `c`键：复制一份幻灯片（多一个标签页，两个标签页的slides同步）

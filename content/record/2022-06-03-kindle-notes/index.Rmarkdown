@@ -5,7 +5,6 @@ date: '2022-06-03'
 slug: kindle-notes
 description: "即将停运的泡面盖，陪我度过许多时光。"
 categories:
-  - 技术贴
   - R
 tags:
   - Kindle
