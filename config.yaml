@@ -1,5 +1,6 @@
 baseurl: /
 languageCode: zh-cn
+hasCJKLanguage: true
 title: Shitao Wu
 theme: hugo-theme-stack
 googleAnalytics: ''
