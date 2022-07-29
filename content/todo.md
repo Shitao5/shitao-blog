@@ -11,12 +11,6 @@ comments: no
 
 # R
 
-## 文档沟通/Communication
-
-1. [Data science for economists](https://github.com/uo-ec607/lectures)：
-    - 此为讲课课件，由[xaringan](https://github.com/yihui/xaringan)构建。在学习课程内容的同时，通过对比HTML输出和Rmd源文件，学习幻灯片的设计构建。
-    - 课件中存在的一些问题，通过Github向[作者](https://grantmcdermott.com/)提交修改，熟悉Github使用。
-
 ## 金融/Finance
 
 1. [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言有效关联。

@@ -7,7 +7,7 @@ categories:
   - R
 tags:
   - 爬虫
-description: 记录近期的爬虫学习和使用。一狠心把结果全部放在输出里，竟导致100分钟的阅读时间😰。
+description: 记录近期的爬虫学习和使用。把结果全部放在输出里，竟导致100分钟的阅读时间😰。
 image: imgs/rvest.png
 math: ~
 license: ~
@@ -34,17 +34,17 @@ comments: yes
 <link href="{{< blogdown/postref >}}index_files/crosstalk/css/crosstalk.min.css" rel="stylesheet" />
 <script src="{{< blogdown/postref >}}index_files/crosstalk/js/crosstalk.min.js"></script>
 
-暑假过半，一个月来深入学习R语言，最近尝试横向发展了一下R语言技能，主要包括利用Rmd文件构建常用的幻灯片和网页文档、网络爬虫等。
+暑假过半，一个月来深入学习R语言，最近横向拓宽一下R语言技能，包括利用Rmd文件构建常用的幻灯片和网页文档、网络爬虫等。
 
 此文用于记录爬虫使用心得，仅为个人理解，不足之处请指正。
 
-简单理解，爬虫就是利用计算机替代了我们手工的复制粘贴，因此和手工复制一样，爬虫的关键是：
+简单理解，爬虫就是利用计算机替代我们的手工复制和粘贴，因此和手工复制一样，爬虫的关键是：
 
-1.  找到所有网页地址；
-2.  找到同一网页地址上所有所需信息的位置；
+1.  找到所有网页链接；
+2.  找到同一网页链接上所有所需信息的位置并提取；
 3.  访问所有网页，获取所有信息。
 
-以翻页展示内容的网站[数英网](https://www.digitaling.com/)进行举例，爬取该网站上与**数据**有关的文章信息：
+以通过翻页展示网站内容的[数英网](https://www.digitaling.com/)为例，爬取该网站上与**数据**有关的文章标题和发文时间：
 
 <div class="figure" style="text-align: center">
 
@@ -74,7 +74,7 @@ https://www.digitaling.com/search/articles/2?kw=%E6%95%B0%E6%8D%AE  # 第二页
 https://www.digitaling.com/search/articles/3?kw=%E6%95%B0%E6%8D%AE  # 第三页
 ```
 
-可以发现，除了网址中的1,2,3会随着翻页而改变，其余部分完全相同。由此，可以通过`paste0()`函数构建需要爬取的所有网页链接：
+可以发现，网址中除了1,2,3会随着翻页而改变，其余部分完全相同。由此，可以通过`paste0()`函数构建所有需要访问的网页链接：
 
 ``` r
 urls <- paste0("https://www.digitaling.com/search/articles/",
@@ -112,7 +112,7 @@ web
     ## [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ...
     ## [2] <body>\r\n\t<script async src="https://www.googletagmanager.com/gtag/js?i ...
 
-这一步相当于把整个网页文件都读取到了R中，只要想办法在里边提取出想要的信息即可。
+这一步把整个网页文件都读取到了R中，接下来只要想办法在里边提取出想要的信息即可。
 
 ## 确认选择器
 
@@ -199,7 +199,7 @@ scraper <- function(url) {
   date <- web |> 
   html_nodes("label") |> 
   html_text()  
-  date <- date[1:(length(date)-3)] # 剔除最后3个为无效信息
+  date <- date[1:(length(date)-3)] # 剔除最后3个无效信息
 
   # 返回数据框
   return(tibble(title, date))
@@ -228,8 +228,8 @@ scraper_data <- map_dfr(urls, scraper)
 
 # 总结
 
-最近遇到过很多奇奇怪怪的网站，但思路始终是一致的。灵活运用该思路，🉑解决90%的爬虫问题。
+最近遇到很多奇奇怪怪的网站，但思路始终是一致的，灵活运用，🉑解决90%的爬虫问题。
 
-有的网站链接加载页的方式不一（比如下拉滚动加载），这会导致在网址不变的情况下爬虫无法抓取该页面所有信息，针对这样的网页可以尝试采用还不错的谷歌插件[Web Scraper](https://www.webscraper.io/)等方法尝试去抓取。利用R语言需采用一些其他的技术，目前我只略知一二，未能熟练运用。
+有的网站加载页的方式不一（比如下拉滚动加载），这会导致在网址不变的情况下爬虫无法抓取该页面所有信息，针对这样的网页可以采用还不错的谷歌插件[Web Scraper](https://www.webscraper.io/)等方法去抓取。利用R语言需补充一些其他的技术，目前只略知一二，未能熟练运用。
 
 [^1]: 手头没有其他浏览器，不是谷歌浏览器的小伙伴自己寻找一下有无该插件吧！🏃
