@@ -8,7 +8,7 @@ categories:
 tags:
   - Xaringan
 description: "Rmd替代PPT之旅发车了。"
-image: ~
+image: xaringan.png
 math: ~
 license: ~
 hidden: no
