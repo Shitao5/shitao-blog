@@ -1,6 +1,7 @@
 ---
 title: 诗涛的待办事项
 slug: todo
+comments: no
 ---
 
 # 阅读
