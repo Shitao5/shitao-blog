@@ -11,18 +11,17 @@ comments: no
 
 # R
 
-## 金融/Finance
+基于[Quarto](https://quarto.org/)，以书本形式汇总R语言学习笔记，详见<https://shitao.quarto.pub/learn-r/>，笔记内容包含以下：
 
-1. [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言有效关联。
-
-## 可视化/Visualization
-
-1. [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)：看过中文第二版，当时对R了解不深，有空看一遍英文第三版，巩固一下。
-
-## R语言精进
-
-1. [Advance R](https://adv-r.hadley.nz/)
-1. [R Packages](https://r-pkgs.org/)
+1. **可视化/Visualization**
+    - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)：上第三版。
+1. **R语言精进**
+    - [Advance R](https://adv-r.hadley.nz/)
+    - [R Packages](https://r-pkgs.org/)
+1. **Shiny**
+    - [Mastering Shiny](https://mastering-shiny.org/)
+1. **金融/Finance**
+    - [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言有效关联。
 
 # 事务
 
@@ -39,7 +38,6 @@ comments: no
 # 输出
 
 - 《道德经》读后感
-- 《公正》读后感
 - 《悉达多》读后感
 - 我在团队工作中遇到的困境与选择
 - 大学恋爱带给我的改变——致谢小王
