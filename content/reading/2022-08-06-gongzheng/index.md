@@ -8,7 +8,7 @@ categories:
 tags:
   - 公正
 description: 心安处，即公正。
-image: cover1.jpg
+image: img.jpg
 math: ~
 license: ~
 hidden: no
