@@ -7,6 +7,7 @@ categories:
   - 阅读
 tags:
   - 尼采
+  - 读后感
 description: 有些人无法解开他们自身的枷锁，然而却可以救赎他们的朋友。——《查拉图斯特拉如是说》
 image: img.png
 math: ~
