@@ -15,6 +15,14 @@ hidden: no
 comments: yes
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(fig.align = "center",
+                      collapse = TRUE,
+                      cache = TRUE)
+options(max.print = 5)
+library(downlit)
+```
+
 # Xaringan-Slides嵌入博文
 
 ## 方法

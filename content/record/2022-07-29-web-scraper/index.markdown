@@ -81,18 +81,17 @@ urls <- paste0("https://www.digitaling.com/search/articles/",
                1:35, # 共有35页
                "?kw=%E6%95%B0%E6%8D%AE")
 urls
+## [1] "https://www.digitaling.com/search/articles/1?kw=%E6%95%B0%E6%8D%AE"
+## [2] "https://www.digitaling.com/search/articles/2?kw=%E6%95%B0%E6%8D%AE"
+## [3] "https://www.digitaling.com/search/articles/3?kw=%E6%95%B0%E6%8D%AE"
+## [4] "https://www.digitaling.com/search/articles/4?kw=%E6%95%B0%E6%8D%AE"
+## [5] "https://www.digitaling.com/search/articles/5?kw=%E6%95%B0%E6%8D%AE"
+##  [ reached getOption("max.print") -- omitted 30 entries ]
 ```
-
-    ## [1] "https://www.digitaling.com/search/articles/1?kw=%E6%95%B0%E6%8D%AE"
-    ## [2] "https://www.digitaling.com/search/articles/2?kw=%E6%95%B0%E6%8D%AE"
-    ## [3] "https://www.digitaling.com/search/articles/3?kw=%E6%95%B0%E6%8D%AE"
-    ## [4] "https://www.digitaling.com/search/articles/4?kw=%E6%95%B0%E6%8D%AE"
-    ## [5] "https://www.digitaling.com/search/articles/5?kw=%E6%95%B0%E6%8D%AE"
-    ##  [ reached getOption("max.print") -- omitted 30 entries ]
 
 # 获取所需信息的位置
 
-这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于本人条件不成熟，因此以**大量**的试错法进行弥补。😇
+这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于鄙人件不成熟，因此以**大量**的试错法进行弥补。😇
 
 ``` r
 library(rvest)
@@ -105,12 +104,11 @@ library(tidyverse) # 偷懒起见，还是直接加载了tidyverse大包
 test_url <- urls[1]
 web <- read_html(test_url)
 web
+## {html_document}
+## <html xmlns="https://www.w3.org/1999/xhtml">
+## [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ...
+## [2] <body>\r\n\t<script async src="https://www.googletagmanager.com/gtag/js?i ...
 ```
-
-    ## {html_document}
-    ## <html xmlns="https://www.w3.org/1999/xhtml">
-    ## [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ...
-    ## [2] <body>\r\n\t<script async src="https://www.googletagmanager.com/gtag/js?i ...
 
 这一步把整个网页文件都读取到了R中，接下来只要想办法在里边提取出想要的信息即可。
 
@@ -137,14 +135,13 @@ title <- web |>
   html_nodes("h3") |> 
   html_text()
 title
+## [1] "糖，不那么伟大的作品丨青山资本2022年中消费报告"            
+## [2] "2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓"
+## [3] "MAGNA全球广告预测：广告市场在经济不确定性中持续增长"       
+## [4] "群邑电商发布《2022年618电商营销全景洞察》"                 
+## [5] "9000字深度拆解戴森：「爆发增长」与「战略失察」启示录"      
+##  [ reached getOption("max.print") -- omitted 25 entries ]
 ```
-
-    ## [1] "糖，不那么伟大的作品丨青山资本2022年中消费报告"            
-    ## [2] "2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓"
-    ## [3] "MAGNA全球广告预测：广告市场在经济不确定性中持续增长"       
-    ## [4] "群邑电商发布《2022年618电商营销全景洞察》"                 
-    ## [5] "9000字深度拆解戴森：「爆发增长」与「战略失察」启示录"      
-    ##  [ reached getOption("max.print") -- omitted 25 entries ]
 
 这一页上一共提取了30个标题。
 
@@ -165,10 +162,9 @@ date <- web |>
   html_text()  # 这里提取了33个，最后3个为无效信息，需剔除
 date <- date[1:(length(date)-3)]
 date
+## [1] "2022-07-25" "2022-07-20" "2022-07-01" "2022-06-21" "2022-05-31"
+##  [ reached getOption("max.print") -- omitted 25 entries ]
 ```
-
-    ## [1] "2022-07-25" "2022-07-20" "2022-07-01" "2022-06-21" "2022-05-31"
-    ##  [ reached getOption("max.print") -- omitted 25 entries ]
 
 ## 输出测试网址上的信息
 

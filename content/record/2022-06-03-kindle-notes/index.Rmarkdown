@@ -17,6 +17,15 @@ link-citations: yes
 image: "images/kindle.jpg"
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(fig.align = "center",
+                      collapse = TRUE,
+                      cache = TRUE)
+options(max.print = 5)
+library(downlit)
+```
+
+
 Kindle要停运了，对于用kindle看电子书的小伙伴影响估计不小。之前买过一年亚马逊书店会员，书籍的高亮内容可以导出到邮箱，还算方便。后来自己通过calibre往kindle里边导入电子书，没有再购买过会员，现在都是飞行模式。
 
 自己导入的电子书，不支持自动导出笔记，Kindle会把划线的笔记全部记录在`kindle\documents\My Clippings.txt`这个文件中。由于它不区分书籍，只是不断地把划线的内容添加到文件最后，相当于是[增量备份](https://baike.baidu.com/item/%E5%A2%9E%E9%87%8F%E5%A4%87%E4%BB%BD/4566112)，导致它非常杂乱[^1]。对于喜欢把书摘按书籍分类的小伙伴，有大活要干。

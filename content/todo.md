@@ -1,5 +1,5 @@
 ---
-title: 诗涛的待办事项
+title: 诗涛的待办
 slug: todo
 comments: no
 ---
@@ -15,13 +15,23 @@ comments: no
 
 1. **可视化/Visualization**
     - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)：上第三版。
+    - [echarts](https://echarts.apache.org/en/index.html)和[@echarts4r](https://echarts4r.john-coene.com/index.html)。
 1. **R语言精进**
     - [Advance R](https://adv-r.hadley.nz/)
     - [R Packages](https://r-pkgs.org/)
 1. **Shiny**
     - [Mastering Shiny](https://mastering-shiny.org/)
+1. **JavaScript**
+    - [JavaScript for R](https://book.javascript-for-r.com/)
 1. **金融/Finance**
     - [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言有效关联。
+
+# 写作
+
+- 《道德经》读后感
+- 我在团队工作中遇到的困境与选择
+- 大学恋爱带给我的改变——致谢小王
+- 我与英语
 
 # 事务
 
@@ -35,9 +45,4 @@ comments: no
 
 - 四个月专业实习（计划在2022.12）
 
-# 写作
 
-- 《道德经》读后感
-- 我在团队工作中遇到的困境与选择
-- 大学恋爱带给我的改变——致谢小王
-- 我与英语

@@ -17,20 +17,23 @@ permalinks:
 menu:
   main:
     - name: 关于
-      url: /about/
-      weight: 1
+      url: "/about/"
+      weight: 10
     - name: 生活篇
       url: "/life/"
-      weight: 2
+      weight: 20
     - name: 阅读篇
       url: "/reading/"
-      weight: 3
+      weight: 30
     - name: 学习记录
       url: "/record/"
-      weight: 4
+      weight: 40
+    - name: NOT-TODO
+      url: "/not-todo/"
+      weight: 60
     - name: TODO
       url: "/todo/"
-      weight: 5
+      weight: 50
 
   social:
     - identifier: github
