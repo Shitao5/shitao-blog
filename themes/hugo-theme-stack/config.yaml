@@ -11,7 +11,7 @@ params:
     favicon:
 
     footer:
-        since: "2021"
+        since:
         customText:
 
     dateFormat:
@@ -28,7 +28,7 @@ params:
             src: img/avatar.png
 
     article:
-        math: true
+        math: false
         toc: true
         readingTime: true
         license:
@@ -36,8 +36,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
-        provider: utterances
+        enabled: false
+        provider: disqus
 
         disqusjs:
             shortname:
@@ -47,7 +47,7 @@ params:
             adminLabel:
 
         utterances:
-            repo: Shitao5/blog-comments
+            repo:
             issueTerm: pathname
             label:
 
@@ -92,10 +92,12 @@ params:
             category:
             categoryID:
             mapping:
+            strict:
             lightTheme:
             darkTheme:
             reactionsEnabled: 1
             emitMetadata: 0
+            inputPosition:
             lang:
 
         gitalk:
