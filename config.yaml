@@ -1,8 +1,10 @@
-baseurl: /
-languageCode: zh-cn
+baseurl: https://shitao.netlify.app/
+languageCode: en-us
+DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 title: Shitao Wu
 theme: hugo-theme-stack
+paginate: 8
 googleAnalytics: ''
 enableEmoji: true
 ignoreFiles:
@@ -13,34 +15,6 @@ ignoreFiles:
   - \.utf8\.md$
 permalinks:
   post: /:year/:month/:day/:slug/
-
-menu:
-  main:
-    - name: 关于
-      url: "/about/"
-      weight: 10
-    - name: 生活篇
-      url: "/life/"
-      weight: 20
-    - name: 阅读篇
-      url: "/reading/"
-      weight: 30
-    - name: 学习记录
-      url: "/record/"
-      weight: 40
-    - name: NOT-TODO
-      url: "/not-todo/"
-      weight: 60
-    - name: TODO
-      url: "/todo/"
-      weight: 50
-
-  social:
-    - identifier: github
-      name: GitHub
-      url: https://github.com/Shitao5
-      params:
-          icon: brand-github
 
 params:
   mainSections:
@@ -63,7 +37,7 @@ params:
     toc: true
     readingTime: true
     license:
-        enabled: ture
+        enabled: true
         default: Licensed under CC BY-NC-SA 4.0
 
   footer:
@@ -103,6 +77,34 @@ params:
           enabled: true
       content:
           enabled: true
+
+menu:
+  main:
+    - name: 关于
+      url: "/about/"
+      weight: 10
+    - name: 生活篇
+      url: "/life/"
+      weight: 20
+    - name: 阅读篇
+      url: "/reading/"
+      weight: 30
+    - name: 学习记录
+      url: "/record/"
+      weight: 40
+    - name: NOT-TODO
+      url: "/not-todo/"
+      weight: 60
+    - name: TODO
+      url: "/todo/"
+      weight: 50
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/Shitao5
+      params:
+          icon: brand-github
 
 related:
     includeNewer: true
