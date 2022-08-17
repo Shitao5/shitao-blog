@@ -4,7 +4,7 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 title: Shitao Wu
 theme: hugo-theme-stack
-paginate: 8
+paginate: 6
 googleAnalytics: ''
 enableEmoji: true
 ignoreFiles:
