@@ -6,7 +6,7 @@ slug: index.zh-cn
 categories:
   - 记录
 tags:
-  - 家庭
+  - 日常
 description: 一些生活碎片和感悟。
 image: ~
 math: ~
