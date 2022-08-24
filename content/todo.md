@@ -40,8 +40,8 @@ comments: no
 ## 网站
 
 - 设计logo
-- goldMark下脚注无法跳转
-- 添加RSS订阅功能
+- ~~goldMark下脚注无法跳转~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
+- ~~添加RSS订阅功能~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
 
 ## 其他
 
