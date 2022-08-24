@@ -98,6 +98,9 @@ menu:
     - name: TODO
       url: "/todo/"
       weight: 50
+    - name: RSS
+      url: "/index.xml"
+      weight: 70
 
   social:
     - identifier: github
