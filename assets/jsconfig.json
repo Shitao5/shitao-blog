@@ -3,7 +3,6 @@
   "baseUrl": ".",
   "paths": {
    "*": [
-    "*",
     "..\\themes\\hugo-theme-stack\\assets\\*"
    ]
   }
