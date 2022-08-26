@@ -1,3 +1,4 @@
+downlit
 rvest
 tidyverse
 ggplot2
@@ -8,4 +9,3 @@ purrr
 dplyr
 stringr
 forcats
-downlit

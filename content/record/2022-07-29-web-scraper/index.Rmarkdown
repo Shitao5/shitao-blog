@@ -18,7 +18,8 @@ comments: yes
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(fig.align = "center",
                       collapse = TRUE,
-                      cache = TRUE)
+                      cache = TRUE,
+                      comment = "#>")
 options(max.print = 5)
 library(downlit)
 ```
@@ -65,7 +66,7 @@ urls
 
 # 获取所需信息的位置
 
-这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于鄙人件不成熟，因此以**大量**的试错法进行弥补。😇
+这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于鄙人条件不成熟，因此以**大量**的试错法进行弥补。😇
 
 ```{r library, warning=FALSE, message=FALSE}
 library(rvest)
@@ -126,9 +127,6 @@ date
 
 ```{r }
 data <- tibble(title, date)
-```
-
-```{r echo=FALSE}
 DT::datatable(data)
 ```
 
@@ -168,12 +166,13 @@ scraper <- function(url) {
 
 ```{r cache=TRUE}
 scraper_data <- map_dfr(urls, scraper)
+nrow(scraper_data)
 ```
 
-最终获取了`r nrow(scraper_data)`行数据，结果如下：
+最终获取了`r nrow(scraper_data)`行数据，结果如下（展示前十条）：
 
-```{r echo=FALSE}
-DT::datatable(scraper_data[1:10, ])
+```{r}
+DT::datatable(scraper_data[1:10, ]) 
 ```
 
 ```{r echo=FALSE}

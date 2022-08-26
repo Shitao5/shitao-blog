@@ -81,17 +81,17 @@ urls <- paste0("https://www.digitaling.com/search/articles/",
                1:35, # 共有35页
                "?kw=%E6%95%B0%E6%8D%AE")
 urls
-## [1] "https://www.digitaling.com/search/articles/1?kw=%E6%95%B0%E6%8D%AE"
-## [2] "https://www.digitaling.com/search/articles/2?kw=%E6%95%B0%E6%8D%AE"
-## [3] "https://www.digitaling.com/search/articles/3?kw=%E6%95%B0%E6%8D%AE"
-## [4] "https://www.digitaling.com/search/articles/4?kw=%E6%95%B0%E6%8D%AE"
-## [5] "https://www.digitaling.com/search/articles/5?kw=%E6%95%B0%E6%8D%AE"
-##  [ reached getOption("max.print") -- omitted 30 entries ]
+#> [1] "https://www.digitaling.com/search/articles/1?kw=%E6%95%B0%E6%8D%AE"
+#> [2] "https://www.digitaling.com/search/articles/2?kw=%E6%95%B0%E6%8D%AE"
+#> [3] "https://www.digitaling.com/search/articles/3?kw=%E6%95%B0%E6%8D%AE"
+#> [4] "https://www.digitaling.com/search/articles/4?kw=%E6%95%B0%E6%8D%AE"
+#> [5] "https://www.digitaling.com/search/articles/5?kw=%E6%95%B0%E6%8D%AE"
+#>  [ reached getOption("max.print") -- omitted 30 entries ]
 ```
 
 # 获取所需信息的位置
 
-这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于鄙人件不成熟，因此以**大量**的试错法进行弥补。😇
+这一环节需要用到**rvest**包读取网页信息，而后确认所需信息在HTML中的位置，最终构建读取函数，供第三步循环使用。如有扎实的HTML和CSS知识作支撑会更顺利，由于鄙人条件不成熟，因此以**大量**的试错法进行弥补。😇
 
 ``` r
 library(rvest)
@@ -104,10 +104,10 @@ library(tidyverse) # 偷懒起见，还是直接加载了tidyverse大包
 test_url <- urls[1]
 web <- read_html(test_url)
 web
-## {html_document}
-## <html xmlns="https://www.w3.org/1999/xhtml">
-## [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ...
-## [2] <body>\r\n\t<script async src="https://www.googletagmanager.com/gtag/js?i ...
+#> {html_document}
+#> <html xmlns="https://www.w3.org/1999/xhtml">
+#> [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ...
+#> [2] <body>\r\n\t<script async src="https://www.googletagmanager.com/gtag/js?i ...
 ```
 
 这一步把整个网页文件都读取到了R中，接下来只要想办法在里边提取出想要的信息即可。
@@ -135,12 +135,12 @@ title <- web |>
   html_nodes("h3") |> 
   html_text()
 title
-## [1] "我觉得比大数据更好用的方法，是体察用户的行为"              
-## [2] "糖，不那么伟大的作品丨青山资本2022年中消费报告"            
-## [3] "2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓"
-## [4] "MAGNA全球广告预测：广告市场在经济不确定性中持续增长"       
-## [5] "群邑电商发布《2022年618电商营销全景洞察》"                 
-##  [ reached getOption("max.print") -- omitted 25 entries ]
+#> [1] "我觉得比大数据更好用的方法，是体察用户的行为"              
+#> [2] "糖，不那么伟大的作品丨青山资本2022年中消费报告"            
+#> [3] "2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓"
+#> [4] "MAGNA全球广告预测：广告市场在经济不确定性中持续增长"       
+#> [5] "群邑电商发布《2022年618电商营销全景洞察》"                 
+#>  [ reached getOption("max.print") -- omitted 25 entries ]
 ```
 
 这一页上一共提取了30个标题。
@@ -162,8 +162,8 @@ date <- web |>
   html_text()  # 这里提取了33个，最后3个为无效信息，需剔除
 date <- date[1:(length(date)-3)]
 date
-## [1] "2022-08-11" "2022-07-25" "2022-07-20" "2022-07-01" "2022-06-21"
-##  [ reached getOption("max.print") -- omitted 25 entries ]
+#> [1] "2022-08-11" "2022-07-25" "2022-07-20" "2022-07-01" "2022-06-21"
+#>  [ reached getOption("max.print") -- omitted 25 entries ]
 ```
 
 ## 输出测试网址上的信息
@@ -172,6 +172,7 @@ date
 
 ``` r
 data <- tibble(title, date)
+DT::datatable(data)
 ```
 
 <div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
@@ -213,12 +214,18 @@ scraper <- function(url) {
 
 ``` r
 scraper_data <- map_dfr(urls, scraper)
+nrow(scraper_data)
+#> [1] 1024
 ```
 
-最终获取了1023行数据，结果如下：
+最终获取了1024行数据，结果如下（展示前十条）：
+
+``` r
+DT::datatable(scraper_data[1:10, ]) 
+```
 
 <div id="htmlwidget-2" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["糖，不那么伟大的作品丨青山资本2022年中消费报告","2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓","MAGNA全球广告预测：广告市场在经济不确定性中持续增长","群邑电商发布《2022年618电商营销全景洞察》","9000字深度拆解戴森：「爆发增长」与「战略失察」启示录","4000亿香氛蓝海市场，细分化赛道会是一张好牌吗？","体育明星营销价值观察，结合案例、数据分析","品牌升级，是品牌增长过程中的“伪命题”？","参与「2022女性品质生活大调查」，有好礼送","2021中国移动互联网年度大报告，短视频总时长占比增至26%"],["2022-07-25","2022-07-20","2022-07-01","2022-06-21","2022-05-31","2022-04-23","2022-04-19","2022-04-17","2022-03-10","2022-02-28"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>title<\/th>\n      <th>date<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["我觉得比大数据更好用的方法，是体察用户的行为","糖，不那么伟大的作品丨青山资本2022年中消费报告","2022年90后高收入人群洞察报告：人均有房有车，理财副业两手抓","MAGNA全球广告预测：广告市场在经济不确定性中持续增长","群邑电商发布《2022年618电商营销全景洞察》","9000字深度拆解戴森：「爆发增长」与「战略失察」启示录","4000亿香氛蓝海市场，细分化赛道会是一张好牌吗？","体育明星营销价值观察，结合案例、数据分析","品牌升级，是品牌增长过程中的“伪命题”？","参与「2022女性品质生活大调查」，有好礼送"],["2022-08-11","2022-07-25","2022-07-20","2022-07-01","2022-06-21","2022-05-31","2022-04-23","2022-04-19","2022-04-17","2022-03-10"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>title<\/th>\n      <th>date<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 <img src="imgs/success.gif" style="display: block; margin: auto;" />
 
