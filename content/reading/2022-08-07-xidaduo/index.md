@@ -1,5 +1,5 @@
 ---
-title: 《悉达多》读后感
+title: 读《悉达多》
 author: 吴诗涛
 date: '2022-08-07'
 slug: xidaduo

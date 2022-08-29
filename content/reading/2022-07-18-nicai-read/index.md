@@ -1,5 +1,5 @@
 ---
-title: 《当尼采哭泣》读后感
+title: 读《当尼采哭泣》
 author: 吴诗涛
 date: '2022-07-18'
 slug: nicai-read

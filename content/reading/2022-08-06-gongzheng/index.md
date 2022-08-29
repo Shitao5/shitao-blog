@@ -1,5 +1,5 @@
 ---
-title: 《公正》读后感
+title: 读《公正》
 author: 吴诗涛
 date: '2022-08-06'
 slug: gongzheng
