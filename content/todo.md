@@ -6,6 +6,7 @@ comments: no
 
 # 阅读
 
+- [乡土中国](https://book.douban.com/subject/30761674/)
 - [成为我自己：欧文·亚隆回忆录](https://book.douban.com/subject/33460827/)
 - [禅与摩托车维修艺术](https://book.douban.com/subject/30208077/)
 - [卡片笔记写作法](https://book.douban.com/subject/35503571/)
@@ -46,6 +47,7 @@ comments: no
 
 ## 其他
 
+- 保研保研！冲鸭！
 - 四个月专业实习（计划在2022.12）
 
 
