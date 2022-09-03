@@ -2,7 +2,7 @@ baseurl: https://shitao.netlify.app/
 languageCode: en-us
 DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
-title: Shitao Wu
+title: "Shitao Wu | 吴诗涛"
 theme: hugo-theme-stack
 paginate: 6
 googleAnalytics: ''
