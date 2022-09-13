@@ -2,9 +2,8 @@
 title: kindle笔记整理2.0
 author: shitao
 date: '2022-09-12'
-slug: index.zh-cn
+slug: kindle2
 categories:
-  - 记录
   - R
 tags:
   - Kindle

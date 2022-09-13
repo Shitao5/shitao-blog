@@ -25,6 +25,7 @@ options(max.print = 5)
 library(downlit)
 ```
 
+> 更新[2.0版本](https://shitao.netlify.app/record/kindle2/)（2022-09-13）
 
 Kindle要停运了，对于用kindle看电子书的小伙伴影响估计不小。之前买过一年亚马逊书店会员，书籍的高亮内容可以导出到邮箱，还算方便。后来自己通过calibre往kindle里边导入电子书，没有再购买过会员，现在都是飞行模式。
 
