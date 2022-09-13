@@ -9,6 +9,7 @@ comments: no
 - [乡土中国](https://book.douban.com/subject/30761674/)
 - [禅与摩托车维修艺术](https://book.douban.com/subject/30208077/)
 - [亲密关系](https://book.douban.com/subject/26585065/)
+- [荒原狼](https://book.douban.com/subject/35607089/)
 
 <!-- 大致翻了翻，不看了
 - [卡片笔记写作法](https://book.douban.com/subject/35503571/)
@@ -36,6 +37,7 @@ comments: no
 ## 读后感
 
 - [成为我自己：欧文·亚隆回忆录](https://book.douban.com/subject/33460827/)
+- [德米安：彷徨少年时](https://book.douban.com/subject/35060088/)
 - 《道德经》读后感
 
 ## 想法
