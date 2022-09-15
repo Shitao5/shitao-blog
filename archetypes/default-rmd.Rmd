@@ -1,0 +1,18 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+author: shitao
+description: 
+date: {{ .Date }}
+tags:
+  - R
+hidden: yes
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  collapse = TRUE
+)
+```
