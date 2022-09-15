@@ -21,8 +21,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.align = "center",
-  collapse = TRUE,
-  cache = TRUE
+  collapse = TRUE
 )
 ```
 
