@@ -15,26 +15,11 @@ comments: no
 - [卡片笔记写作法](https://book.douban.com/subject/35503571/)
 -->
 
-# R
-
-基于 [Quarto](https://quarto.org/)，以书本形式汇总R语言学习笔记，详见 <https://shitao.quarto.pub/learn-r/>，笔记包含以下内容：
-
-1. **可视化/Visualization**
-    - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)：上第三版。
-    - [echarts](https://echarts.apache.org/en/index.html)和[echarts4r](https://echarts4r.john-coene.com/index.html)。
-1. **R语言精进**
-    - [Advance R](https://adv-r.hadley.nz/)
-    - [R Packages](https://r-pkgs.org/)
-1. **Shiny**
-    - [Mastering Shiny](https://mastering-shiny.org/)
-1. **金融/Finance**
-    - [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言关联。
-1. **JavaScript**
-    - [JavaScript for R](https://book.javascript-for-r.com/)
-
 # 写作
 
 ## 读后感
+
+待写的读后感先放出读书笔记，后续添加读后感吧！
 
 - [成为我自己：欧文·亚隆回忆录](https://book.douban.com/subject/33460827/)
 - [德米安：彷徨少年时](https://book.douban.com/subject/35060088/)
@@ -56,5 +41,29 @@ comments: no
 
 ## 其他
 
-- 保研保研！冲鸭！
 - 四个月专业实习（计划在2022.12）
+
+# 兴趣+技能
+
+## C
+
+刚刚起步，稳扎稳打。
+
+- <https://www.learn-c.org/>
+
+## R
+
+基于 [Quarto](https://quarto.org/)，以书本形式汇总R语言学习笔记，详见 <https://shitao.quarto.pub/learn-r/>，笔记包含以下内容：
+
+1. **可视化/Visualization**
+    - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)：上第三版。
+    - [echarts](https://echarts.apache.org/en/index.html)和[echarts4r](https://echarts4r.john-coene.com/index.html)。
+1. **R语言精进**
+    - [Advance R](https://adv-r.hadley.nz/)
+    - [R Packages](https://r-pkgs.org/)
+1. **Shiny**
+    - [Mastering Shiny](https://mastering-shiny.org/)
+1. **金融/Finance**
+    - [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言关联。
+1. **JavaScript**
+    - [JavaScript for R](https://book.javascript-for-r.com/)
