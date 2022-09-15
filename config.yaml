@@ -18,9 +18,7 @@ permalinks:
 
 params:
   mainSections:
-    - life
-    - reading
-    - record
+    - post
   featuredImageField: image
   rssFullContent: true
 
@@ -82,25 +80,22 @@ menu:
   main:
     - name: 关于
       url: "/about/"
-      weight: 10
-    - name: 生活篇
-      url: "/life/"
-      weight: 20
-    - name: 阅读篇
-      url: "/reading/"
-      weight: 30
-    - name: 学习记录
-      url: "/record/"
-      weight: 40
-    - name: NOT-TODO
-      url: "/not-todo/"
-      weight: 60
+      weight: 1
     - name: TODO
       url: "/todo/"
-      weight: 50
+      weight: 2
+    - name: NOT-TODO
+      url: "/not-todo/"
+      weight: 3
+    # - name: 搜索
+    #   url: "/page/search"
+    #   weight: 4
+    # - name: 归档
+    #   url: "/page/archives"
+    #   weight: 5
     - name: RSS订阅
       url: "/index.xml"
-      weight: 70
+      weight: 6
 
   social:
     - identifier: github
