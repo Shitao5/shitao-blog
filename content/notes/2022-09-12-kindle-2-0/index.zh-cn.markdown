@@ -70,6 +70,8 @@ install.packages(c("tidyverse", "lubridate", "cli"))
 
 查看 `files` 文件夹，已经按照「一本书一个文件」的方式输出结果了。
 
+{{< bilibili av388069005 >}}
+
 # 注意事项
 
 ## 重复笔记问题
