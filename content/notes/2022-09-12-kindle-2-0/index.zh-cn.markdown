@@ -15,7 +15,7 @@ comments: yes
 
 # 起因
 
-之前[写过](https://shitao.netlify.app/record/kindle-notes/)一次整理 kindle 笔记的方法，不甚满意，趁着中秋假期来填坑。
+之前[写过](https://shitao.netlify.app/record/kindle-notes/)一次整理 Kindle 笔记的方法，不甚满意，趁着中秋假期来填坑。
 
 对当初不满的地方有：
 
@@ -76,9 +76,9 @@ install.packages(c("tidyverse", "lubridate", "cli"))
 
 ## 重复笔记问题
 
-在使用 Kindle 阅读时，可以看到 kindle 使用位置进行定位，关于 kindle 中的位置是个什么玩意儿，可以参考以下资料：
+在使用 Kindle 阅读时，可以看到 Kindle 使用位置进行定位，关于 Kindle 中的位置是个什么玩意儿，可以参考以下资料：
 
-- [kindle看书进度中的“位置”是个什么概念？](https://www.zhihu.com/question/21527376)
+- [Kindle看书进度中的“位置”是个什么概念？](https://www.zhihu.com/question/21527376)
 - [What does one Kindle location unit represent?](https://www.quora.com/Amazon-Kindle-product/What-does-one-Kindle-location-unit-represent?share=1)
 
 从上面的资料可以估计每一个位置大致对应不到100字（每本书不一样），笔记长度一般会超过这个数字，即超过一个位置。排除笔记起始位置正好非常接近位置分界处的情况（概率不大），简而言之就是：
@@ -114,7 +114,7 @@ text2 <- text2 %>%
 
 最终生成的文件名即为 `德米安：彷徨少年时（赫尔曼·黑塞）.md`。
 
-建议各位小伙伴在向 kindle 导入书籍的时候注意书籍名字，这样既方便自己管理，处理的时候也不需要多一步修改。
+建议各位小伙伴在向 Kindle 导入书籍的时候注意书籍名字，这样既方便自己管理，处理的时候也不需要多一步修改。
 
 ## 不想要时间信息？
 
