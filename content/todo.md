@@ -11,10 +11,6 @@ comments: no
 - [亲密关系](https://book.douban.com/subject/26585065/)
 - [荒原狼](https://book.douban.com/subject/35607089/)
 
-<!-- 大致翻了翻，不看了
-- [卡片笔记写作法](https://book.douban.com/subject/35503571/)
--->
-
 # 写作
 
 ## 读后感
@@ -31,25 +27,7 @@ comments: no
 - 大学恋爱带给我的改变——致谢小王
 - 我与英语
 
-# 事务
-
-## 网站
-
-- 设计 logo
-- ~~goldMark 下脚注无法跳转~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
-- ~~添加 RSS 订阅功能~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
-
-## 其他
-
-- 四个月专业实习（计划在2022.12）
-
 # 兴趣+技能
-
-## C
-
-刚刚起步，稳扎稳打。
-
-- <https://www.learn-c.org/>
 
 ## R
 
@@ -65,5 +43,23 @@ comments: no
     - [Mastering Shiny](https://mastering-shiny.org/)
 1. **金融/Finance**
     - [Tidy Finance with R](https://www.tidy-finance.org/index.html)：基于整洁数据的金融内容学习，可以和之前学的R语言关联。
-1. **JavaScript**
-    - [JavaScript for R](https://book.javascript-for-r.com/)
+
+## JavaScript
+
+- [JavaScript for R](https://book.javascript-for-r.com/)
+
+## 一门后端语言（待定）
+
+- [The Self-Taught Computer Scientist: The Beginner's Guide to Data Structures & Algorithms](https://www.amazon.com/Self-Taught-Computer-Scientist-Beginners-Science/dp/1119724414)
+
+# 事务
+
+## 网站
+
+- 设计 logo
+- ~~goldMark 下脚注无法跳转~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
+- ~~添加 RSS 订阅功能~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
+
+## 其他
+
+- 四个月专业实习（计划在2022.12）
