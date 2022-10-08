@@ -92,6 +92,9 @@ menu:
     - name: 笔记
       url: "/notes/"
       weight: 4
+    - name: 考研日记
+      url: "/kaoyan/"
+      weight: 4.5
     - name: TODO
       url: "/todo/"
       weight: 5
