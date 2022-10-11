@@ -1,0 +1,105 @@
+---
+title: 公众号读书笔记
+author: shitao
+date: '2022-10-11'
+slug: banqian
+categories: []
+tags:
+  - 读后感
+  - R
+description: 以前发在公众号的读书笔记链接。
+image: ~
+math: ~
+license: ~
+hidden: no
+comments: yes
+---
+
+之前的读书笔记发在微信公众号，现在搬家到博客，把公众号上的读书笔记也搬过来噢。
+
+# 搬家结果
+
+```{r message=FALSE, include=FALSE, cache=TRUE}
+library(tidyverse)
+library(rvest)
+library(lubridate)
+
+# 读取公众号「臭臭札记」标签页面
+data <- read_html("#臭臭札记.html")
+
+# 提取标题
+titles <- data %>% 
+  html_nodes(".album__item-title-wrp") %>% 
+  html_text() %>% 
+  as_tibble() %>% 
+  distinct(value)
+
+# 提取日期
+dates <- data %>% 
+  html_nodes(".album__item-info-item") %>% 
+  html_text() %>% 
+  as_tibble()
+
+# 提取链接
+urls <- data %>% 
+  html_nodes("li") %>% 
+  html_attr("data-link") %>% 
+  as_tibble() %>% 
+  drop_na()
+
+# 合并、清洗
+result <- tibble(title = titles$value,
+       date = dates$value,
+       url = urls$value) %>% 
+  mutate(date = if_else(
+    str_count(date) < 10,
+    str_c("2022/", date),
+    date
+  ) %>% as_date())
+```
+
+`r paste0("- [", result$title, "](", result$url, ")", "（", result$date, "）", collapse = "\n")`
+
+# 搬家代码
+
+```{r eval=FALSE}
+library(tidyverse)
+library(rvest)
+library(lubridate)
+
+# 读取公众号「臭臭札记」标签页面
+data <- read_html("#臭臭札记.html")
+
+# 提取标题
+titles <- data %>% 
+  html_nodes(".album__item-title-wrp") %>% 
+  html_text() %>% 
+  as_tibble() %>% 
+  distinct(value)
+
+# 提取日期
+dates <- data %>% 
+  html_nodes(".album__item-info-item") %>% 
+  html_text() %>% 
+  as_tibble()
+
+# 提取链接
+urls <- data %>% 
+  html_nodes("li") %>% 
+  html_attr("data-link") %>% 
+  as_tibble() %>% 
+  drop_na()
+
+# 合并、清洗
+result <- tibble(title = titles$value,
+       date = dates$value,
+       url = urls$value) %>% 
+  mutate(date = if_else(
+    str_count(date) < 10,
+    str_c("2022/", date),
+    date
+  ) %>% as_date())
+
+# 输出 md 格式结果，使用行内代码
+# paste0("- [", result$title, "](", result$url, ")", "（", result$date, "）", collapse = "\n")
+```

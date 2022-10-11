@@ -30,3 +30,5 @@ comments: yes
 {{< quote source="静水流深" url="https://geekboy.org/about/">}}
 不以聪慧警捷为高，而以勤确谦抑为上。
 {{< /quote >}}
+
+慢慢把答疑中学习到的东西记录下来，放在[这里](https://shitao5.github.io/answeR/).

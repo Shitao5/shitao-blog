@@ -1,7 +1,7 @@
 ---
 title: 关于诗涛
-date: '2022-06-05'
-comments: no
+date: '2022-10-11'
+comments: yes
 toc: no
 ---
 
@@ -21,6 +21,14 @@ toc: no
 
 
 将英雄主义贯彻到底。
+
+# 我在干什么
+
+- [阅读](../tags/读后感/)
+- 发展兴趣
+  - [学 R](https://shitao.quarto.pub/learn-r/)
+  - [外加一点 JavaScript](https://shitao5.github.io/js4r/)
+  - [R 语言答疑](https://shitao5.github.io/answeR/)
 
 # 我的联系方式
 

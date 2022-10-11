@@ -3,3 +3,4 @@
 .RData
 .Ruserdata
 .hugo_build.lock
+*cache/
