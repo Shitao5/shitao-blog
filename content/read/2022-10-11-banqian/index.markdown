@@ -30,8 +30,6 @@ comments: yes
 - [《西方现代思想讲义》——刘擎](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485334&idx=1&sn=92fc0a69ff7e81e3599859799db7b351&chksm=ec2e1242db599b540fe07617ed8938c75f6bfef01de9f691ef8601235132dbad8ef529e0e5a7#rd)（2022-03-06）
 - [《弗兰克尔自传：活出生命的意义》——弗兰克尔](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485319&idx=1&sn=21fdd87b5d88420e5178e7bb53db11b9&chksm=ec2e1253db599b4547be949bb3dac912453f2e59fb0ff3fc058321666bacc81320038380b7eb#rd)（2022-02-26）
 - [《八次危机》——温铁军](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485312&idx=1&sn=d442acb796aedc396a48104c8a65081b&chksm=ec2e1254db599b42291547cec49e7a8bfab43031f4c866e1e9cfbbdf5db1430beee59ca973ac#rd)（2022-02-17）
-- [《富兰克林经济论文选集》——富兰克林](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484443&idx=1&sn=6cd43dfd5fb5cd3c0ebe3ac1dcc36c84&chksm=ec2e11cfdb5998d9025bab87773cf3c196c309e78cc0cd7fa533260486a847aef150591d27f9#rd)（2021-07-05）
-- [《重启改革议程—中国经济改革二十讲》——吴敬琏，马国川](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484536&idx=1&sn=8e3f3902897383fe4ebb8477433bccf0&chksm=ec2e11acdb5998ba11f2072fa4221b110cf7f6bb1a32495ab0fc4825d9e87b40910e29bccec6#rd)（2021-08-02）
 - [《反脆弱》——塔勒布](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485296&idx=1&sn=fb11c882d481d8a3a87f670720b049e2&chksm=ec2e12a4db599bb20e0affea5d654714229365432baf25959b452d1b0f82454c95b93886b224#rd)（2022-02-12）
 - [Introduction to Data Science](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485291&idx=1&sn=345ce107f0ebd36f90f28c13a310b586&chksm=ec2e12bfdb599ba94c3c1ac1abb1aa22277f6312775615c1bd10b759180e1fe9a850a57dc333#rd)（2022-02-02）
 - [《为什么: 关于因果关系的新科学》——朱迪亚·珀尔等](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247485284&idx=1&sn=1caf14c8d085ce1291d8e6a07c8e6c64&chksm=ec2e12b0db599ba6ee3c15ee6119d0713118efce26c991c82e439839c54c8310f086c85b5df6#rd)（2022-01-25）
@@ -47,9 +45,11 @@ comments: yes
 - [《逻辑哲学论》——维特根斯坦](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484766&idx=1&sn=c708145e5f7c9d623b96734259fb5595&chksm=ec2e108adb59999c3b3c7a870e2b0a4f3667b08d15a3bdcb7dffc69ddc1eac05e5099782ff46#rd)（2021-09-15）
 - [《一只特立独行的猪》——王小波](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484758&idx=1&sn=6d111537dc07728d01db166b488cba81&chksm=ec2e1082db5999942e82863a1fdaf37132bf30a22552b9551964827ab6040541dbe3b1756615#rd)（2021-09-08）
 - [《大宪章》](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484753&idx=2&sn=1689a211ce123059a0f7ef3726f30db9&chksm=ec2e1085db59999308ece0ce8ce61dc0f354027078d79f6f70d12b811630935343bc0540c7b0#rd)（2021-09-07）
+- [《重启改革议程—中国经济改革二十讲》——吴敬琏，马国川](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484536&idx=1&sn=8e3f3902897383fe4ebb8477433bccf0&chksm=ec2e11acdb5998ba11f2072fa4221b110cf7f6bb1a32495ab0fc4825d9e87b40910e29bccec6#rd)（2021-08-02）
 - [《R的极客理想—量化投资篇》——张丹](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484531&idx=1&sn=3083f6bb837fff72dc5aa1da14c93314&chksm=ec2e11a7db5998b1877e86fd1fae9870bc58ce7eea7cc46a06b272528bcfe0d086fb8fb8d2a6#rd)（2021-07-27）
 - [《大学的逻辑》——张维迎](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484504&idx=1&sn=f092992c9ddbb00e236208283f0cec5b&chksm=ec2e118cdb59989af612277126ca2d8227a3d7973d64380b57c14d0dacb17890e1e6ed51d791#rd)（2021-07-21）
 - [心智模式决定你的一生——舒马赫](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484452&idx=1&sn=456ffc6dd85e3bb2aad04e3da932ddc7&chksm=ec2e11f0db5998e6aa19a9a9975eaf080eaec8d713da33cd06271463fc210b39e464ad73e015#rd)（2021-07-10）
+- [《富兰克林经济论文选集》——富兰克林](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484443&idx=1&sn=6cd43dfd5fb5cd3c0ebe3ac1dcc36c84&chksm=ec2e11cfdb5998d9025bab87773cf3c196c309e78cc0cd7fa533260486a847aef150591d27f9#rd)（2021-07-05）
 - [《机关行为36“忌”》——张建](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484433&idx=1&sn=651fa17f8e74c94b99a32eb6564a24f7&chksm=ec2e11c5db5998d3b5f1c56548c060033df376593d67cb2681aa5219f3b4fce740d1377816cf#rd)（2021-06-08）
 - [《素书》——黄石公](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484428&idx=1&sn=e863c3a5d36a249ed0f1ed424aed5072&chksm=ec2e11d8db5998ce3725c56ca5483a111e59c979526c98467cae7e75e972256c0c7c0f70c8c2#rd)（2021-05-28）
 - [《六顶思考帽》——爱德华·德·波诺](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247484422&idx=1&sn=af43d3e46c7c81f6dbdc6e2669b87f33&chksm=ec2e11d2db5998c41ce7219a88cee4e9f7bb961e3b852d579f19c9fbf3846a62f5b0ded59107#rd)（2021-05-26）
@@ -84,6 +84,7 @@ comments: yes
 - [《给青年的十二封信》——朱光潜](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483921&idx=1&sn=316494474c04ad41dddb411cab3a076d&chksm=ec2e17c5db599ed3b26e825879d54a6a87511368750dc5b73c39869662c5d011594d6809e147#rd)（2020-05-14）
 - [《论人类不平等的起源和基础》——卢梭](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483915&idx=1&sn=b0f15e1c4df423d7d975d27799d145bb&chksm=ec2e17dfdb599ec99b09fa5ecda50e3c0e8840190b33b1e3403f75a77c8c2d2bb28103d675b9#rd)（2020-05-11）
 - [《为什么是欧洲》——杰克·戈德斯通](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483913&idx=1&sn=74795b126a30fb19a2590e2a98b1d5f6&chksm=ec2e17dddb599ecbd9e1ba0120e8f9909e83b6d1eb7760fcc735993e5c395c1f6454283bfa89#rd)（2020-05-10）
+- [《后真相时代》——赫克托·麦克唐纳](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483911&idx=1&sn=ef1db8a53cf96043ee03cc34f7ee27f4&chksm=ec2e17d3db599ec5b876cf1bda5d2771f99be961039b4ce11e77955c089843068e1049becf71#rd)（2020-05-09）
 - [《尘曲》——七堇年](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483902&idx=1&sn=271f8194640d4c5693367d5d766dce53&chksm=ec2e142adb599d3caa42a43d3f82d406c77d910f5c41227459af3eb99bdf9ca42958853f251b#rd)（2020-05-07）
 - [《少有人走的路》——斯科特·派克](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483900&idx=1&sn=9aad3e72acadcd180e564b8046e664c4&chksm=ec2e1428db599d3e58a53289a2c9f8f31e80ee1781314b415a79257a01beea86bf143a3a054b#rd)（2020-05-06）
 - [《货币生产的伦理》——约尔格·吉多·许尔斯曼](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483845&idx=1&sn=ac26caf8ea7ff3c7039c205350705ec2&chksm=ec2e1411db599d071fa2cf2b753a5dbea043135af6e16758bb58c1da7ead057f9b4c2f07ffcc#rd)（2020-04-30）
@@ -92,6 +93,7 @@ comments: yes
 - [《上帝掷骰子吗》——曹天元](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483814&idx=1&sn=1295a4447a2673b339d4aeceeda0cd89&chksm=ec2e1472db599d649d4349fee0a2b987200eeb5cefd6da1ded0cc02e7390b6fd4e0ba19dd340#rd)（2020-04-27）
 - [《妙趣横生博弈论》——阿维纳什&巴里](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483805&idx=1&sn=65f17df1bdee5a282a7f2045dd69d00d&chksm=ec2e1449db599d5fcad82900829aa8de2dc4f485cad438ad383f1a50ce779b8ec92d48b88f3c#rd)（2020-04-26）
 - [《图解博弈论》——鸿雁](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483805&idx=2&sn=f838ee83fcb2eb488951fb5cbb3797f1&chksm=ec2e1449db599d5f5eb67d98a501b70183470e09cf1cf676b7eea463f3cc76b8798e35b31f27#rd)（2020-04-26）
+- [《教父》——马里奥·普佐](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483804&idx=1&sn=76fe80214b2b608fe9a76ff9dea316ee&chksm=ec2e1448db599d5e00733c8a6d426146a90d9f677be5baa274265125179ad32bbbe5412c6569#rd)（2020-04-25）
 - [《白说》——白岩松](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483799&idx=1&sn=e0488514cdbb4214d3fd6b437c65f0ab&chksm=ec2e1443db599d55fd17cd82534c09d1c5347fb829def4295101545a35130dfbac656caa818d#rd)（2020-04-24）
 - [《皮囊》——蔡崇达](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483793&idx=1&sn=39859c7b1ba9214eb97aacb964bcbecd&chksm=ec2e1445db599d53b457849dd9da96f0d95a22c932db77a949328703d7702c334660cf094e2b#rd)（2020-04-22）
 - [《楚留香新传》——古龙](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483780&idx=1&sn=069c6e8322c9ff1549c8995fe3233b7f&chksm=ec2e1450db599d46b1c31dc46370f56c4e6ac2d1a34f591e605ab9ff4e134fb5e3824913e1df#rd)（2020-04-21）
@@ -99,11 +101,9 @@ comments: yes
 - [《小李飞刀》——古龙](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483780&idx=3&sn=98fdbfe59c3a64b1a23c653247d6b7a4&chksm=ec2e1450db599d462d5b09cb1a4415e1eaf0f8e25864d647fe110b7e1ea0e11e4862f17ad984#rd)（2020-04-21）
 - [《欢乐英雄》——古龙](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483780&idx=4&sn=b9615388b8c7d5294c40f7d53213e1e4&chksm=ec2e1450db599d46f84fb5e19400b188df09d4e68e808d396cf2233a9c2aac1657f97e5a7693#rd)（2020-04-21）
 - [《三少爷的剑》——古龙](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483780&idx=5&sn=b87c7eed3a321419073845a0585c7069&chksm=ec2e1450db599d4626e0d766fe670a4bb6c0cdaa8a505393eaf0fd53797c47b3a56c5ea2ba01#rd)（2020-04-21）
-- [《教父》——马里奥·普佐](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483804&idx=1&sn=76fe80214b2b608fe9a76ff9dea316ee&chksm=ec2e1448db599d5e00733c8a6d426146a90d9f677be5baa274265125179ad32bbbe5412c6569#rd)（2020-04-25）
 - [《人间失格》——太宰治](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483760&idx=1&sn=0f7bbb0a195ff6786ae17c679bd9cb7f&chksm=ec2e14a4db599db2a9ec7501e2de24148b25503694fc284f119b2652d0d054411ea1d98cac52#rd)（2020-04-20）
-- [《人口原理》——马尔萨斯](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483752&idx=1&sn=14532473e678efbd028578d9b89f8951&chksm=ec2e14bcdb599daaf4e2169445d30d974078d09155d4d366dbf6d12a090bc55c39a2c5e0d67d#rd)（2020-04-19）
 - [《局外人》——加缪](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483760&idx=2&sn=9f21c7be71dc9c070b9b6c1d9a7c30ba&chksm=ec2e14a4db599db2d4630e1af27ee80070f5e92ac616da97ce59f44a5c17eb0e82179be8153f#rd)（2020-04-20）
-- [《后真相时代》——赫克托·麦克唐纳](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483911&idx=1&sn=ef1db8a53cf96043ee03cc34f7ee27f4&chksm=ec2e17d3db599ec5b876cf1bda5d2771f99be961039b4ce11e77955c089843068e1049becf71#rd)（2020-05-09）
+- [《人口原理》——马尔萨斯](http://mp.weixin.qq.com/s?__biz=MzI4OTQyNDU3MQ==&mid=2247483752&idx=1&sn=14532473e678efbd028578d9b89f8951&chksm=ec2e14bcdb599daaf4e2169445d30d974078d09155d4d366dbf6d12a090bc55c39a2c5e0d67d#rd)（2020-04-19）
 
 # 搬家代码
 
@@ -144,7 +144,8 @@ result <- tibble(title = titles$value,
     str_count(date) < 10,
     str_c("2022/", date),
     date
-  ) %>% as_date())
+  ) %>% as_date()) %>% 
+  arrange(desc(date))
 
 # 输出 md 格式结果，使用行内代码
 # paste0("- [", result$title, "](", result$url, ")", "（", result$date, "）", collapse = "\n")

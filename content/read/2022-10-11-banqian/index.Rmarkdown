@@ -55,7 +55,8 @@ result <- tibble(title = titles$value,
     str_count(date) < 10,
     str_c("2022/", date),
     date
-  ) %>% as_date())
+  ) %>% as_date()) %>% 
+  arrange(desc(date))
 ```
 
 `r paste0("- [", result$title, "](", result$url, ")", "（", result$date, "）", collapse = "\n")`
@@ -98,7 +99,8 @@ result <- tibble(title = titles$value,
     str_count(date) < 10,
     str_c("2022/", date),
     date
-  ) %>% as_date())
+  ) %>% as_date()) %>% 
+  arrange(desc(date))
 
 # 输出 md 格式结果，使用行内代码
 # paste0("- [", result$title, "](", result$url, ")", "（", result$date, "）", collapse = "\n")
