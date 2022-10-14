@@ -46,7 +46,20 @@ comments: yes
 
 复制该页面生成的代码片段，粘贴到 .qmd 文件最后：
 
+```html
+<script src="https://utteranc.es/client.js"
+        repo="Shitao5/answeR"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+```
+
+<!--
 {{< gist Shitao5 fd85a9ee2278797171f870e134b2b9ad>}}
+墙内不支持 gist，直接用 md 吧。
+-->
 
 ## 可以啦！
 
