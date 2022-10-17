@@ -36,17 +36,18 @@ toc: no
 
 # 我常看的博客
 
-- [郝鸿涛](https://hongtaoh.com/)：威斯康星麦迪逊计算机博士在读，看他读博士。
+- [郝鸿涛](https://hongtaoh.com/)
 
-- [落园](http://www.loyhome.com/)：看她的经济学思维。
+- [落园](http://www.loyhome.com/)
 
-- [谢益辉](https://yihui.org/)：RStudio 软件工程师，我的网站就是基于他开发的
-[blogdown](https://github.com/rstudio/blogdown) 搭建的，看他每天在 GitHub 忙活。
+- [土木坛子](https://tumutanzi.com/)
 
-- [叶寻](https://cyrusyip.org/zh-cn/)：看他捣鼓 Linux。
+- [谢益辉](https://yihui.org/)
 
-- [于淼](https://yufree.cn/cn/)：看他搞科研。
+- [叶寻](https://cyrusyip.org/zh-cn/)
 
-- [袁凡](https://yuanfan.rbind.io/)：看她分享生活。
+- [于淼](https://yufree.cn/cn/)
+
+- [袁凡](https://yuanfan.rbind.io/)
 
 以上是按姓氏拼音排序的，每一位博主都温暖有力量。
