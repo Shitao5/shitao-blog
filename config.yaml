@@ -92,9 +92,6 @@ menu:
     - name: 笔记
       url: "/notes/"
       weight: 4
-    - name: 考研日记
-      url: "/kaoyan/"
-      weight: 4.5
     - name: TODO
       url: "/todo/"
       weight: 5
@@ -104,13 +101,6 @@ menu:
     - name: RSS订阅
       url: "/index.xml"
       weight: 7
-    # - name: 搜索
-    #   url: "/page/search"
-    #   weight: 4
-    # - name: 归档
-    #   url: "/page/archives"
-    #   weight: 5
-
 
   social:
     - identifier: github

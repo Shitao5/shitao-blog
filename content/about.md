@@ -29,6 +29,7 @@ toc: no
   - [学 R](https://shitao.quarto.pub/learn-r/)
   - [外加一点 JavaScript](https://shitao5.github.io/js4r/)
   - [R 语言答疑](https://shitao5.github.io/answeR/)
+- 考研
 
 # 我的联系方式
 
