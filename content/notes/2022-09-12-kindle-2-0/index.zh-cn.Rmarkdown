@@ -15,8 +15,7 @@ comments: yes
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.align = "center",
-  collapse = TRUE
+  fig.align = "center"
 )
 ```
 
