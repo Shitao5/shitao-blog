@@ -25,10 +25,15 @@ toc: yes
 # 我在干什么
 
 - 考研
+
 - [阅读](../tags/读后感/)
+
 - 学计算机语言
+
   - [学 R](https://shitao.quarto.pub/learn-r/)
+  
   - [外加一点 JavaScript](https://shitao5.github.io/js4r/)
+  
   - [R 语言答疑](https://shitao5.github.io/answeR/)
 
 # 我的联系方式
@@ -38,6 +43,8 @@ toc: yes
 # 我常看的博客
 
 - [郝鸿涛](https://hongtaoh.com/)
+
+- [卢涛南](https://lutaonan.com/)
 
 - [落园](http://www.loyhome.com/)
 
@@ -50,5 +57,7 @@ toc: yes
 - [于淼](https://yufree.cn/cn/)
 
 - [袁凡](https://yuanfan.rbind.io/)
+
+- [左岸读书](http://www.zreading.cn/)
 
 以上是按姓氏拼音排序的，每一位博主都温暖有力量。
