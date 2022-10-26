@@ -54,9 +54,8 @@ comments: no
 
 # 事务
 
-## 网站
+## 博客
 
-- 设计 logo
 - ~~goldMark 下脚注无法跳转~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
 - ~~添加 RSS 订阅功能~~（已由[叶寻](https://cyrusyip.org/zh-cn/)帮助解决，在此表示感谢！）
 
