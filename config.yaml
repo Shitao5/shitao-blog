@@ -113,6 +113,12 @@ menu:
       weight: 10
       params:
           icon: brand-github
+    - identifier: twitter
+      name: Twitter
+      url: https://twitter.com/wushitao3
+      weight: 15
+      params:
+          icon: brand-twitter
     - identifier: bilibili
       name: Bilibili
       url: https://space.bilibili.com/646580379
