@@ -4,3 +4,7 @@
 .Ruserdata
 .hugo_build.lock
 *cache/
+.DS_Store
+Thumbs.db
+/public/
+/resources/
