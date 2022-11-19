@@ -7,7 +7,9 @@ toc: yes
 
 # 我是谁
 
-吴诗涛，99 年生，土生土长农村人。17 - 19  年在天津生活，迷彩两年。目前坐标杭州，大四学生，主修经济学专业，R 语言爱好者，致力于理论 + 技术融合发展。爱阅读，爱思考，Kindle 重度使用者。走在成为我自己的道路上，甘愿做一个平庸的人，甘愿做一个无名小卒。
+现居杭州，大四经济学专业学生，R 语言爱好者。
+
+吴诗涛，99 年生，土生土长农村人。17 - 19  年在天津生活，迷彩两年。爱阅读，爱思考，Kindle 重度使用者。走在成为我自己的道路上，甘愿做一个平庸的人，甘愿做一个无名小卒。
 
 我总是以一个旁观者的角度审视自己，想让自己扎根到玄牝中去。
 
@@ -25,39 +27,37 @@ toc: yes
 # 我在干什么
 
 - 考研
-
 - [阅读](../tags/读后感/)
-
 - 学计算机语言
-
   - [学 R](https://shitao.quarto.pub/learn-r/)
-  
   - [外加一点 JavaScript](https://shitao5.github.io/js4r/)
-  
   - [R 语言答疑](https://shitao5.github.io/answeR/)
 
-# 我的联系方式
+# 我常用的软件
 
-邮箱：shitao4r@gmail.com
+- **RStudio**：编程、写作
+- **Zotero**：管理文献
+- **Calibre**：管理书库
+- **Typora**：做笔记
+- **Feedly**：订阅博客
+- **VLC**（Ubuntu）、**Foobar 2000**（Win 10）：听音乐
+- **GitKraken**：版本控制
+- **FreeFileSync**：备份文件
+
+# 联系方式
+
+可以找到我的地方：[GitHub](https://github.com/Shitao5)，[Twitter](https://twitter.com/wushitao3)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`shitao4r@gmail.com`）。当然，我最希望你能给我的博客留言。
 
 # 我常看的博客
 
 - [郝鸿涛](https://hongtaoh.com/)
-
 - [卢涛南](https://lutaonan.com/)
-
 - [落园](http://www.loyhome.com/)
-
 - [土木坛子](https://tumutanzi.com/)
-
 - [谢益辉](https://yihui.org/)
-
 - [叶寻](https://cyrusyip.org/zh-cn/)
-
 - [于淼](https://yufree.cn/cn/)
-
 - [袁凡](https://yuanfan.rbind.io/)
-
 - [左岸读书](http://www.zreading.cn/)
 
 以上是按姓氏拼音排序的，每一位博主都温暖有力量。

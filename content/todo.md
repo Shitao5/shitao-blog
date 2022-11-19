@@ -15,8 +15,6 @@ comments: no
 
 ## 读后感
 
-待写的读后感先放出读书笔记，后续添加读后感吧！
-
 - [成为我自己：欧文·亚隆回忆录](https://book.douban.com/subject/33460827/)
 - [德米安：彷徨少年时](https://book.douban.com/subject/35060088/)
 - 《道德经》读后感
@@ -47,10 +45,6 @@ comments: no
 ## JavaScript
 
 - [JavaScript for R](https://book.javascript-for-r.com/)
-
-## 一门后端语言（待定）
-
-- [The Self-Taught Computer Scientist: The Beginner's Guide to Data Structures & Algorithms](https://www.amazon.com/Self-Taught-Computer-Scientist-Beginners-Science/dp/1119724414)
 
 # 事务
 

@@ -16,7 +16,10 @@ hidden: no
 comments: yes
 ---
 
-Using [**ggplot2**](https://ggplot2.tidyverse.org/) and other excellent visualization R packages, we can generate various static plots illustrating the secret hidden in the data. However, interactive graphics can be more appealing than static graphics in some cases. [**Plotly**](https://plotly.com/r/) and [**echarts4r**](https://echarts4r.john-coene.com/) are extremely useful for allowing users to explore data by simply clicking their mouse. Furthermore, [**Shiny**](https://shiny.rstudio.com/) can easily create a dynamic web app without requiring additional web knowledge.
+Using [**ggplot2**](https://ggplot2.tidyverse.org/) and other excellent visualization R packages, we can generate various static plots illustrating the secret hidden in the data. However, interactive graphics can be more appealing than static graphics in some cases. [**Plotly**](https://plotly.com/r/) and [**echarts4r**](https://echarts4r.john-coene.com/) are extremely useful for users to explore data by simply clicking their mouse. Furthermore, [**Shiny**](https://shiny.rstudio.com/) can easily create a dynamic web app and requires no additional web knowledge.
+~~Furthermore, [**Shiny**](https://shiny.rstudio.com/) can easily create a dynamic web app without additional web knowledge.~~ [^grammar]
+
+[^grammar]: A grammar mistake [identified](https://github.com/Shitao5/blog-comments/issues/7#issuecomment-1311251873) by [Cyrus Yip](https://cyrusyip.org/en/).
 
 These fantastic technologies are powered by JavaScript, a programming language designed to allow programmers to create web applications. A solid foundation in JavaScript is essential for creating more intricate things, so I started learning JavaScript last month. I downloaded several books into my Kindle so I could read before going to bed. They are as follows:
 
