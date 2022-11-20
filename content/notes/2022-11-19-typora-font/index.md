@@ -18,11 +18,11 @@ comments: yes
 
 根据[官方文档](https://support.typora.io/Custom-Font/)，操作流程如下：
 
-1. 在 Typora 的 `文件 -> 偏好设置 -> 外观` 选项卡找到 `打开主题文件夹`。
+1. 在 Typora 的 `文件 -> 偏好设置 -> 外观` 选项卡下，点击 `打开主题文件夹`。
 
-1. 新建 `base.user.css` 文件，该文件的内容将覆盖当前主题的设置。
+1. 在 `themes` 文件夹下新建 `base.user.css` 文件，该文件的内容将覆盖当前主题的设置。
 
-1. 在 `base.user.css` 中设置字体，由于Merriweather 是网络字体，设置前需先导入：
+1. 在 `base.user.css` 中设置字体，由于 Merriweather 是网络字体，设置前需先导入：
     
     ```css
     @import url(https://fonts.googleapis.com/css2?family=Merriweather);
