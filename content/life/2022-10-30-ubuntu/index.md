@@ -6,7 +6,7 @@ slug: ubuntu
 categories: []
 tags:
   - 思考
-  - 电脑
+  - Linux
 description: ~
 image: ~
 math: ~

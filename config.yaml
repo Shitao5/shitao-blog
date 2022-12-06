@@ -96,12 +96,12 @@ menu:
     - name: 笔记
       url: "/notes/"
       weight: 4
-    - name: TODO
-      url: "/todo/"
-      weight: 5
-    - name: NOT-TODO
-      url: "/not-todo/"
-      weight: 6
+    # - name: TODO
+    #   url: "/todo/"
+    #   weight: 5
+    # - name: NOT-TODO
+    #   url: "/not-todo/"
+    #   weight: 6
     - name: RSS订阅
       url: "/index.xml"
       weight: 7
@@ -113,12 +113,12 @@ menu:
       weight: 10
       params:
           icon: brand-github
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com/wushitao3
-      weight: 15
-      params:
-          icon: brand-twitter
+    # - identifier: twitter
+    #   name: Twitter
+    #   url:
+    #   weight: 15
+    #   params:
+    #       icon: brand-twitter
     - identifier: bilibili
       name: Bilibili
       url: https://space.bilibili.com/646580379

@@ -38,7 +38,7 @@ toc: yes
 
 # 联系方式
 
-可以找到我的地方：[GitHub](https://github.com/Shitao5)，[Twitter](https://twitter.com/wushitao3)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`shitao4r@gmail.com`）。当然，我最希望你能给我的博客留言。
+可以找到我的地方：[GitHub](https://github.com/Shitao5)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`wuchouchouer@gmail.com`）。当然，我最希望你能给我的博客留言。
 
 # 我常看的博客
 
