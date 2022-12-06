@@ -5,7 +5,6 @@ date: '2022-08-07'
 slug: xidaduo
 tags:
   - 读后感
-  - 黑塞
 description: 一切未受尽的苦，未获得的救赎都会重来。苦难从未改变。
 image: img.jpg
 math: ~

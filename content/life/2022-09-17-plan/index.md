@@ -4,8 +4,7 @@ author: shitao
 date: '2022-09-17'
 slug: plan
 tags:
-  - 命运
-  - 思考
+  - 人生
 description: 因为走了远路，才能看到更多的风景。
 image: ~
 hidden: no

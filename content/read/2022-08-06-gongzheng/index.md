@@ -5,7 +5,6 @@ date: '2022-08-06'
 slug: gongzheng
 tags:
   - 读后感
-  - 公正
 description: 心安处，即公正。
 image: img.jpg
 math: ~

@@ -5,7 +5,7 @@ date: '2022-10-09'
 slug: chicken-rice-flower
 categories: []
 tags:
-  - 回忆
+  - 人生
 description: ~
 image: ~
 math: ~

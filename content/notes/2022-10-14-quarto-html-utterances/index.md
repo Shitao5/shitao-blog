@@ -5,8 +5,7 @@ date: '2022-10-14'
 slug: quarto-html-utterances
 categories: []
 tags:
-  - R
-  - Quarto
+  - Web
 description: ~
 image: ~
 math: ~

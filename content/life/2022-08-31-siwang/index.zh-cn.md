@@ -5,8 +5,7 @@ date: '2022-08-31'
 slug: siwang
 description: 对死亡的思考，可以让我们更好地活。
 tags:
-  - 日常
-  - 思考
+  - 人生
 image: ~
 style:
   background: '#2a9d8f'
