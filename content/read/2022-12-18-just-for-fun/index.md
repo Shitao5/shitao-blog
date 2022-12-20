@@ -19,7 +19,7 @@ comments: yes
 
 Linux 操作系统和我们的生活密切相关，使用搜索软件、淘宝购物，手机聊天……这些背后都是成千上万台 Linux 服务器。想更深入地了解这个操作系统，查了一些学习路径推荐，发现有把这本 Linux 创始人 Linus 自传放在推荐第一位的，在我不能静下心来学技术的阶段看，再合适不过了。
 
-最初对 Linus 有印象是刷到他[对 NVIDIA 比划国际友好手势](https://www.bilibili.com/video/BV1Wx411T7Nt/?spm_id_from=333.788.recommend_more_video.0&vd_source=60ef9841b772fd079523b2b4178bda59)，觉得他好拽哈哈。后来看过他的[ TED 采访](https://www.youtube.com/watch?v=o8NPllzkFhE&feature=emb_imp_woyt)，觉得他非常有趣，比如他说他工作室的墙是浅绿色的，这个颜色可以使人保持冷静，和精神病院的一样。他对自己电脑的要求是非常安静，这给我组台式机的想法按下了暂停键，因为我也不喜欢听电脑呼呼的声音。
+最初对 Linus 有印象是刷到他[对 NVIDIA 比划国际友好手势](https://www.bilibili.com/video/BV1Wx411T7Nt/?spm_id_from=333.788.recommend_more_video.0&vd_source=60ef9841b772fd079523b2b4178bda59)，觉得他好拽哈哈。后来看他的 [TED 采访](https://www.youtube.com/watch?v=o8NPllzkFhE&feature=emb_imp_woyt)，他不像一些企业家一样有改变世界的梦想，非常平易近人。比如他说他工作室的墙是浅绿色的，这个颜色可以使人保持冷静，和精神病院的一样。他对自己电脑的要求是非常安静，这给我组台式机的想法按下了暂停键，因为我也不喜欢听电脑呼呼的声音。
 
 {{< bilibili BV1jW411h71Z >}}
 
