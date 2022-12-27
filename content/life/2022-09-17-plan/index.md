@@ -1,5 +1,5 @@
 ---
-title: 未取得保研名额的思考
+title: 未取得保研名额
 author: shitao
 date: '2022-09-17'
 slug: plan
