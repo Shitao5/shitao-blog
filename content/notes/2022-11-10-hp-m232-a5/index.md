@@ -17,9 +17,10 @@ toc: yes
 
 明早有个比较正式的宣讲，被叫去听咯，还要带上小本本和笔做记录，吓得我都不敢带 Kindle。后来想到可以把想看的一些内容[^todo]打印在小本本上，如图：
 
-```{r echo=FALSE, out.width="49%", fig.align='center', fig.cap="双面打印的 A5 活页小本本"}
-knitr::include_graphics("imgs/res.jpg")
-```
+<div class="figure" style="text-align: center">
+<img src="imgs/res.jpg" alt="双面打印的 A5 活页小本本" width="49%" />
+<p class="caption">Figure 1: 双面打印的 A5 活页小本本</p>
+</div>
 
 第一次用自己的[打印机](https://item.jd.com/100019179990.html)双面打 A5 的活页纸[^a4]，打印活页本需要考虑到孔和奇偶数页的位置关系，每一页都有对应该打印的位置。摸索了一下打印流程，记录在此。
 
@@ -31,9 +32,10 @@ knitr::include_graphics("imgs/res.jpg")
 
 ## 偶数页逆序打印
 
-```{r echo=FALSE, out.width="40%", fig.align='center', fig.show='hold', out.height="20%", fig.cap="偶数页逆序打印设置及纸张放置"}
-knitr::include_graphics(c("imgs/ou.jpg", "imgs/import1.jpg")) 
-```
+<div class="figure" style="text-align: center">
+<img src="imgs/ou.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" /><img src="imgs/import1.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" />
+<p class="caption">Figure 2: 偶数页逆序打印设置及纸张放置</p>
+</div>
 
 ### Word 打印设置
 
@@ -52,9 +54,10 @@ knitr::include_graphics(c("imgs/ou.jpg", "imgs/import1.jpg"))
 
 打印完偶数页之后是这样的：
 
-```{r echo=FALSE, out.width="49%", fig.align='center', fig.cap="偶数页逆序打印效果"}
-knitr::include_graphics("imgs/res1.jpg")
-```
+<div class="figure" style="text-align: center">
+<img src="imgs/res1.jpg" alt="偶数页逆序打印效果" width="49%" />
+<p class="caption">Figure 3: 偶数页逆序打印效果</p>
+</div>
 
 1. 在文档中位置越靠后的页面，打印出来的纸张在越前面。
 
@@ -62,9 +65,10 @@ knitr::include_graphics("imgs/res1.jpg")
 
 ## 奇数页正序打印
 
-```{r echo=FALSE, out.width="40%", fig.align='center', fig.show='hold', out.height="20%", fig.cap="奇数页正序打印设置及纸张放置"}
-knitr::include_graphics(c("imgs/ji.jpg", "imgs/import2.jpg")) 
-```
+<div class="figure" style="text-align: center">
+<img src="imgs/ji.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" /><img src="imgs/import2.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" />
+<p class="caption">Figure 4: 奇数页正序打印设置及纸张放置</p>
+</div>
 
 ### Word 打印设置
 
@@ -81,9 +85,10 @@ knitr::include_graphics(c("imgs/ji.jpg", "imgs/import2.jpg"))
 
 打印完奇数页之后是这样的：
 
-```{r echo=FALSE, out.width="49%", fig.align='center', fig.cap="奇数页正序打印效果"}
-knitr::include_graphics("imgs/res2.jpg")
-```
+<div class="figure" style="text-align: center">
+<img src="imgs/res2.jpg" alt="奇数页正序打印效果" width="49%" />
+<p class="caption">Figure 5: 奇数页正序打印效果</p>
+</div>
 
 1. 奇数页的内容在孔的右侧。
 
