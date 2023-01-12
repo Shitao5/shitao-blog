@@ -37,7 +37,7 @@ knitr::include_graphics(c("imgs/ou.jpg", "imgs/import1.jpg"))
 
 ### Word 打印设置
 
-1. 打印奇数页；
+1. 打印偶数页；
 1. 单面打印、逆序；
 1. 纸张设置为 **A4** （注意，不是 A5 且一定要为 A4 。这里的纸张就是 `布局-纸张` 里的纸张，一般用的都是 A4。如果不是 A4，不能启用 A5 的打印[^a5]）；
 1. 缩放到 A5。
@@ -70,7 +70,7 @@ knitr::include_graphics(c("imgs/ji.jpg", "imgs/import2.jpg"))
 
 在偶数页逆序打印的基础上修改：
 
-1. 打印偶数页；
+1. 打印奇数页；
 1. 单面打印、正序。
 
 ### 纸张放置
