@@ -6,6 +6,7 @@ slug: mysql
 categories: []
 tags:
   - SQL
+  - 读后感
 description: ~
 image: ~
 math: ~
@@ -138,10 +139,10 @@ SQL 检索数据时的逻辑和 [dplyr](https://dplyr.tidyverse.org/) 类似，�
 - 事务处理（transaction processing）可以用来维护数据库的完整性，它保证成批的 MySQL 操作要么完全执行，要么完全不执行。
 - 并非所有引擎都支持事务处理，MyISAM 不支持明确的事务处理管理，InnoDB 支持。
 - 事务处理的几个术语：
-  - **事务（transaction）**指一组 SQL 语句；
-  - **回退（rollback）**指撤销指定 SQL 语句的过程；
-  - **提交（commit）**指将未存储的 SQL 语句结果写入数据库表；
-  - **保留点（savepoint）**指事务处理中设置的临时占位符（place-holder），可以对它发布回退（与回退整个事务处理不同）。
+  - **事务（transaction）** 指一组 SQL 语句；
+  - **回退（rollback）** 指撤销指定 SQL 语句的过程；
+  - **提交（commit）** 指将未存储的 SQL 语句结果写入数据库表；
+  - **保留点（savepoint）** 指事务处理中设置的临时占位符（place-holder），可以对它发布回退（与回退整个事务处理不同）。
   
 # 改善性能
 
