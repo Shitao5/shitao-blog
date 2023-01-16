@@ -96,6 +96,9 @@ menu:
     - name: 笔记
       url: "/notes/"
       weight: 4
+    - name: 他山之石
+      url: "/others/"
+      weight: 5
     # - name: TODO
     #   url: "/todo/"
     #   weight: 5
@@ -133,8 +136,8 @@ related:
     indices:
         - name: tags
           weight: 100
-        - name: categories
-          weight: 200
+        # - name: categories
+        #   weight: 200
 
 markup:
   goldmark:

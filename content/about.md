@@ -23,7 +23,7 @@ toc: yes
 
 # 我在干什么
 
-目前正处于大学向工作的过渡期，补一补与数据分析有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
+目前正处于大学向工作的过渡期，物色工作中，同时补一补与数据分析有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
 
 # 我常用的软件
 
