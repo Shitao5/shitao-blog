@@ -160,3 +160,5 @@ markup:
 
 frontmatter:
   lastmod: [":fileModTime", "lastmod"]
+
+enableGitInfo: true
