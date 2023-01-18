@@ -1,20 +1,34 @@
 [build]
-command = 'hugo'
-publish = 'public'
-[build.environment]
-HUGO_VERSION = '0.99.1'
+publish = "public"
+command = "hugo --gc --minify"
 
-
-[context]
-[context.branch-deploy]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.production]
-command = 'hugo --buildFuture'
 [context.production.environment]
-HUGO_ENV = 'production'
+HUGO_VERSION = "0.99.1"
+HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 TZ="/usr/share/zoneinfo/Asia/Bangkok"
+
+[context.split1]
+command = "hugo --gc --minify --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.99.1"
+HUGO_ENV = "production"
+TZ="/usr/share/zoneinfo/Asia/Bangkok"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.99.1"
+TZ="/usr/share/zoneinfo/Asia/Bangkok"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.99.1"
+TZ="/usr/share/zoneinfo/Asia/Bangkok"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"
