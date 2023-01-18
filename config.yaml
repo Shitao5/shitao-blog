@@ -158,7 +158,11 @@ markup:
     lineNumbersInTable: false
     tabWidth: 4
 
-frontmatter:
-  lastmod: [":fileModTime", "lastmod"]
-
 enableGitInfo: true
+
+frontmatter:
+  # lastmod: [":fileModTime", "lastmod"]
+  date: ["date", "publishDate", "lastmod"]
+  lastmod: [':git', 'lastmod', 'date', 'publishDate']
+  publishDate: ["publishDate", "date"]
+  expiryDate: ["expiryDate"]
