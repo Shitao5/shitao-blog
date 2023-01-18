@@ -7,6 +7,7 @@ categories: []
 tags:
   - R
   - 思考
+  - 博客
 description: ~
 image: ~
 math: ~

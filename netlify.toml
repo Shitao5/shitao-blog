@@ -17,7 +17,7 @@ command = 'hugo --buildFuture'
 [context.production.environment]
 HUGO_ENV = 'production'
 HUGO_ENABLEGITINFO = "true"
-TZ="/usr/share/zoneinfo/Asia/Shanghai"
+TZ = "/usr/share/zoneinfo/Asia/Shanghai"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
