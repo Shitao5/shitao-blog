@@ -1,6 +1,5 @@
 ---
 title: 关于诗涛
-date: '2022-10-11'
 comments: yes
 toc: yes
 ---
