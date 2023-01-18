@@ -16,3 +16,4 @@ command = 'hugo -F -b $DEPLOY_PRIME_URL'
 command = 'hugo --buildFuture'
 [context.production.environment]
 HUGO_ENV = 'production'
+TZ="/usr/share/zoneinfo/Asia/Bangkok"
