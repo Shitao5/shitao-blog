@@ -161,3 +161,4 @@ markup:
 frontmatter:
   lastmod: [":fileModTime", "lastmod"]
 
+timezone: Asia/Bangkok
