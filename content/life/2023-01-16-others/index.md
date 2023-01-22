@@ -27,11 +27,9 @@ comments: yes
 笔记在 Logseq 中设置了双链（`[[双链]]`）和标签（`#标签`）用于构建知识图谱，在发布前需要去除双链和标签，用正则表达式替换很方便：
 
 ```r
-library(tidyverse)
-
-readLines("./content/others2.md") %>%
-  str_replace_all("\\[\\[", "") %>%
-  str_replace_all("\\]\\]", "") %>%
-  str_replace_all(" #.*", "") %>%
+readLines("./content/others2.md") |>
+  stringr::str_replace_all("\\[\\[", "") |>
+  stringr::str_replace_all("\\]\\]", "") |>
+  stringr::str_replace_all(" #.*", "") |>
   writeLines("./content/others.md")
 ```

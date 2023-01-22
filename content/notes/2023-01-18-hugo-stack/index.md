@@ -64,7 +64,7 @@ dateFormat:
 
 ```toml
 [context.production.environment]
-TZ="/usr/share/zoneinfo/Asia/Shanghai"
+TZ = "/usr/share/zoneinfo/Asia/Shanghai"
 ```
 
 我常住嘉兴和杭州，从 [这里](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) 找到时区设置为 `Asia/Shanghai`。
