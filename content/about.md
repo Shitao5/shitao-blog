@@ -39,6 +39,10 @@ toc: yes
 
 可以找到我的地方：[GitHub](https://github.com/Shitao5)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`wuchouchouer@gmail.com`）。当然，我最希望你能给我的博客留言。
 
+# 我写过的幻灯片
+
+- [Kindle-Shiny](https://shitao.quarto.pub/kindle-shiny-slides/)
+
 # 我常看的博客
 
 - [郝鸿涛](https://hongtaoh.com/)

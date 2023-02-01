@@ -19,6 +19,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+> 更新 [3.0 版本](../kindle3/)（2023-02-01）
+
 # 起因
 
 之前[写过](/../notes/kindle-notes/)一次整理 Kindle 笔记的方法，不甚满意，趁着中秋假期来填坑。
