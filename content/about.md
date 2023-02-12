@@ -22,7 +22,7 @@ toc: yes
 
 # 我在干什么
 
-目前正处于大学向工作的过渡期，物色工作中，同时补一补与数据分析有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
+目前正处于大学向工作的过渡期，数据分析师实习生，住在学校，通勤上班。同时补一补与数据分析有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
 
 # 我常用的软件
 
@@ -37,7 +37,7 @@ toc: yes
 
 # 联系方式
 
-可以找到我的地方：[GitHub](https://github.com/Shitao5)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`wuchouchouer@gmail.com`）。当然，我最希望你能给我的博客留言。
+可以找到我的地方：[GitHub](https://github.com/Shitao5)，[B 站](https://space.bilibili.com/646580379?spm_id_from=333.1007.0.0)，也可以加我微信（`wuchouchouer`）交流，或者发邮件（`wuchouchouer@163.com`）。当然，我最希望你能给我的博客留言。
 
 # 我写过的幻灯片
 

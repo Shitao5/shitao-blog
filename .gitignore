@@ -8,3 +8,5 @@
 Thumbs.db
 /public/
 /resources/
+.Rdata
+.httr-oauth

@@ -146,7 +146,7 @@ markup:
 
   tableOfContents:
     endLevel: 3
-    ordered: false
+    ordered: yes
     startLevel: 1
 
   highlight:
