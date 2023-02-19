@@ -96,9 +96,12 @@ menu:
     - name: 笔记
       url: "/notes/"
       weight: 4
+    - name: 周总结
+      url: "/summary/"
+      weight: 5
     - name: 他山之石
       url: "/others/"
-      weight: 5
+      weight: 6
     # - name: TODO
     #   url: "/todo/"
     #   weight: 5

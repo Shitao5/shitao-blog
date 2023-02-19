@@ -10,3 +10,4 @@ Thumbs.db
 /resources/
 .Rdata
 .httr-oauth
+/stopwrite/

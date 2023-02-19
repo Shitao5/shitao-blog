@@ -22,7 +22,7 @@ toc: yes
 
 # 我在干什么
 
-目前正处于大学向工作的过渡期，数据分析师实习生，住在学校，通勤上班。同时补一补与数据分析有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
+目前正处于大学向工作的过渡期，数据分析师实习生，住在学校，通勤上班。同时补一补与数据分析、MySQL 有关的内容。学习之余，在 [tidy-R](../life/admin/) QQ 群[答疑和学习](https://shitao5.github.io/answeR/)。
 
 # 我常用的软件
 
@@ -45,6 +45,7 @@ toc: yes
 
 # 我常看的博客
 
+- [二丫讲梵](https://wiki.eryajf.net/)
 - [郝鸿涛](https://hongtaoh.com/)
 - [卢涛南](https://lutaonan.com/)
 - [落园](http://www.loyhome.com/)
