@@ -26,13 +26,11 @@ toc: yes
 
 # 我常用的软件
 
-- **Logseq**：管理生活
+- **Logseq**：管理生活和笔记
 - **Zotero**：管理文献
 - **Calibre**：管理书库
-- **Typora**：做笔记
 - **RStudio**：编程、写作
 - **VLC**（Ubuntu）、**Foobar 2000**（Win 10）：听音乐
-- **GitKraken**：版本控制
 - **FreeFileSync**：备份文件
 
 # 联系方式
