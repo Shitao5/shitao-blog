@@ -83,7 +83,8 @@ comments: yes
 1. 使用 **lubridate** 的 `%--%` 进行日期差计算时需注意日期正负；
 1. 写 `case_when()` 时需注意判断逻辑的先后顺序；
 1. 终于可以熟练使用 `map()` 系列函数了；
-1. 学会使用 [**reticulate**](https://rstudio.github.io/reticulate/index.html) 包在 R 中调用 Python 脚本中定义的函数，目前对数据类型的转换还不是很熟悉，等熟练之后写一篇博客。
+1. 学会使用 [**reticulate**](https://rstudio.github.io/reticulate/index.html) 包在 R 中调用 Python 脚本中定义的函数，目前对数据类型的转换还不是很熟悉，等熟练之后写一篇博客;
+1. 在睡前和打车路上看完了[《从零开始：机器学习的数学原理和算法实践》](../../read/ml-math2)（笔记仍在整理中）。
 
 这周六（0318）参与乐高活动，周五（0317）因为工作无法抽身去组织，这也让我有机会看到了小伙伴们的成长，毕业前慢慢将大部分工作交手出去。
 
