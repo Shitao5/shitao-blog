@@ -121,9 +121,9 @@ comments: yes
 
 下周：
 
-1. [*The tidyverse style guide*](https://style.tidyverse.org/index.html)
-1. 《高性能 MySQL》（第 4 版）
-1. 《财务诡计》
+1. [*The tidyverse style guide*](https://style.tidyverse.org/index.html)；
+1. 《高性能 MySQL》（第 4 版）；
+1. 《财务诡计》。
 
 # 第 14 周（0402-0408）
 
@@ -135,9 +135,9 @@ comments: yes
 
 下周：
 
-1. [*The tidyverse style guide*](https://style.tidyverse.org/index.html)
-1. 《财务诡计》
-1. 《图数据库》
+1. [*The tidyverse style guide*](https://style.tidyverse.org/index.html)；
+1. 《财务诡计》；
+1. 《图数据库》。
 
 # 第 15 周（0409-0415）
 
@@ -154,6 +154,19 @@ comments: yes
 下周：
 
 1. 《图数据库》；
-1. [*Python and R for the Modern Data Scientist*](https://book.douban.com/subject/35553393/)
+1. [*Python and R for the Modern Data Scientist*](https://book.douban.com/subject/35553393/)。
 
+# 第 16 周（0416-0422）
+
+这周做了些数据测试的工作，当然不是做测试工程师哈哈。数据测试是个细活，一点点摸门道。为了方便测试，找 DBA 开通了数据库直连的权限。用 R 直连公司数据库，相比前两个月做 SQL Boy 自然是酷炫了很多。
+
+上周重构了一次代码后，现在写代码就会想着要做抽象、要简洁、要可复用……不过 tidyverse 做了 data masking 和 tidy select，这对于使用 tidyverse 中的函数构造自己想要的函数有一定的难度。目前还没有掌握，争取早日突破！
+
+下周三（0426）毕业答辩，特地把毕业论文实证部分的代码都[整理到了一起](https://shitao.quarto.pub/shitao-paper/)，但是偷懒没有做重构哈哈。
+
+下周：
+
+1. 学习 data masking 和 tidy select；
+1. [*Mastering Shiny*](https://mastering-shiny.org/)；
+1. [*Python and R for the Modern Data Scientist*](https://book.douban.com/subject/35553393/)。
 
