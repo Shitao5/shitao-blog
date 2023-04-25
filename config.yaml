@@ -50,11 +50,26 @@ params:
 
   comments:
     enabled: true
-    provider: utterances
-    utterances:
+    provider: giscus
+    # utterances:
+    #   repo: Shitao5/blog-comments
+    #   issueTerm: pathname
+    #   label: 👋
+
+    giscus:
       repo: Shitao5/blog-comments
-      issueTerm: pathname
-      label: 👋
+      repoID: R_kgDOHoYglQ
+      category: Announcements
+      categoryID: DIC_kwDOHoYglc4CV_Ft
+      mapping: pathname
+      strict: 0
+      # lightTheme:
+      darkTheme: preferred_color_scheme
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: bottom
+      lang: en
+      # lang: zh-CN
 
   widgets:
     homepage:
