@@ -41,7 +41,7 @@ params:
         default: Licensed under CC BY-NC-SA 4.0
 
   footer:
-    since: "2022"
+    since: "2019"
     customText: "Shitao's Blog"
 
   dateFormat:
