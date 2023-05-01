@@ -30,7 +30,7 @@ toc: yes
 - **Zotero**：管理文献
 - **Calibre**：管理书库
 - **RStudio**：编程、写作
-- **VLC**（Ubuntu）、**Foobar 2000**（Win 10）：听音乐
+- **VLC**（Ubuntu）、**Foobar 2000**（Win 11）：听音乐
 - **FreeFileSync**：备份文件
 
 # 联系方式

@@ -172,7 +172,7 @@ comments: yes
 
 # 第 17 周（0423-0429）
 
-这周工作上主要做数据测试，字段开发的质量令人捉急。测试之余在写 Shiny 用于搭建模型工厂，之前的 Shiny 码力告急，边写边看 *Mastering Shiny* 回血。目前需攻克的是 Shiny 模块化的问题，减少代码量。写 Shiny 的时候写了一个挺满意的函数，工作中经常会用到，下周添加到俺的 stfun 里边。
+这周工作主要是做数据测试，字段开发的质量令人捉急。测试之余在写 Shiny 用于搭建模型工厂，之前的 Shiny 码力告急，边写边看 *Mastering Shiny* 回血。目前需攻克 Shiny 的模块化，用于减少重复。写 Shiny 的时候整了一个挺满意的函数，工作中经常会用到，下周添加到俺的 stfun 里边。
 
 周二（0425）在 yihui 的[提醒](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5719573)下把博客的评论系统改成了 Giscus，支持楼中楼，写博客的动力更强了。另外，yihui [提醒](https://github.com/Shitao5/blog-comments/discussions/22#discussioncomment-5719564)俺可以把公众号的正文也搬过来，俺动力十足。这周学习了一下 Pandoc。
 
