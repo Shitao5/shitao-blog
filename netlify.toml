@@ -21,3 +21,8 @@ TZ = "/usr/share/zoneinfo/Asia/Shanghai"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "https://shitao.netlify.app/*"
+  to = "https://shitao5.org/"
+  force = true
