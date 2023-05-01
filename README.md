@@ -2,6 +2,6 @@
 
 ---
 
-These are the source files of [Shitao's personal website](https://shitao.netlify.app/). The site is built with [blogdown](https://github.com/rstudio/blogdown), using the [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/) theme, and the comment system uses [utterances](https://utteranc.es/).
+These are the source files of [Shitao's personal website](https://shitao5.org/). The site is built with [blogdown](https://github.com/rstudio/blogdown), using the [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/) theme, and the comment system uses [Giscus](https://giscus.app/).
 
-这是诗涛个人网站 <https://shitao.netlify.app/> 的源文件。网站是用 [blogdown](https://github.com/rstudio/blogdown) 搭建的，使用了 [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/) 主题，评论系统采用的是 [utterances](https://utteranc.es/)。
+这是诗涛个人网站 <https://shitao5.org/> 的源文件。网站是用 [blogdown](https://github.com/rstudio/blogdown) 搭建的，使用了 [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/) 主题，评论系统采用的是 [Giscus](https://giscus.app/)。
