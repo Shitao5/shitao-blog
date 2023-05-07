@@ -172,9 +172,9 @@ comments: yes
 
 # 第 17 周（0423-0429）
 
-这周工作主要是做数据测试，字段开发的质量令人捉急。测试之余在写 Shiny 用于搭建模型工厂，之前的 Shiny 码力告急，边写边看 *Mastering Shiny* 回血。目前需攻克 Shiny 的模块化，用于减少重复。写 Shiny 的时候整了一个挺满意的函数，工作中经常会用到，下周添加到俺的 stfun 里边。
+这周工作主要是做数据测试，字段开发的质量令人捉急。测试之余在写 [Shiny](https://shiny.rstudio.com/) 用于搭建模型工厂，之前的 Shiny 码力告急，边写边看 *Mastering Shiny* 回血。目前需攻克 Shiny 的模块化，用于减少重复。写 Shiny 的时候整了一个挺满意的函数，工作中经常会用到，下周添加到俺的 stfun 里边。
 
-周二（0425）在 yihui 的[提醒](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5719573)下把博客的评论系统改成了 Giscus，支持楼中楼，写博客的动力更强了。另外，yihui [提醒](https://github.com/Shitao5/blog-comments/discussions/22#discussioncomment-5719564)俺可以把公众号的正文也搬过来，俺动力十足。这周学习了一下 Pandoc。
+周二（0425）在 [yihui](https://yihui.org/) 的[提醒](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5719573)下把博客的评论系统改成了 Giscus，支持楼中楼，写博客的动力更强了。另外，yihui [提醒](https://github.com/Shitao5/blog-comments/discussions/22#discussioncomment-5719564)俺可以把公众号的正文也搬过来，俺动力十足。这周学习了一下 Pandoc。
 
 周三（0426）毕业论文答辩终于结束了，可以放飞自我学习玩耍了。
 
@@ -182,3 +182,20 @@ comments: yes
 
 1. [*Mastering Shiny*](https://mastering-shiny.org/)；
 1. 《图数据库》
+
+# 第 18 周（0430-0506）
+
+五一假期家里蹲，整理下本地的读书笔记[放到了](../../notes/banqian2)博客上，过程中学到了使用 `system()` 去调用 Pandoc。也在[叶寻](https://cyrusyip.org/zh-cn/)的[煽风点火](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5769555)下注册了域名（shitao5.org），要多写多更新。
+
+这个假期是实习后第一个小长假，在家把工作中会用到的一些小函数收拾到了 [stfun](https://shitao5.github.io/stfun/) 中。在用 Shiny 的时候感受到化繁为简不仅可以带来美观的代码，还有写代码时更小的心智负担。
+
+工作上，这周还是在做数据测试。对于死活对不上的字段，直接要来了开发的 Python 代码检查检查。俺的 Python 功力几乎为零，在运气的加持下检查出了一些问题。看别人的代码有一个意想不到的好处：如果对方功力深厚，可以学到很多代码技巧。
+
+下周：
+
+1. [*Mastering Shiny*](https://mastering-shiny.org/)；
+1. 《图数据库》
+
+
+
+

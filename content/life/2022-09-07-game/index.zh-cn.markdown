@@ -9,7 +9,7 @@ tags:
 image: ~
 ---
 
-上次和叶寻兄[谈到](https://shitao.netlify.app/life/jiudiannao/)小时候玩的游戏。现在连4399都要实名登录，玩游戏的「门槛」越来越高了。
+上次和叶寻兄[谈到](../jiudiannao/)小时候玩的游戏。现在连4399都要实名登录，玩游戏的「门槛」越来越高了。
 近日，下载了「金山打字通」，重温小学时在机房玩的小游戏。
 
 <img src="imgs/jinshan.jpg" width="40%" style="display: block; margin: auto;" />
