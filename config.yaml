@@ -99,22 +99,22 @@ params:
 
 menu:
   main:
-    - name: 关于
+    - name: 😀关于
       url: "/about/"
       weight: 1
-    - name: 生活
+    - name: 😋️生活
       url: "/life/"
       weight: 2
-    - name: 读书
+    - name: 😄读书
       url: "/read/"
       weight: 3
-    - name: 笔记
+    - name: 😁笔记
       url: "/notes/"
       weight: 4
-    - name: 周总结
+    - name: 😉周总结
       url: "/summary/"
       weight: 5
-    - name: 他山之石
+    - name: 😊他山之石
       url: "/others/"
       weight: 6
     # - name: TODO
@@ -123,9 +123,12 @@ menu:
     # - name: NOT-TODO
     #   url: "/not-todo/"
     #   weight: 6
-    - name: RSS订阅
+    - name: 🎯RSS订阅
       url: "/index.xml"
       weight: 7
+    - name: 🔖归档
+      url: "/page/archives"
+      weight: 8
 
   social:
     - identifier: github
