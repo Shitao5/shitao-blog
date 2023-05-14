@@ -1,0 +1,218 @@
+---
+title: dplyr 源码学习笔记（一）
+author: shitao
+date: '2023-05-14'
+slug: learn-dplyr1
+categories: []
+tags: [R]
+description: ~
+image: dplyr.jpg
+math: ~
+license: ~
+hidden: no
+comments: yes
+draft: yes
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  collapse = TRUE
+)
+```
+
+# 目标
+
+[dplyr](https://dplyr.tidyverse.org/) 是数据处理中的重要工具包，目前更新到 1.1.2 版本。了解它底层对数据进行的操作，可以帮助自己写出更简洁高效的代码。因此这两天开始拆包看源码，主要学习：
+
+1. 大部分 dplyr 包中函数的底层实现方法；
+1. 复杂 R 包的构建方法和技巧；
+1. 大佬们的代码技能和风格。
+
+# 学习笔记
+
+学习计划是从包的外围（数据集 `data-raw/` 和测试脚本 `test/`）往包的核心（函数 `R/`、`src/`）前进。为了提高代码运行速度，dplyr 包中很多函数是通过 C++ 实现的（这些脚本放置在 `src/` 中），这部分先计划先尝试结合 ChatGPT 看看能否整明白，若不行则去啃一阵子 C++ 再来闯关。
+
+## starwars 数据集
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+library(purrr)
+
+head(starwars)
+```
+
+
+dplyr 中内置的 starwars 数据集通过 [starwars.R](https://github.com/tidyverse/dplyr/blob/main/data-raw/starwars.R) 这一脚本生成，其本中涉及网页请求、数据清洗等方面。开眼看到的有：
+
+### 网页请求要设置失败提醒
+
+```{r eval=FALSE}
+get_all <- function(url) {
+  out <- NULL
+
+  while (!is.null(url)) {
+    message(null, url)
+    req <- GET(url)
+    stop_for_status(req)
+
+    con <- content(req)
+    out <- c(out, con$results)
+    url <- con$`next`
+  }
+
+  out
+}
+```
+
+自定义的 `get_all()` 用于获取 `url` 页面上的内容。在构建请求时，应设置 `stop_for_status(req)` 或 `warn_for_status(req)` 提示用户请求失败的原因，方便自己和用户进行错误处理。
+
+### 在 `tibble()` 中构建列向量
+
+```{r eval=FALSE}
+starwars <- tibble(
+  name = people %>% map_chr("name"),
+  height = people %>% map_chr("height") %>% parse_integer(na = "unknown"),
+  mass = people %>% map_chr("mass") %>% parse_number(na = "unknown"),
+  hair_color = people %>% map_chr("hair_color") %>% parse_character(na = "n/a"),
+  skin_color = people %>% map_chr("skin_color"),
+  eye_color = people %>% map_chr("eye_color"),
+  birth_year = people %>% map_chr("birth_year") %>% parse_number(na = "unknown"),
+  sex = people %>% map_chr("gender") %>% parse_character(na = "n/a"),
+  gender = NA_character_,
+  homeworld = people %>% map_chr("homeworld") %>% planets[.] %>% unname(),
+  species = people %>% map("species") %>% map_chr(1, .null = NA) %>% species[.] %>% unname(),
+  films = people %>% map("films") %>% map(. %>% flatten_chr() %>% films[.] %>% unname()),
+  vehicles = people %>% map("vehicles", .default = list()) %>% map(. %>% flatten_chr() %>% vehicles[.] %>% unname()),
+  starships = people %>% map("starships", .default = list()) %>% map(. %>% flatten_chr() %>% starships[.] %>% unname())
+)
+```
+
+`tibble()` 构建数据框采用 `列名 = 未命名的列向量` 的方式，这段代码给了我很大的启发：
+
+1. 将管道操作符 `%>%` 用于列向量的构建，并使用 `unname()` 去除列向量的命名，就有了符合条件的 `未命名的列向量`。
+1. 缺失值的处理上，`prase_` 系列函数通过 `na` 参数将指定的缺失数据转为 `NA`。
+1. 缺失值可细分为 `NA_integer_`、`NA_character_ ` 等。
+1. `%>% planets[.]` 类似操作可以在管道中根据向量的命名提取向量值，非常巧妙：
+
+    ```{r}
+    fruits <- c(
+      "A" = "Apple",  
+      "B" = "Banana"  
+    )
+    
+    c("A", "B", "B", "A") %>% 
+      fruits[.] %>% 
+      unname()
+    ```
+
+1. `map()` 函数中仍可以使用管道 `map(. %>% flatten_chr() %>% vehicles[.] %>% unname())`，本质上是对列表的批量操作。
+
+### 列表列的输出
+
+tibble 中可以包含列表列，比如 starwars 后面中的最后三列，每个值都是长度不定的字符串。
+
+```{r}
+# 筛选 starwars 中的列表列
+starwars %>% 
+  select(where(is.list))
+```
+
+```{r}
+# 查看 films 列的前两个值
+starwars %>% 
+  pull(films) %>% 
+  .[1:2]
+```
+
+列表列无法直接输出到 csv 或 Excel 等格式的文件中，因此最直接的方法方法就是将其转变为字符串。源码中的代码使用了 `mutate_if()`，这个函数在 dplyr 1.0.0 大版本更新的时候被替代了，现在使用 `across()` ：
+
+```{r}
+# 将每一个列表都合并为一个字符串
+starwars %>% 
+  mutate(across(where(is.list), ~ map_chr(., paste, collapse = ", "))) %>% 
+  select(films) # 查看 films 列
+```
+
+## storms 数据集
+
+```{r}
+head(storms)
+```
+
+
+dplyr 中内置的 storms 数据集是通过 [storms.R](https://github.com/tidyverse/dplyr/blob/main/data-raw/storms.R) 这一脚本生成的。
+
+### 读取函数可用在管道中
+
+```{r eval=FALSE}
+headers_df <- headers %>%
+  map(str_sub, start = 1, end = -2) %>% # to remove trailing comma
+  map(paste0, "\n") %>%                 # to trigger literal read
+  map_df(read_csv, col_names = c("id", "name", "n_obs"), col_types = "cci") %>%
+  mutate(name = recode(name, "UNNAMED" = id), skip = header_locations) %>%
+  select(id, name, skip, n_obs)
+```
+
+利用 `read_csv()` 函数读取列表中的元素，并通过 `map_df()` 合并行形成数据框[^map_df]，优雅！
+
+另外，`read_csv()` 中的 `col_types` 参数可以控制读取列的类型，使用简化的字符串拼写，每个字符表示一列的类型。
+
+[^map_df]: `map_df()` 在 dplyr 1.1.0 升级中被 `list_rbind()` 等函数替代。
+
+### 筛选分组
+
+通过组内某一行满足或者整组都满足某一条件对组进行筛选，比如筛选整个年级中有数学考试不及格的班级成绩。以 storms 举例，筛选在纬度 7.4 有出现过的飓风信息：
+
+```{r}
+storms %>% 
+  filter(.by = c(name),
+         any(lat == 7.4)) %>% 
+  select(1:7)
+```
+
+筛选风暴中心气压均大于 1000 millibars 的飓风信息：
+
+```{r}
+storms %>% 
+  filter(.by = name,
+         all(pressure > 1000)) %>% 
+  select(1:5, 11)
+```
+
+
+## R 包
+
+### Roxygen 文档可内嵌 Rmd 子文档
+
+在 [select.R](https://github.com/tidyverse/dplyr/blob/813dc33c8b5eee51d0ddd505c115db274072abbc/R/select.R) 中看到 Roxygen 内嵌 Rmd 子文档的用法：
+
+1. 内嵌
+
+    ```{r eval=FALSE}
+    #' ## Overview of selection features
+    #'
+    #' ```{r, child = "man/rmd/overview.Rmd"}
+    #' ```
+    ```
+
+1. knit 后嵌入
+
+    ```{r eval=FALSE}
+    #' ```{r, echo = FALSE, results = "asis"}
+    #' result <- rlang::with_options(
+    #'   knitr::knit_child("man/rmd/select.Rmd"),
+    #'   tibble.print_min = 4,
+    #'   tibble.max_extra_cols = 8,
+    #'   pillar.min_title_chars = 20,
+    #'   digits = 2
+    #' )
+    #' cat(result, sep = "\n")
+    #' ```
+    ```
+
+---
+
+<center>未完待续……</center>
