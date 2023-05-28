@@ -226,10 +226,18 @@ comments: yes
 
 1. [*Python and R for the Modren Data Scientist*](https://www.amazon.com/Python-Modern-Data-Scientist-Worlds/dp/1492093408)
 
+# 第 21 周（0522-0528）
 
+这周工作上跟着一个产品，估计下月就能上线。工作慢慢趋向平淡，在平淡中找到乐趣，跟着乐趣走。
 
+或许这是最后一个在学校寝室里写的周总结。六月中旬毕业典礼，不想赖到学校「秋风扫落叶」般赶人。这周末找好了房子，下周末搬家。新家在学校不远处，有需要便可常回学校看看。
 
+周五（0526）晚和小王一起到一位导师家吃饭，大学四年认识了几位待我们很好的导师，万分幸运，倍感珍惜。
 
+下周：
+
+1. 恢复晨跑，坚持，加油！
+1. [*Python and R for the Modren Data Scientist*](https://www.amazon.com/Python-Modern-Data-Scientist-Worlds/dp/1492093408)。
 
 
 
