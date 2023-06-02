@@ -7,7 +7,7 @@ categories: []
 tags:
   - R
   - ChatGPT
-description: ~
+description: 小王痛失网名。
 image: img.jpg
 math: ~
 license: ~
