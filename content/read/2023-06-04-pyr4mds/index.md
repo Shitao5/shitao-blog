@@ -17,7 +17,7 @@ comments: yes
 
 # 简介
 
-*PyR4MDS* 全拼是 *Python and R for the Modern Data Scientist*，大致翻译成中文是「现代数据科学家的 Python 和 R」。如果书中序言所讲：
+*PyR4MDS* 全拼是 *Python and R for the Modern Data Scientist*，大致翻译成中文是「现代数据科学家的 Python 和 R」。如书中序言所讲：
 
 > Becoming bilingual in both Python and R is a step toward building bridges among members of the wider data science community.
 
