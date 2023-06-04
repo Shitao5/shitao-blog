@@ -224,7 +224,7 @@ comments: yes
 
 下周：
 
-1. [*Python and R for the Modren Data Scientist*](https://www.amazon.com/Python-Modern-Data-Scientist-Worlds/dp/1492093408)
+1. [*Python and R for the Modren Data Scientist*](https://www.amazon.com/Python-Modern-Data-Scientist-Worlds/dp/1492093408)。
 
 # 第 21 周（0522-0528）
 
@@ -239,11 +239,17 @@ comments: yes
 1. 恢复晨跑，坚持，加油！
 1. [*Python and R for the Modren Data Scientist*](https://www.amazon.com/Python-Modern-Data-Scientist-Worlds/dp/1492093408)。
 
+# 第 22 周（0529-0604）
 
+早起运动情况：跑步 20.68 公里，跳绳 5401 个。
 
+这周看完了 [*PyR4MDS*](../../read/pyr4mds)，了解到 Python 在机器学习、文本分析、图像处理等领域比 R 方便快捷的地方。准备在 Python 上花功夫，尽快成为一位双语玩家。
 
+这周工作照常，但遇到了人事变动，第一次感受到职场的残酷。
 
+下周：
 
+1. [鸢尾花书/3-数学要素](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)。
 
 
 
