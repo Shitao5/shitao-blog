@@ -102,7 +102,7 @@ menu:
     - name: 😀关于
       url: "/about/"
       weight: 1
-    - name: 😋️生活
+    - name: 😊️生活
       url: "/life/"
       weight: 2
     - name: 😄读书
@@ -111,12 +111,15 @@ menu:
     - name: 😁笔记
       url: "/notes/"
       weight: 4
-    - name: 😉周总结
+    - name: 📒周总结
       url: "/summary/"
-      weight: 5
-    - name: 😊他山之石
-      url: "/others/"
       weight: 6
+    - name: ✒️学习
+      url: "https://learn.shitao5.org/"
+      weight: 5
+    - name: 🎉他山之石
+      url: "/others/"
+      weight: 7
     # - name: TODO
     #   url: "/todo/"
     #   weight: 5
@@ -125,10 +128,10 @@ menu:
     #   weight: 6
     - name: 🎯RSS订阅
       url: "/index.xml"
-      weight: 7
+      weight: 8
     - name: 🔖归档
       url: "/page/archives"
-      weight: 8
+      weight: 9
 
   social:
     - identifier: github
