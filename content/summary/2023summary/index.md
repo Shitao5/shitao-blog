@@ -272,6 +272,24 @@ comments: yes
 
 1. [鸢尾花书/3-数学要素](https://github.com/Visualize-ML/Book3_Elements-of-Mathematics)。
 
+# 第 24 周（0612-0618）
 
+运动情况：跑步 21.7 公里。
 
+周三周四（0614-0615）毕业典礼请假，作为毕业生代表发言。工作照常。
 
+在工作中遇到越来越多样的数据处理场景，对于抽象具体工作到函数（甚至是包）的紧迫感越来越强。
+周末学习再次学习了[元编程](https://adv-r.hadley.nz/metaprogramming.html)，尝试去掌握：代码即数据（code is data）、代码即树（code is a tree）和代码生成代码（code can generate code）的理念。
+
+为记录更加细节的学习笔记，创建了 [Quarto Website](https://quarto.org/docs/websites/) 挂在子域名（[learn.shitao5.org](https://learn.shitao5.org/)）下。
+将学习的过程记录在学习笔记中，写作输出放到博客，这样做的考虑是：
+
+1. 日常的学习笔记是在 Quarto 中写的；
+1. Quarto 对于 Python 的支持；
+1. Quarto 在排版时的便捷。
+
+最近发现域名偶尔（频率还挺高）会有无法访问的情况，尝试添加了几个 DNS，等分发完测试一下。
+
+下周：
+
+1. [Advance R](https://adv-r.hadley.nz/index.html)。
