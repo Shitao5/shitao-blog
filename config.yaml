@@ -63,8 +63,8 @@ params:
       categoryID: DIC_kwDOHoYglc4CV_Ft
       mapping: pathname
       strict: 0
-      # lightTheme:
-      darkTheme: preferred_color_scheme
+      lightTheme: light
+      darkTheme: dark
       reactionsEnabled: 1
       emitMetadata: 0
       inputPosition: bottom
