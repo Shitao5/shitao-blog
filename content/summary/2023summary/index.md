@@ -313,10 +313,18 @@ comments: yes
 1. [《数据科学实战》](https://book.douban.com/subject/26320485/)；
 1. [《动手学深度学习》](https://zh-v2.d2l.ai/index.html)。
 
+# 第 26 周（0626-0702）
 
+运动：跳绳 2002 个，骑行 27 公里。
 
+工作照常，开始承接从取数到指标计算、结果输出这一环。
 
+周六（0701）公司团建，带上小王去了富阳新沙岛，玩了皮划艇、越野车等项目，挺过瘾。周日（0702）晚和兴哥一起淋雨骑车上龙井，下来的时候他不小心摔了一跤，消毒处理完，祝尽早恢复。
 
+下周：
+
+1. [《动手学深度学习》](https://zh-v2.d2l.ai/index.html)；
+1. [*Practial Statistics for Data Scientists*](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/1491952962)。
 
 
 
