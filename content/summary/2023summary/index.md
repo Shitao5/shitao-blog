@@ -326,12 +326,24 @@ comments: yes
 1. [《动手学深度学习》](https://zh-v2.d2l.ai/index.html)；
 1. [*Practial Statistics for Data Scientists*](https://www.amazon.com/Practical-Statistics-Data-Scientists-Essential/dp/1491952962)。
 
+# 第 27 周（0703-0709）
 
+运动：跳绳 1202 个，骑行 42 公里。
 
+工作照常，下周公司年会，花一些时间排练节目。
 
+周六（0708）静下心来思考毕业以来的状态，感觉没有以前静心了，
+接下来会去平复。晚上和兴哥环西湖[骑行](../../life/cycle) 42 公里，半夜才回家。
 
+周日（0709）中午和兴哥去学校对面吃了黄焖鸡，吃完竟下起了雨。
+冲到学校里边躲雨，正巧彭老师在学校，聊了两个多小时。
+晚上和小王还有高中同学一起吃了饭，距上一次一起吃饭已经两年多，
+现在大家都进入工作状态，聚的机会就会多些。
 
+下周：
 
+1. [《高性能 MySQL》（第四版）](https://book.douban.com/subject/36096578/)；
+1. [*Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/)。
 
 
 
