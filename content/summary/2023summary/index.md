@@ -345,13 +345,19 @@ comments: yes
 1. [《高性能 MySQL》（第四版）](https://book.douban.com/subject/36096578/)；
 1. [*Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/)。
 
+# 第 28 周（0710-0716）
 
+运动：跑步 10 公里，骑行 148 分钟。
 
+周日晚（0716）年会结束，节目表演还过得去。
 
+这周尝试在工作中用暴力搜索解决一些问题，遇到了代码执行效率低、不会并行计算等瓶颈，慢慢研究。
+之前写的 `stfun::send_message_wx()` 可以及时把运行情况和结果发送到企业微信，
+让我不用守在工作电脑前等程序运行，有了很大的灵活性。
 
+下周：
 
-
-
+1. 熟悉 [tidymodels](https://www.tidymodels.org/)。
 
 
 
