@@ -378,4 +378,39 @@ comments: yes
 
 下周：
 
-1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)。
+
+# 第 30 周（0724-0730）
+
+运动：跑步 16.89 公里，骑行 3.8 小时
+
+工作照常。
+感觉自己的代码水平有所提高。
+现在写代码前会看一遍项目，先抽象出一批常用函数。
+而后在干活的过程中继续抽象，不断简化代码。
+对于一些实用的功能，收入自己的 [R 包](https://github.com/Shitao5/stfun)中。
+
+一直期待去掌握一门底层的编程语言，C++ 看了几眼就搁置了。
+这周偶然刷到了 Rust 的学习资料，Rust 给我的感觉更加亲切，
+希望它和它优秀的学习资料让俺能入个门，
+而不是`入门 -> 入门 -> 入门 -> 三过家门而不入`。
+通过 [extendr](https://github.com/extendr/extendr) 可以让 R 与 Rust 联动，
+不会让 Rust 与我现有的技能割裂开来。
+
+周末折腾了 Python 环境，最后发现：Anaconda 真鸡肋！
+直接 PyCharm 就可以搞定环境配置。
+虽然一直尝试配置一个大一统的 IDE，可以让俺在一个地方写所有代码，
+但是一番努力后发现希望不大，即使可行，也是各门语言互相迁就。
+
+现在放弃了大一统的尝试，R 无疑是 RStudio，Python 是 PyCharm，Rust 是 VSCode。
+最终将内容输出（`.qmd` 或 `.ipynb`）统一到 [Quarto Website](https://learn.shitao5.org/) 上。
+
+周六（0729）[过了生日](../../life/birth)。
+
+下周：
+
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
+2. [Rust 语言圣经](https://course.rs/about-book.html)。
+
+
+
