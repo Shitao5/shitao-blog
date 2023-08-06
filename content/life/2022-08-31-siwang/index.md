@@ -7,9 +7,6 @@ description: 对死亡的思考，可以让我们更好地活。
 tags:
   - 人生
 image: ~
-style:
-  background: '#2a9d8f'
-  color: '#fff'
 hidden: no
 ---
 

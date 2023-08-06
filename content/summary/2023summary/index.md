@@ -412,5 +412,17 @@ comments: yes
 1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
 2. [Rust 语言圣经](https://course.rs/about-book.html)。
 
+# 第 31 周（0731-0806）
 
+运动：跑步 6.38 公里，骑行 3.8 小时。
 
+工作照常。
+这周承接了一些数据测试工作。使用 R 去实现一些数据操作的效率真得很高。
+
+周末回家，家里[大丰收](../../life/home)。
+
+下周：
+
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
+1. [*feature engineering*](https://leoncuhk.gitbooks.io/feature-engineering/content/)；
+1. [Rust 语言圣经](https://course.rs/about-book.html)。

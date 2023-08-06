@@ -2,7 +2,7 @@
 title: 居家生活记录
 author: shitao
 date: '2022-08-17'
-slug: index.zh-cn
+slug: homelife
 tags:
   - 日常
 description: 一些生活碎片和感悟。
