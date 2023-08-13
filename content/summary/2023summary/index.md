@@ -410,7 +410,7 @@ comments: yes
 下周：
 
 1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
-2. [Rust 语言圣经](https://course.rs/about-book.html)。
+2. [《Rust 语言圣经》](https://course.rs/about-book.html)。
 
 # 第 31 周（0731-0806）
 
@@ -425,4 +425,19 @@ comments: yes
 
 1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
 1. [*feature engineering*](https://leoncuhk.gitbooks.io/feature-engineering/content/)；
-1. [Rust 语言圣经](https://course.rs/about-book.html)。
+1. [《Rust 语言圣经》](https://course.rs/about-book.html)。
+
+# 第 32 周（0807-0813）
+
+运动：跑步 6.39 公里，跳绳 1608 个，骑行 3.9 小时。
+
+工作照常。
+
+周六（0812）和小王去上海大剧院看了音乐剧《人间失格》，舞台效果挺震撼，演员们都很出色。
+搞来了无损的专辑，耳放和森海塞尔不用落灰了。
+
+下周：
+
+1. 尝试将部分数据处理迁移到 data.table 上；
+1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
+1. [《Rust 语言圣经》](https://course.rs/about-book.html)。
