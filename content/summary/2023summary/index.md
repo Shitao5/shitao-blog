@@ -457,3 +457,16 @@ comments: yes
 
 1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
 1. 抽空尝试用 R 写一个抓 ES 所有查询结果的方法。
+
+# 第 34 周（0821-0827）
+
+运动：跑步 17.75 公里，骑行 4.8 小时。
+
+周三（0823）参加了迪卡侬的荧光夜跑活动，全程十一公里左右，用时一小时零一分钟，跟着大部队跑了一半后才单飞，有点晚，没能进一小时。
+
+周六（0826）提车，自己的第一辆[公路车](../../life/bikes)，努力成为一个骑手（有个铁锭）。
+
+下周：
+
+1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
+1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)
