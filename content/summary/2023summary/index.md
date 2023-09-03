@@ -469,4 +469,16 @@ comments: yes
 下周：
 
 1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
-1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)
+1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)。
+
+# 第 35 周（0828-0903）
+
+运动：骑行 149.16 公里。
+
+周五（0901）下班骑车投奔姐姐，拆掉公路车的前轮放进后备箱就把车车载回了家。周六（0902）晚骑车去乌镇西栅景区门口打卡，来回 70 公里左右，用时 3 小时。回家路上遇到两位顺路的骑友，一路同行。
+
+下周：
+
+1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
+1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)。
+
