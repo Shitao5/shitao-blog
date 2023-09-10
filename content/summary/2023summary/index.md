@@ -482,3 +482,17 @@ comments: yes
 1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
 1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)。
 
+# 第 36 周（0904-0910）
+
+运动：骑行 116.37 公里，跑步 6.33 公里。
+
+本周骑 <a class="link" href="/life/bikes/#第三辆大学的自行车">I my bike</a> 上下班，骑公路车兜风溜达。这周起床时间更早一些，五点左右醒一次，状态好的话运动，差一点的话学习，再差一点就继续睡。
+
+本周工作上大数据的分析开始往 data.table 转，也在 data.table 和 tidyverse 之间找一个度。每天提前四五十分钟到公司，看几页《精通计量》。
+
+周末在家搞卫生、蒸包子、煎牛排，和小王寻找了她上班的最优路线。最近身体状态和生活节奏都还不错，正好把机器学习方面的体系搭建起来。
+
+下周：
+
+1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
+1. [《mlr3verse 技术手册》](https://github.com/zhjx19/RConf15/tree/main>)
