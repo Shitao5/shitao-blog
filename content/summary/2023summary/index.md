@@ -496,3 +496,29 @@ comments: yes
 
 1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
 1. [《mlr3verse 技术手册》](https://github.com/zhjx19/RConf15/tree/main>)
+
+# 第 37 周（0911-0917）
+
+运动：骑行 107.58 公里，跑步 10.15 公里。
+
+骑行方面，周五（0915）晚环西湖 40 公里的骑行，发现自己在连续骑行两小时左右会有小阵的眩晕，估计是没吃太多晚饭以及没有及时补充糖分导致的低血糖。因为自己运动不会很渴，也没有多喝电解质水，下次应注意骑行过程中多喝水，两小时左右补能量胶。
+
+跑步方面，周六（0916）晚小跑十公里，配速在 4′36，感觉还有提升的空间，可以循序渐进，冲击 4′20 配速。
+
+这周开始[学习算法](https://learn.shitao5.org/posts/20230914-hello-algo/)，看的书是[《Hello 算法》](https://www.hello-algo.com/)。一是对算法感兴趣，二是借机学习下 Python，三是觉得这本书写得好，欣赏并学习源码。
+
+下周：
+
+1. [《Hello 算法》](https://www.hello-algo.com/)
+1. [《精通计量：从原因到结果的探寻之旅》](https://book.douban.com/subject/33462737/)
+1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)
+
+
+
+
+
+
+
+
+
+
