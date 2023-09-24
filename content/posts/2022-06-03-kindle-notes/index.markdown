@@ -27,7 +27,7 @@ Kindle要停运了，对于用kindle看电子书的小伙伴影响估计不小�
 
 <img src="images/my-clipping.png" alt="My Clipping" width="80%" />
 <p class="caption">
-Figure 1: My Clipping
+<span id="fig:my-clipping"></span>Figure 1: My Clipping
 </p>
 
 </div>
@@ -341,7 +341,7 @@ walk2(dfs, files, write.table,
 
 <img src="images/result.png" alt="写出结果" width="80%" />
 <p class="caption">
-Figure 2: 写出结果
+<span id="fig:result"></span>Figure 2: 写出结果
 </p>
 
 </div>
@@ -350,7 +350,7 @@ Figure 2: 写出结果
 
 <img src="images/result1.png" alt="文件内容" width="80%" />
 <p class="caption">
-Figure 3: 文件内容
+<span id="fig:result1"></span>Figure 3: 文件内容
 </p>
 
 </div>
@@ -469,7 +469,7 @@ walk2(dfs, files, write.table,
       col.names = FALSE)
 ```
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 
 <div id="ref-tidy-data" class="csl-entry">
 
