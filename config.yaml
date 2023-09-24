@@ -1,60 +1,54 @@
 baseurl: https://shitao5.org/
 languageCode: en-us
-DefaultContentLanguage: zh-cn
-hasCJKLanguage: true
 title: "Shitao Wu | 吴诗涛"
-theme: hugo-theme-stack
-paginate: 6
-googleAnalytics: ''
+theme: paged
+hasCJKLanguage: true
 enableEmoji: true
-ignoreFiles:
-  - \.Rmd$
-  - \.Rmarkdown$
-  - _cache$
-  - \.knit\.md$
-  - \.utf8\.md$
+footnotereturnlinkcontents: "↩"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+features: ["blog"]
+
 permalinks:
-  post: /:year/:month/:day/:slug/
+  post: /:year/:month/:slug/
+
+outputs:
+  home: [html, rss, json]
+
+menu:
+  main:
+    - name: 首页
+      url: "/"
+      weight: 1
+    - name: 关于
+      url: "/about/"
+      weight: 2
+    - name: ️日志
+      url: "/posts/"
+      weight: 3
+    - name: 周总结
+      url: "/summary/"
+      weight: 4
+    - name: 搜索
+      url: "/search/"
+      weight: 5
+    - name: ✒️学习
+      url: "https://learn.shitao5.org/"
+      weight: 6
+    - name: 🎯订阅
+      url: "/index.xml"
+      weight: 7
 
 params:
-  mainSections:
-    - life
-    - read
-    - notes
-  featuredImageField: image
-  rssFullContent: true
-
-  sidebar:
-    emoji: 👨‍🦼
-    subtitle: "永远憧憬，永远努力"
-    avatar:
-      enable: true
-      local: true
-      src: img/logo.png
-
-  article:
-    math: true
-    toc: true
-    readingTime: true
-    license:
-        enabled: true
-        default: Licensed under CC BY-NC-SA 4.0
-
-  footer:
-    since: "2019"
-    customText: "Shitao's Blog"
-
-  dateFormat:
-    published: 2006-01-02
-    lastUpdated: 2006-01-02 15:04 MST
+  footer: "&copy; [Shitao Wu](/) 2019 - {Year}"
+  logo:
+    en:
+      alt: 修狗头像
+      img: "logo1.jpg"
+  githubContentURL: "https://github.com/Shitao5/shitao-blog/edit/main/content/"
 
   comments:
     enabled: true
     provider: giscus
-    # utterances:
-    #   repo: Shitao5/blog-comments
-    #   issueTerm: pathname
-    #   label: 👋
 
     giscus:
       repo: Shitao5/blog-comments
@@ -68,121 +62,27 @@ params:
       reactionsEnabled: 1
       emitMetadata: 0
       inputPosition: bottom
-      lang: en
-      # lang: zh-CN
+      lang: zh-CN
 
-  widgets:
-    homepage:
-        - type: search
-        - type: archives
-          params:
-              limit: 5
-        # - type: categories
-        #   params:
-        #       limit: 10
-        - type: tag-cloud
-          params:
-              limit: 100
-    page:
-        - type: toc
+    lang:
+      edit:
+        en: "编辑"
+      license:
+        en: "版权"
+      # subscribe:
+      #   cn: "订阅"
+      search:
+        en: "搜索"
+      top:
+        cn: "登顶"
 
-  colorScheme:
-    toggle: true
-    # Available values: auto, light, dark
-    default: auto
-
-  imageProcessing:
-      cover:
-          enabled: true
-      content:
-          enabled: true
-
-menu:
-  main:
-    - name: 😀关于
-      url: "/about/"
-      weight: 1
-    - name: 😊️生活
-      url: "/life/"
-      weight: 2
-    - name: 😄读书
-      url: "/read/"
-      weight: 3
-    - name: 😁笔记
-      url: "/notes/"
-      weight: 4
-    - name: 📒周总结
-      url: "/summary/"
-      weight: 6
-    - name: ✒️学习
-      url: "https://learn.shitao5.org/"
-      weight: 5
-    - name: 🎉他山之石
-      url: "/others/"
-      weight: 7
-    # - name: TODO
-    #   url: "/todo/"
-    #   weight: 5
-    # - name: NOT-TODO
-    #   url: "/not-todo/"
-    #   weight: 6
-    - name: 🎯RSS订阅
-      url: "/index.xml"
-      weight: 8
-    - name: 🔖归档
-      url: "/page/archives"
-      weight: 9
-
-  social:
-    - identifier: github
-      name: GitHub
-      url: https://github.com/Shitao5
-      weight: 10
-      params:
-          icon: brand-github
-    # - identifier: twitter
-    #   name: Twitter
-    #   url:
-    #   weight: 15
-    #   params:
-    #       icon: brand-twitter
-    - identifier: bilibili
-      name: Bilibili
-      url: https://space.bilibili.com/646580379
-      weight: 20
-      params:
-          icon: bilibili-line
-
-related:
-    includeNewer: true
-    threshold: 60
-    toLower: false
-    indices:
-        - name: tags
-          weight: 100
-        # - name: categories
-        #   weight: 200
-
-markup:
-  goldmark:
-    renderer:
-      unsafe: yes
-
-  tableOfContents:
-    endLevel: 3
-    ordered: yes
-    startLevel: 1
-
-  highlight:
-    noClasses: false
-    codeFences: true
-    guessSyntax: true
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: false
-    tabWidth: 4
-
-enableGitInfo: true
-
-frontmatter:
-  lastmod: ['lastmod', ':git', 'date', 'publishDate']
+    markup:
+      highlight:
+        codeFences: false
+      goldmark:
+        renderer:
+          unsafe: true
+        parser:
+          autoHeadingIDType: blackfriday
+      tableOfContents:
+        startLevel: 1

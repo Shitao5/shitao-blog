@@ -1,0 +1,106 @@
+.title::before { content: "➶"; }
+.main {
+  line-height: 1.75;
+}
+.archive {
+  max-width: none;
+  width: initial;
+}
+.archive > ul > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.main h2 {
+  line-height: 1.25;
+}
+.main h1, .main h2 {
+  text-align: center;
+  margin: 2em 0 1em;
+}
+.main > blockquote:first-child, #TableOfContents + blockquote {
+  border-left-color: yellow;
+  background-color: lightyellow;
+  font-size: .9em;
+}
+.archive > h2 {
+  text-align: initial;
+}
+.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note, .post-nav, .stats {
+  color: #666;
+  font-size: .9em;
+}
+.stats {
+  text-align: right;
+}
+.cn .post-nav {
+  font-size: initial;
+}
+.en .main > p:first-of-type::first-line {
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  font-size: 1.1em;
+}
+.en .main > p:first-of-type::first-letter {
+  font-size: 3em;
+  padding: .1em .1em 0 0;
+  float: left;
+  line-height: 1em;
+  font-family: cursive;
+}
+blockquote {
+  margin: 1em 0;
+  padding: 0 2em;
+}
+.single blockquote {
+  background: none;
+  border-left-width: 3px;
+  padding: 0 2em;
+}
+.home blockquote, .cn blockquote:not(:hover) {
+  border-left-color: transparent;
+}
+ol, ul {
+  padding: 0 0 0 20px;
+}
+code[class="fullwidth"] {
+  background: none;
+}
+.comments {
+  margin-top: 1em;
+}
+.cn del {
+  background-color: #444;
+}
+.cn del:hover {
+  background-color: inherit;
+  text-decoration: inherit;
+}
+.hash-note { background: lightyellow; }
+.hash-note a { color: inherit; }
+span.hash-note::before { content: "　# "; }
+.hide-notes .hash-note, .unlist { display: none !important; }
+
+@media only screen and (min-width: 768px) {
+  pre, table {
+    width: auto;
+    max-width: none;
+    margin-left: auto;
+  }
+  .cn #TableOfContents {
+    columns: 2;
+  }
+  .nav-next {
+    border-right: 1px solid;
+    padding-right: 1em;
+  }
+  .nav-prev {
+    border-left: 1px solid;
+    padding-left: 1em;
+  }
+}
+
+@media print {
+  del, footer, .nav-top, #TableOfContents {
+    display: none;
+  }
+}

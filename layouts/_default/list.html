@@ -1,0 +1,32 @@
+{{ define "page-list" }}
+{{ if (or .Params.list_pages (not .Content)) }}
+{{ if .Params.list_pages }}
+  {{ range .RegularPages.ByParam (or .Params.order_by "date" ) }}
+  <p>
+    <span>{{ .Date.Format "2006-01-02" }}</span>
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }} {{ with .Params.subtitle }}<span class='subtitle'> &middot; {{ . | markdownify }} </span>{{ end }}</a>
+  </p>
+  {{ end }}
+{{ else }}
+  {{ range .RegularPages.GroupByDate "2006" }}
+<h2>{{ .Key }}</h2>
+  {{ range .Pages.GroupByDate "01" }}
+<ul>
+  {{- range .Pages -}}
+<li{{ with .Params.page_class }} class="{{ . }}"{{ end }}><span>{{ .Date.Format "2006-01-02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
+{{ end }}</ul>
+  {{ end }}
+  {{ end }}
+  <div class="stats">
+    {{- $words := 0 -}}{{- $chars := 0 -}}{{- $runes := 0 -}}
+    {{- range .RegularPages -}}
+    {{- $words = add $words .WordCount -}}
+    {{- $chars = add $chars (split (replace .Plain "\n" "") "" | len) -}}
+    {{- $runes = add $runes (countrunes .Plain) -}}
+    {{- end -}}
+    {{- partial (cond (or (eq .Section "summary") (eq .Section "posts")) "stats_cn.html" "stats_en.html") (dict "Years" (.RegularPages.GroupByDate "2006" | len) "Posts" (len .RegularPages | lang.FormatNumberCustom 0) "Words" (lang.FormatNumberCustom 0 $words) "Runes" (lang.FormatNumberCustom 0 $runes) "Chars" (lang.FormatNumberCustom 0 $chars)) -}}
+    <!-- {{- partial (cond (eq .Section "posts") "stats_cn.html" "stats_en.html") (dict "Years" (.RegularPages.GroupByDate "2006" | len) "Posts" (len .RegularPages | lang.FormatNumberCustom 0) "Words" (lang.FormatNumberCustom 0 $words) "Runes" (lang.FormatNumberCustom 0 $runes) "Chars" (lang.FormatNumberCustom 0 $chars)) -}} -->
+  </div>
+{{ end }}
+{{ end }}
+{{ end }}
