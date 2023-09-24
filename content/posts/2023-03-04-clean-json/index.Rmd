@@ -1,6 +1,6 @@
 ---
 title: 清洗数据框中的 JSON 列
-author: shitao
+author: 吴诗涛
 date: '2023-03-04'
 slug: clean-json
 categories: []

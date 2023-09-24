@@ -1,6 +1,6 @@
 ---
 title: 解决 Kworker 导致的 CPU 占用率高问题
-author: shitao
+author: 吴诗涛
 date: '2022-12-04'
 slug: kworker-cpu
 categories: []

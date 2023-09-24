@@ -1,6 +1,6 @@
 ---
 title: Web Development for Beginners
-author: shitao
+author: 吴诗涛
 date: '2022-11-07'
 slug: web-development-for-beginners
 categories: []

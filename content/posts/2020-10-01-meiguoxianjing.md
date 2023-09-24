@@ -1,6 +1,6 @@
 ---
 title: 读《美国陷阱》
-author: shitao
+author: 吴诗涛
 date: '2020-10-01'
 slug: meiguoxianjing
 tags: [读后感]

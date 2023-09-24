@@ -1,6 +1,6 @@
 ---
 title: 骑行小感
-author: shitao
+author: 吴诗涛
 date: '2023-07-09'
 slug: cycle
 categories: []

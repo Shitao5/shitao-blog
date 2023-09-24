@@ -1,6 +1,6 @@
 ---
 title: 读《动物精神》
-author: shitao
+author: 吴诗涛
 date: '2020-05-27'
 slug: dongwujingshen
 tags: [读后感]

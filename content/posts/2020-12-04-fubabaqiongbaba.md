@@ -1,6 +1,6 @@
 ---
 title: 读《富爸爸穷爸爸》
-author: shitao
+author: 吴诗涛
 date: '2020-12-04'
 slug: fubabaqiongbaba
 tags: [读后感]

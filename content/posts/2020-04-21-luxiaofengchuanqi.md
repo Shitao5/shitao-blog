@@ -1,6 +1,6 @@
 ---
 title: 读《陆小凤传奇》
-author: shitao
+author: 吴诗涛
 date: '2020-04-21'
 slug: luxiaofengchuanqi
 tags: [读后感]

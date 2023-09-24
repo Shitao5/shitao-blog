@@ -1,6 +1,6 @@
 ---
 title: 读《富兰克林经济论文选集》
-author: shitao
+author: 吴诗涛
 date: '2021-07-05'
 slug: fulankelinjingjilunwenxuanji
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 2023 年周总结
-author: shitao
+author: 吴诗涛
 date: '2023-02-19'
 slug: 2023summary
 categories: []
@@ -13,6 +13,9 @@ license: ~
 hidden: no
 comments: yes
 ---
+
+<br>
+<center><img src="2023.jpg" width=450></center>
 
 # 第 07 周（0212-0218）
 
@@ -37,7 +40,7 @@ comments: yes
 
 随着工作不断上手，逐渐了解公司数据库的性能情况，周四（0223）晚下班前执行了几个查询，想在第二天早上来看结果，不料影响到了生产数据库，运维跑来让我注意 SQL 性能。
 
-工作日下班回来小王会在校门口等我，不加班的时候我们一起吃晚饭，加班的时候我们一起散个步然后回寝室洗洗睡大觉。这周利用五点多早起的时间看完了[《白话机器学习的数学》](../../read/ml-math)，补机器学习的基础知识。
+工作日下班回来小王会在校门口等我，不加班的时候我们一起吃晚饭，加班的时候我们一起散个步然后回寝室洗洗睡大觉。这周利用五点多早起的时间看完了[《白话机器学习的数学》](../../posts/ml-math)，补机器学习的基础知识。
 
 下周：
 
@@ -48,7 +51,7 @@ comments: yes
 
 本周工作不忙，周五（0303）公司团建，和部门的小伙伴们一起爬山、吃吃喝喝、围炉煮茶。工作的四天活不多，大部分时间在学习公司内部分享的 MySQL 资料，目前学到关于索引、表锁等基础内容。本周接触到产品测试方面的一些内容，之前未曾了解过。
 
-趁爬完山后的放松，周六（0304）在家琢磨了[用 R 读取 JSON 列](../../notes/clean-json)，日后很需要。
+趁爬完山后的放松，周六（0304）在家琢磨了[用 R 读取 JSON 列](../../posts/clean-json)，日后很需要。
 
 本周通勤全部打车，购买打车优惠券之后每次打车在 20-23 左右。白天上班路上看会儿书，Kindle 随身带；晚上返校路上闭目养神，「回魂」一下。
 
@@ -84,7 +87,7 @@ comments: yes
 1. 写 `case_when()` 时需注意判断逻辑的先后顺序；
 1. 终于可以熟练使用 `map()` 系列函数了；
 1. 学会使用 [**reticulate**](https://rstudio.github.io/reticulate/index.html) 包在 R 中调用 Python 脚本中定义的函数，目前对数据类型的转换还不是很熟悉，等熟练之后写一篇博客;
-1. 在睡前和打车路上看完了[《从零开始：机器学习的数学原理和算法实践》](../../read/ml-math2)（*~~笔记仍在整理中~~ 笔记已在 0321 整理完毕*）。
+1. 在睡前和打车路上看完了[《从零开始：机器学习的数学原理和算法实践》](../../posts/ml-math2)（*~~笔记仍在整理中~~ 笔记已在 0321 整理完毕*）。
 
 这周六（0318）参与乐高活动，周五（0317）因为工作无法抽身去组织，这也让我有机会看到了小伙伴们的成长，毕业前慢慢将大部分工作交手出去。
 
@@ -127,7 +130,7 @@ comments: yes
 
 # 第 14 周（0402-0408）
 
-这周在补财务方面的基础知识，包括财税票三部分，大一大二学的会计方面的课程还是有用处的。周三（0405）清明节一天假期，在寝室写了 [实习感悟](../../life/workandme)，感触很多。
+这周在补财务方面的基础知识，包括财税票三部分，大一大二学的会计方面的课程还是有用处的。周三（0405）清明节一天假期，在寝室写了 [实习感悟](../../posts/workandme)，感触很多。
 
 下周要交毕业论文初稿，收到了同学的求助，帮他们处理论文中的实证部分。大三《计量经济学》课程中关于面板数据回归的部分已忘得差不多了，加之自己的毕业论文用的是截面数据，正好遇上其他同学需要，这周粗糙地补了补。周六（0408）和小王一起回家的时候重新翻了翻《为什么》，然后把两本 Angrist 的计量经济学教材都带回来了，有兴趣地时候翻吧。
 
@@ -185,7 +188,7 @@ comments: yes
 
 # 第 18 周（0430-0506）
 
-五一假期家里蹲，整理下本地的读书笔记[放到了](../../notes/banqian2)博客上，过程中学到了使用 `system()` 去调用 Pandoc。也在[叶寻](https://cyrusyip.org/zh-cn/)的[煽风点火](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5769555)下注册了域名（shitao5.org），要多写多更新。
+五一假期家里蹲，整理下本地的读书笔记[放到了](../../posts/banqian2)博客上，过程中学到了使用 `system()` 去调用 Pandoc。也在[叶寻](https://cyrusyip.org/zh-cn/)的[煽风点火](https://github.com/Shitao5/blog-comments/discussions/25#discussioncomment-5769555)下注册了域名（shitao5.org），要多写多更新。
 
 这个假期是实习后第一个小长假，在家把工作中会用到的一些小函数收拾到了 [stfun](https://shitao5.github.io/stfun/) 中。在用 Shiny 的时候感受到化繁为简不仅可以带来美观的代码，还有写代码时更小的心智负担。
 
@@ -202,11 +205,11 @@ comments: yes
 
 上周日（0507）和小王在图书馆一起学习，晚上陪她去做了美甲。第一次去美甲店，原来做美甲这么热闹，采用现场取号的模式，大有「美甲经济」的样子。
 
-周一（0508）公司新来一位算法工程师，期待他大展神威，让俺瞧瞧传说中的「算法攻城狮」。周三（0510）开始一脚踏入 Python 的地盘，用开发的 Python 跑 R 环境中的数据，以测试开发的 Python 脚本，感觉不错。周四（0511）看起了 dplyr 的源码，被大佬们的代码所惊艳，赶紧拿起小本本做[笔记](../../notes/learn-dplyr1)。
+周一（0508）公司新来一位算法工程师，期待他大展神威，让俺瞧瞧传说中的「算法攻城狮」。周三（0510）开始一脚踏入 Python 的地盘，用开发的 Python 跑 R 环境中的数据，以测试开发的 Python 脚本，感觉不错。周四（0511）看起了 dplyr 的源码，被大佬们的代码所惊艳，赶紧拿起小本本做[笔记](../../posts/learn-dplyr1)。
 
 周六（0513）上午身体躲在寝室里，灵魂冲浪在油管上，看了几个图论方面的视频，让俺入门一下拜托啦！下午参加了 REACH 奖学金颁奖典礼，至此，俺的大学画上圆满句号。颁奖典礼结束后和兴哥聊了到深夜，其中自然不乏俺最爱的请客吃饭环节哈哈！这周正赶上校园开放 + 校庆，学校热闹非凡，是三年来不曾见过的景象，很是欣慰。
 
-周日（0514）上午继续窝在寝室，冲浪了一波气功心法，这玩意儿看起来玄乎，俺要琢磨一阵时间的真假。下午耕博客，早上给麻麻送去母亲节祝福时被告知俺的博客翻页太麻烦，赶紧把[归档页面](../../page/archives)放在侧栏中，这样俺的博客就不是「妈见打」系列啦！
+周日（0514）上午继续窝在寝室，冲浪了一波气功心法，这玩意儿看起来玄乎，俺要琢磨一阵时间的真假。下午耕博客，早上给麻麻送去母亲节祝福时被告知俺的博客翻页太麻烦，赶紧把[归档页面](../../posts/archives)放在侧栏中，这样俺的博客就不是「妈见打」系列啦！
 
 下周：
 
@@ -216,7 +219,7 @@ comments: yes
 
 # 第 20 周（0515-0521）
 
-这周看完了[《图数据库》](../../read/neo4j)，在寻找后续学习资料时看到了[《网络、群体与市场》](https://book.douban.com/subject/6885949/)，其中最让我吃惊的是图居然和博弈论密切相关。绕了一大圈，又回到经济学专业的内容来了，一点点探索。
+这周看完了[《图数据库》](../../posts/neo4j)，在寻找后续学习资料时看到了[《网络、群体与市场》](https://book.douban.com/subject/6885949/)，其中最让我吃惊的是图居然和博弈论密切相关。绕了一大圈，又回到经济学专业的内容来了，一点点探索。
 
 图数据库 [Neo4j](https://neo4j.com/) 是用 Java 写的，提供了 Java API 用于交互。公司后端用的也是 Java，还有以后要用到 Spark 之类的大数据框架都离不开 Java。这些让俺对之前学 C++ 的选择有些动摇。俺无意参与语言之争，但是精力有限，慢慢地还是要选择一门进行钻研。
 
@@ -243,7 +246,7 @@ comments: yes
 
 早起运动情况：跑步 20.68 公里，跳绳 5401 个。
 
-这周看完了 [*PyR4MDS*](../../read/pyr4mds)，了解到 Python 在机器学习、文本分析、图像处理等领域比 R 方便快捷的地方。准备在 Python 上花功夫，尽快成为一位双语玩家。
+这周看完了 [*PyR4MDS*](../../posts/pyr4mds)，了解到 Python 在机器学习、文本分析、图像处理等领域比 R 方便快捷的地方。准备在 Python 上花功夫，尽快成为一位双语玩家。
 
 这周工作照常，但遇到了人事变动，第一次感受到职场的残酷。
 
@@ -333,7 +336,7 @@ comments: yes
 工作照常，下周公司年会，花一些时间排练节目。
 
 周六（0708）静下心来思考毕业以来的状态，感觉没有以前静心了，
-接下来会去平复。晚上和兴哥环西湖[骑行](../../life/cycle) 42 公里，半夜才回家。
+接下来会去平复。晚上和兴哥环西湖[骑行](../../posts/cycle) 42 公里，半夜才回家。
 
 周日（0709）中午和兴哥去学校对面吃了黄焖鸡，吃完竟下起了雨。
 冲到学校里边躲雨，正巧彭老师在学校，聊了两个多小时。
@@ -378,7 +381,7 @@ comments: yes
 
 下周：
 
-1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)。
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://learn.shitao5.org/posts/20230724-fes/)。
 
 # 第 30 周（0724-0730）
 
@@ -405,12 +408,12 @@ comments: yes
 现在放弃了大一统的尝试，R 无疑是 RStudio，Python 是 PyCharm，Rust 是 VSCode。
 最终将内容输出（`.qmd` 或 `.ipynb`）统一到 [Quarto Website](https://learn.shitao5.org/) 上。
 
-周六（0729）[过了生日](../../life/birth)。
+周六（0729）[过了生日](../../posts/birth)。
 
 下周：
 
-1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
-2. [《Rust 语言圣经》](https://course.rs/about-book.html)。
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://learn.shitao5.org/posts/20230724-fes/)；
+2. [《Rust 语言圣经》](https://learn.shitao5.org/posts/20230729-coursers/)。
 
 # 第 31 周（0731-0806）
 
@@ -419,13 +422,13 @@ comments: yes
 工作照常。
 这周承接了一些数据测试工作。使用 R 去实现一些数据操作的效率真得很高。
 
-周末回家，家里[大丰收](../../life/home)。
+周末回家，家里[大丰收](../../posts/home)。
 
 下周：
 
-1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://bookdown.org/max/FES/)；
-1. [*feature engineering*](https://leoncuhk.gitbooks.io/feature-engineering/content/)；
-1. [《Rust 语言圣经》](https://course.rs/about-book.html)。
+1. [*Feature Engineering and Selection: A Practical Approach for Predictive Models*](https://learn.shitao5.org/posts/20230724-fes/)；
+1. [*feature engineering*](https://learn.shitao5.org/posts/20230803-fe/)；
+1. [《Rust 语言圣经》](https://learn.shitao5.org/posts/20230729-coursers/)。
 
 # 第 32 周（0807-0813）
 
@@ -439,8 +442,8 @@ comments: yes
 下周：
 
 1. 尝试将部分数据处理迁移到 data.table 上；
-1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
-1. [《Rust 语言圣经》](https://course.rs/about-book.html)。
+1. [《计算机科学导论》](https://learn.shitao5.org/posts/20230813-fd-of-cs/)；
+1. [《Rust 语言圣经》](https://learn.shitao5.org/posts/20230729-coursers/)。
 
 # 第 33 周（0814-0820）
 
@@ -455,7 +458,7 @@ comments: yes
 
 下周：
 
-1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
+1. [《计算机科学导论》](https://learn.shitao5.org/posts/20230813-fd-of-cs/)；
 1. 抽空尝试用 R 写一个抓 ES 所有查询结果的方法。
 
 # 第 34 周（0821-0827）
@@ -464,12 +467,12 @@ comments: yes
 
 周三（0823）参加了迪卡侬的荧光夜跑活动，全程十一公里左右，用时一小时零一分钟，跟着大部队跑了一半后才单飞，有点晚，没能进一小时。
 
-周六（0826）提车，自己的第一辆[公路车](../../life/bikes)，努力成为一个骑手（有个铁锭）。
+周六（0826）提车，自己的第一辆[公路车](../../posts/bikes)，努力成为一个骑手（有个铁锭）。
 
 下周：
 
-1. [《计算机科学导论》](https://book.douban.com/subject/35084853/)；
-1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)。
+1. [《计算机科学导论》](https://learn.shitao5.org/posts/20230813-fd-of-cs/)；
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)。
 
 # 第 35 周（0828-0903）
 
@@ -479,14 +482,14 @@ comments: yes
 
 下周：
 
-1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
-1. [*Applied Machine Learning Using mlr3 in R*](https://mlr3book.mlr-org.com/)。
+1. [《数据挖掘：概念与技术》](https://learn.shitao5.org/posts/20230901-dm/)；
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)。
 
 # 第 36 周（0904-0910）
 
 运动：骑行 116.37 公里，跑步 6.33 公里。
 
-本周骑 <a class="link" href="/life/bikes/#第三辆大学的自行车">I my bike</a> 上下班，骑公路车兜风溜达。这周起床时间更早一些，五点左右醒一次，状态好的话运动，差一点的话学习，再差一点就继续睡。
+本周骑 <a class="link" href="/posts/bikes/#第三辆-大学的自行车">I my bike</a> 上下班，骑公路车兜风溜达。这周起床时间更早一些，五点左右醒一次，状态好的话运动，差一点的话学习，再差一点就继续睡。
 
 本周工作上大数据的分析开始往 data.table 转，也在 data.table 和 tidyverse 之间找一个度。每天提前四五十分钟到公司，看几页《精通计量》。
 
@@ -494,8 +497,8 @@ comments: yes
 
 下周：
 
-1. [《数据挖掘：概念与技术》](https://book.douban.com/subject/11542972/)；
-1. [《mlr3verse 技术手册》](https://github.com/zhjx19/RConf15/tree/main>)
+1. [《数据挖掘：概念与技术》](https://learn.shitao5.org/posts/20230901-dm/)；
+1. [《mlr3verse 技术手册》](https://github.com/zhjx19/RConf15/tree/main>)。
 
 # 第 37 周（0911-0917）
 
@@ -509,16 +512,19 @@ comments: yes
 
 下周：
 
-1. [《Hello 算法》](https://www.hello-algo.com/)
-1. [《精通计量：从原因到结果的探寻之旅》](https://book.douban.com/subject/33462737/)
-1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)
+1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
+1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
+1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
 
+# 第 38 周（0918-0924）
 
+运动：骑行 116.51 公里。
 
+工作上，本周根据客户反馈对产品进行数据质量排查，写数据质量报告。目前离线的数据主要存放在 Elasticsearch 和 Neo4j 中，非关系型的数据库之前用的不多，还要多多熟悉。尤其是 Elasticsearch，用法比较灵活，多看看[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)。
 
-
-
-
-
-
+1. [*Elasticsearch Guide 8.10*](https://learn.shitao5.org/posts/20230920-es-ref/)；
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
+1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
+1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
+1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
 

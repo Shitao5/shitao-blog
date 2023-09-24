@@ -1,6 +1,6 @@
 ---
 title: 读《案例研究：原理与实践》
-author: shitao
+author: 吴诗涛
 date: '2020-08-05'
 slug: anliyanjiu
 tags: [读后感]

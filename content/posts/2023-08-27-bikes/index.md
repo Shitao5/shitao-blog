@@ -1,6 +1,6 @@
 ---
 title: 自行车
-author: shitao
+author: 吴诗涛
 date: '2023-08-27'
 slug: bikes
 categories: []

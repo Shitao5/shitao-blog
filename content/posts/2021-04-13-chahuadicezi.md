@@ -1,6 +1,6 @@
 ---
 title: 读《插花地册子》
-author: shitao
+author: 吴诗涛
 date: '2021-04-13'
 slug: chahuadicezi
 tags: [读后感]

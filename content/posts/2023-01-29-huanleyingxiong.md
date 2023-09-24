@@ -1,6 +1,6 @@
 ---
 title: 再读《欢乐英雄》
-author: shitao
+author: 吴诗涛
 date: '2023-01-29'
 slug: huanleyingxiong
 tags: [读后感]

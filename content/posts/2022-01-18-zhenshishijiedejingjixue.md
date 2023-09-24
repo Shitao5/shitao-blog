@@ -1,6 +1,6 @@
 ---
 title: 读《真实世界的经济学》
-author: shitao
+author: 吴诗涛
 date: '2022-01-18'
 slug: zhenshishijiedejingjixue
 tags: [读后感]

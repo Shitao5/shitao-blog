@@ -1,6 +1,6 @@
 ---
 title: Kindle 笔记整理 2.0
-author: shitao
+author: 吴诗涛
 date: '2022-09-12'
 slug: kindle2
 tags:
@@ -23,12 +23,12 @@ knitr::opts_chunk$set(
 
 # 起因
 
-之前[写过](/../notes/kindle-notes/)一次整理 Kindle 笔记的方法，不甚满意，趁着中秋假期来填坑。
+之前[写过](../kindle-notes/)一次整理 Kindle 笔记的方法，不甚满意，趁着中秋假期来填坑。
 
 对当初不满的地方有：
 
-1. [数据清洗部分](/../notes/kindle-notes/#%E8%AF%86%E5%88%AB%E7%AC%94%E8%AE%B0%E5%9D%97)属于误打误撞成功的，不清楚其鲁棒性如何。
-1. [结果的写出](/../notes/kindle-notes/#%E5%86%99%E5%87%BA%E5%88%B0%E6%96%87%E4%BB%B6)采用了强制构建 markdown 结构的方法，并未采用简单的输出功能。
+1. [数据清洗部分](../kindle-notes/#%E8%AF%86%E5%88%AB%E7%AC%94%E8%AE%B0%E5%9D%97)属于误打误撞成功的，不清楚其鲁棒性如何。
+1. [结果的写出](../kindle-notes/#%E5%86%99%E5%87%BA%E5%88%B0%E6%96%87%E4%BB%B6)采用了强制构建 markdown 结构的方法，并未采用简单的输出功能。
 
 # 用法详解
 

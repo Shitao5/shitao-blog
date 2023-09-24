@@ -1,6 +1,6 @@
 ---
 title: 读《塑造工匠精神》
-author: shitao
+author: 吴诗涛
 date: '2020-08-14'
 slug: suzaogongjiangjingshen
 tags: [读后感]

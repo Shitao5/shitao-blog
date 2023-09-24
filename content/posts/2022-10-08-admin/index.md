@@ -1,6 +1,6 @@
 ---
 title: 成为 tidy-R 群管理员啦！
-author: shitao
+author: 吴诗涛
 date: '2022-10-08'
 slug: admin
 categories: []

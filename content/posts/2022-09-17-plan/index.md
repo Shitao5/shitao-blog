@@ -1,6 +1,6 @@
 ---
 title: 未取得保研名额
-author: shitao
+author: 吴诗涛
 date: '2022-09-17'
 slug: plan
 tags:

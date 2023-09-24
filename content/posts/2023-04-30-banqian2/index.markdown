@@ -1,6 +1,6 @@
 ---
 title: 读书笔记搬迁至博客
-author: shitao
+author: 吴诗涛
 date: '2023-04-30'
 slug: banqian2
 categories: []
@@ -36,7 +36,7 @@ library(httr2)  # 请求正文
 
 ```r
 # 读取公众号「臭臭札记」标签页面
-data <- read_html("../../read/2022-10-11-banqian/#臭臭札记.html")
+data <- read_html("../2022-10-11-banqian/#臭臭札记.html")
 
 # 提取标题
 titles <- data %>% 
@@ -195,7 +195,7 @@ file.copy(file_info$path, file_info$new_path)
 yamls <- file_info %>% 
   mutate(yaml = str_c("---\n",
                       "title: 读《", book, "》\n",
-                      "author: shitao\n",
+                      "author: 吴诗涛\n",
                       "date: '", str_sub(new_path, 15, 24), "'\n",
                       "slug: ", slug, "\n",
                       "tags: [读后感]\n",

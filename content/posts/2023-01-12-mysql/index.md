@@ -1,6 +1,6 @@
 ---
 title: 读《MySQL 必知必会》
-author: shitao
+author: 吴诗涛
 date: '2023-01-12'
 slug: mysql
 categories: []

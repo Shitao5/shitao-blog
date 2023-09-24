@@ -1,6 +1,6 @@
 ---
 title: '2023 年第一个好消息'
-author: shitao
+author: 吴诗涛
 date: '2023-01-01'
 slug: good-news
 categories: []

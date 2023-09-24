@@ -1,6 +1,6 @@
 ---
 title: 实习带给我什么
-author: shitao
+author: 吴诗涛
 date: '2023-04-05'
 slug: workandme
 categories: []

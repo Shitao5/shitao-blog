@@ -1,6 +1,6 @@
 ---
 title: 读《案例研究方法的应用》
-author: shitao
+author: 吴诗涛
 date: '2020-07-26'
 slug: anliyanjiufangfadeyingyong
 tags: [读后感]

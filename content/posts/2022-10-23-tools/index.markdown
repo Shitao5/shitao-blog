@@ -1,6 +1,6 @@
 ---
 title: 拓展解决问题的思路
-author: shitao
+author: 吴诗涛
 date: '2022-10-23'
 slug: tools
 categories: []
@@ -297,7 +297,7 @@ df3 %>%
 
 <div class="figure" style="text-align: center">
 <img src="imgs/nest.png" alt="数据嵌套" width="280" />
-<p class="caption">Figure 1: 数据嵌套</p>
+<p class="caption"><span id="fig:unnamed-chunk-12"></span>Figure 1: 数据嵌套</p>
 </div>
 
 ## 从一到多，从多到很多

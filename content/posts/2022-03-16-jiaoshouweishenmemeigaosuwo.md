@@ -1,6 +1,6 @@
 ---
 title: 读《教授为什么没告诉我》
-author: shitao
+author: 吴诗涛
 date: '2022-03-16'
 slug: jiaoshouweishenmemeigaosuwo
 tags: [读后感]

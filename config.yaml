@@ -14,6 +14,9 @@ permalinks:
 outputs:
   home: [html, rss, json]
 
+author:
+  name: "吴诗涛"
+
 menu:
   main:
     - name: 首页
@@ -44,45 +47,32 @@ params:
     en:
       alt: 修狗头像
       img: "logo1.jpg"
+  customJS:
+    - "comment-utils.js"
+    - "hash-notes.js"
+    - "toggle-notes.js"
+    - "post-nav.js"
   githubContentURL: "https://github.com/Shitao5/shitao-blog/edit/main/content/"
 
-  comments:
-    enabled: true
-    provider: giscus
+  lang:
+    edit:
+      en: "编辑"
+    license:
+      en: "版权"
+    # subscribe:
+    #   cn: "订阅"
+    search:
+      en: "搜索"
+    top:
+      cn: "登顶"
 
-    giscus:
-      repo: Shitao5/blog-comments
-      repoID: R_kgDOHoYglQ
-      category: Announcements
-      categoryID: DIC_kwDOHoYglc4CV_Ft
-      mapping: pathname
-      strict: 0
-      lightTheme: light
-      darkTheme: dark
-      reactionsEnabled: 1
-      emitMetadata: 0
-      inputPosition: bottom
-      lang: zh-CN
-
-    lang:
-      edit:
-        en: "编辑"
-      license:
-        en: "版权"
-      # subscribe:
-      #   cn: "订阅"
-      search:
-        en: "搜索"
-      top:
-        cn: "登顶"
-
-    markup:
-      highlight:
-        codeFences: false
-      goldmark:
-        renderer:
-          unsafe: true
-        parser:
-          autoHeadingIDType: blackfriday
-      tableOfContents:
-        startLevel: 1
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+  tableOfContents:
+    startLevel: 1

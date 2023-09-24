@@ -1,6 +1,6 @@
 ---
 title: 读《Principles》
-author: shitao
+author: 吴诗涛
 date: '2021-05-27'
 slug: principles
 tags: [读后感]

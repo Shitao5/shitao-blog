@@ -1,6 +1,6 @@
 ---
 title: 劲爆鸡米花
-author: shitao
+author: 吴诗涛
 date: '2022-10-09'
 slug: chicken-rice-flower
 categories: []

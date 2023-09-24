@@ -1,6 +1,6 @@
 ---
 title: 研究生考试弃考
-author: shitao
+author: 吴诗涛
 date: '2022-12-26'
 slug: choice
 categories: []

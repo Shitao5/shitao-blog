@@ -1,6 +1,6 @@
 ---
 title: Quarto HTML 页面添加 utterances 评论功能
-author: shitao
+author: 吴诗涛
 date: '2022-10-14'
 slug: quarto-html-utterances
 categories: []

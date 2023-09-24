@@ -1,6 +1,6 @@
 ---
 title: 读《弗兰克尔自传：活出生命的意义》
-author: shitao
+author: 吴诗涛
 date: '2022-02-26'
 slug: fulankeerzizhuan
 tags: [读后感]

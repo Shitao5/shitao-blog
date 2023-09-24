@@ -1,6 +1,6 @@
 ---
 title: 读《谁动了我的奶酪》
-author: shitao
+author: 吴诗涛
 date: '2020-04-02'
 slug: shuidonglewodenailao
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《成为我自己》
-author: shitao
+author: 吴诗涛
 date: '2022-09-08'
 slug: chengweiwoziji
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《工匠精神：精英员工的行为准则》
-author: shitao
+author: 吴诗涛
 date: '2020-08-19'
 slug: gongjiangjingshen
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《机关行为36“忌”》
-author: shitao
+author: 吴诗涛
 date: '2021-06-08'
 slug: jiguanxingwei36
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《无用才读书》
-author: shitao
+author: 吴诗涛
 date: '2020-12-21'
 slug: wuyongcaidushu
 tags: [读后感]

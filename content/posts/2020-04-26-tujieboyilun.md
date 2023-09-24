@@ -1,6 +1,6 @@
 ---
 title: 读《图解博弈论》
-author: shitao
+author: 吴诗涛
 date: '2020-04-26'
 slug: tujieboyilun
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《反脆弱》
-author: shitao
+author: 吴诗涛
 date: '2022-02-12'
 slug: fancuiruo
 tags: [读后感]

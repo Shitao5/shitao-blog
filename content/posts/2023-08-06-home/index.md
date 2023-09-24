@@ -1,6 +1,6 @@
 ---
 title: 绿色家乡
-author: shitao
+author: 吴诗涛
 date: '2023-08-06'
 slug: home
 categories: []

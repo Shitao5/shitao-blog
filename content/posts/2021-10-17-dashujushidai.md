@@ -1,6 +1,6 @@
 ---
 title: 读《大数据时代》
-author: shitao
+author: 吴诗涛
 date: '2021-10-17'
 slug: dashujushidai
 tags: [读后感]

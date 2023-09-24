@@ -1,6 +1,6 @@
 ---
 title: 爸妈开年忙
-author: shitao
+author: 吴诗涛
 date: '2023-02-10'
 slug: busypa
 categories: []

@@ -1,6 +1,6 @@
 ---
 title: 读《心智模式决定你的一生》
-author: shitao
+author: 吴诗涛
 date: '2021-07-11'
 slug: xinzhimoshijuedingnideyisheng
 tags: [读后感]

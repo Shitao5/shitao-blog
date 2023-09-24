@@ -1,6 +1,6 @@
 ---
 title: 读《财富自由之路》
-author: shitao
+author: 吴诗涛
 date: '2020-08-12'
 slug: caifuziyouzhilu
 tags: [读后感]

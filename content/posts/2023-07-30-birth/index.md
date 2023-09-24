@@ -1,6 +1,6 @@
 ---
 title: 生日
-author: shitao
+author: 吴诗涛
 date: '2023-07-30'
 slug: birth
 categories: []

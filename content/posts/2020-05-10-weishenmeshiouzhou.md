@@ -1,6 +1,6 @@
 ---
 title: 读《为什么是欧洲》
-author: shitao
+author: 吴诗涛
 date: '2020-05-10'
 slug: weishenmeshiouzhou
 tags: [读后感]

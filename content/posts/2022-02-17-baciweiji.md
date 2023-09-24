@@ -1,6 +1,6 @@
 ---
 title: 读《八次危机》
-author: shitao
+author: 吴诗涛
 date: '2022-02-17'
 slug: baciweiji
 tags: [读后感]

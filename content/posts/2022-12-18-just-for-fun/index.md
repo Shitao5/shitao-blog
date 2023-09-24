@@ -1,6 +1,6 @@
 ---
 title: Just for Fun
-author: shitao
+author: 吴诗涛
 date: '2022-12-18'
 slug: just-for-fun
 categories: []

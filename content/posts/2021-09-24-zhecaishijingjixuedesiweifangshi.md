@@ -1,6 +1,6 @@
 ---
 title: 读《这才是经济学的思维方式》
-author: shitao
+author: 吴诗涛
 date: '2021-09-24'
 slug: zhecaishijingjixuedesiweifangshi
 tags: [读后感]

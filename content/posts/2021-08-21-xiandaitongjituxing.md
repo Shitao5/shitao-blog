@@ -1,6 +1,6 @@
 ---
 title: 读《现代统计图形》
-author: shitao
+author: 吴诗涛
 date: '2021-08-21'
 slug: xiandaitongjituxing
 tags: [读后感]

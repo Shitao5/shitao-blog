@@ -1,6 +1,6 @@
 ---
 title: 读《人间失格》
-author: shitao
+author: 吴诗涛
 date: '2019-12-11'
 slug: renjianshige
 tags: [读后感]

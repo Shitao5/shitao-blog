@@ -1,6 +1,6 @@
 ---
 title: 读《图数据库》
-author: shitao
+author: 吴诗涛
 date: '2023-05-19'
 slug: neo4j
 categories: []

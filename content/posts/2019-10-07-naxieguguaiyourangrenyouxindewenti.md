@@ -1,6 +1,6 @@
 ---
 title: 读《那些古怪又让人忧心的问题》
-author: shitao
+author: 吴诗涛
 date: '2019-10-07'
 slug: naxieguguaiyourangrenyouxindewenti
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: Kindle 笔记整理 3.0
-author: shitao
+author: 吴诗涛
 date: '2023-02-01'
 slug: kindle3
 categories: []

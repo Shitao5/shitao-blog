@@ -1,6 +1,6 @@
 ---
 title: 读《从一到无穷大》
-author: shitao
+author: 吴诗涛
 date: '2021-02-26'
 slug: congyidaowuqiongda
 tags: [读后感]

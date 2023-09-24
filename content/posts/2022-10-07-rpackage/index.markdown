@@ -1,6 +1,6 @@
 ---
 title: 修改 R 包源码
-author: shitao
+author: 吴诗涛
 date: '2022-10-07'
 slug: rpackage
 categories: []
@@ -71,7 +71,7 @@ rstatix::cor_test(iris, Sepal.Length, Petal.Length) # 输出结果变成 4 位�
 #> # A tibble: 1 × 8
 #>   var1         var2           cor statistic        p conf.low conf.high method 
 #>   <chr>        <chr>        <dbl>     <dbl>    <dbl>    <dbl>     <dbl> <chr>  
-#> 1 Sepal.Length Petal.Length 0.872      21.6 1.04e-47    0.827     0.906 Pearson
+#> 1 Sepal.Length Petal.Length  0.87      21.6 1.04e-47    0.827     0.906 Pearson
 ```
 
 注意：这种方法是临时性的，仅当次使用有效。如果要永久修改，我的想法是复制整个 rstatix 包源码，修改源码后在本地调用。

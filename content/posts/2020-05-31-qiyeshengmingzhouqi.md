@@ -1,6 +1,6 @@
 ---
 title: 读《企业生命周期》
-author: shitao
+author: 吴诗涛
 date: '2020-05-31'
 slug: qiyeshengmingzhouqi
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《货币生产的伦理》
-author: shitao
+author: 吴诗涛
 date: '2020-04-18'
 slug: huobishengchandelunli
 tags: [读后感]

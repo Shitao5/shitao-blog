@@ -1,6 +1,6 @@
 ---
 title: 读《重启改革议程—中国经济改革二十讲》
-author: shitao
+author: 吴诗涛
 date: '2021-08-02'
 slug: chongqigaigeyicheng
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《管理学》
-author: shitao
+author: 吴诗涛
 date: '2020-07-01'
 slug: guanlixue
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《人的全景》
-author: shitao
+author: 吴诗涛
 date: '2022-01-16'
 slug: rendequanjing
 tags: [读后感]

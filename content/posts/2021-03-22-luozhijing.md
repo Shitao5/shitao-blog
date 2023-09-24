@@ -1,6 +1,6 @@
 ---
 title: 读《罗织经》
-author: shitao
+author: 吴诗涛
 date: '2021-03-22'
 slug: luozhijing
 tags: [读后感]

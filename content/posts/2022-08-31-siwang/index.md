@@ -1,6 +1,6 @@
 ---
 title: 再一次面对死亡
-author: shitao
+author: 吴诗涛
 date: '2022-08-31'
 slug: siwang
 description: 对死亡的思考，可以让我们更好地活。

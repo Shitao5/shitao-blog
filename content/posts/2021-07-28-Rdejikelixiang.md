@@ -1,6 +1,6 @@
 ---
 title: 读《R的极客理想——量化投资篇》
-author: shitao
+author: 吴诗涛
 date: '2021-07-28'
 slug: Rdejikelixiang
 tags: [读后感]

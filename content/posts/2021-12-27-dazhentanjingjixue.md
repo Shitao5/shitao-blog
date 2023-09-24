@@ -1,6 +1,6 @@
 ---
 title: 读《大侦探经济学》
-author: shitao
+author: 吴诗涛
 date: '2021-12-27'
 slug: dazhentanjingjixue
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《六顶思考帽》
-author: shitao
+author: 吴诗涛
 date: '2021-05-25'
 slug: liudingsikaomao
 tags: [读后感]

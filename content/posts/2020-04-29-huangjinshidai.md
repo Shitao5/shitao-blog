@@ -1,6 +1,6 @@
 ---
 title: 读《黄金时代》
-author: shitao
+author: 吴诗涛
 date: '2020-04-29'
 slug: huangjinshidai
 tags: [读后感]

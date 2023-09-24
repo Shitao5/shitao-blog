@@ -1,6 +1,6 @@
 ---
 title: 读《三少爷的剑》
-author: shitao
+author: 吴诗涛
 date: '2020-04-21'
 slug: sanshaoyedejian
 tags: [读后感]

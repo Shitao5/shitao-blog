@@ -1,6 +1,6 @@
 ---
 title: Hugo Stack 主题添加「最后修改于」
-author: shitao
+author: 吴诗涛
 date: '2023-01-18'
 slug: hugo-stack
 categories: []

@@ -1,6 +1,6 @@
 ---
 title: 读《从零开始：机器学习的数学原理和算法实践》
-author: shitao
+author: 吴诗涛
 date: '2023-03-19'
 slug: ml-math2
 categories: []

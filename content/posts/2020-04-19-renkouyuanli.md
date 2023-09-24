@@ -1,6 +1,6 @@
 ---
 title: 读《人口原理》
-author: shitao
+author: 吴诗涛
 date: '2020-04-19'
 slug: renkouyuanli
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《工匠精神与工匠精神养成引论》
-author: shitao
+author: 吴诗涛
 date: '2020-08-02'
 slug: gongjiangjingshenyugongjiangjingshenyangchengyinlun
 tags: [读后感]

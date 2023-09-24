@@ -1,6 +1,6 @@
 ---
 title: 数据框中的集合运算
-author: shitao
+author: 吴诗涛
 date: '2023-03-17'
 slug: df-set
 categories: []

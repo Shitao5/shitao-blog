@@ -1,6 +1,6 @@
 ---
 title: 整洁数据转超宽表
-author: shitao
+author: 吴诗涛
 date: '2023-02-12'
 slug: tidywider
 categories: []

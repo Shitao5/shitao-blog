@@ -1,6 +1,6 @@
 ---
 title: 旧电脑
-author: shitao
+author: 吴诗涛
 date: '2022-08-21'
 slug: jiudiannao
 tags:

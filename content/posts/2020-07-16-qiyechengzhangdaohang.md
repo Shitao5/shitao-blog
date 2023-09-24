@@ -1,6 +1,6 @@
 ---
 title: 读《企业成长导航》
-author: shitao
+author: 吴诗涛
 date: '2020-07-16'
 slug: qiyechengzhangdaohang
 tags: [读后感]

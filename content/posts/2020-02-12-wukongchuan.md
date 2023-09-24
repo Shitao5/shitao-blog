@@ -1,6 +1,6 @@
 ---
 title: 读《悟空传》
-author: shitao
+author: 吴诗涛
 date: '2020-02-12'
 slug: wukongchuan
 tags: [读后感]

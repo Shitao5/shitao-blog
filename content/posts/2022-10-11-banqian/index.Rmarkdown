@@ -1,6 +1,6 @@
 ---
 title: 公众号读书笔记
-author: shitao
+author: 吴诗涛
 date: '2022-10-11'
 slug: banqian
 categories: []

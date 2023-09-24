@@ -1,6 +1,6 @@
 ---
 title: 读《在峡江的转弯处》
-author: shitao
+author: 吴诗涛
 date: '2022-03-14'
 slug: zaixiajiangdezhuanwanchu
 tags: [读后感]

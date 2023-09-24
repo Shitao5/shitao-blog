@@ -1,6 +1,6 @@
 ---
 title: 读《互联网+工匠精神》
-author: shitao
+author: 吴诗涛
 date: '2020-08-04'
 slug: hulianwang
 tags: [读后感]

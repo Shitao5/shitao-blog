@@ -1,6 +1,6 @@
 ---
 title: Typora 修改字体
-author: shitao
+author: 吴诗涛
 date: '2022-11-19'
 slug: typora-font
 categories: []

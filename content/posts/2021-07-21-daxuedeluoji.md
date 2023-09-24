@@ -1,6 +1,6 @@
 ---
 title: 读《大学的逻辑》
-author: shitao
+author: 吴诗涛
 date: '2021-07-21'
 slug: daxuedeluoji
 tags: [读后感]

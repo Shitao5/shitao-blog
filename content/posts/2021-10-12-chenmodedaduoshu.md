@@ -1,6 +1,6 @@
 ---
 title: 读《沉默的大多数》
-author: shitao
+author: 吴诗涛
 date: '2021-10-12'
 slug: chenmodedaduoshu
 tags: [读后感]

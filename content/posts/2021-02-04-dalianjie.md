@@ -1,6 +1,6 @@
 ---
 title: 读《大连接：社会网络是如何形成的以及对人类现实行为的影响》
-author: shitao
+author: 吴诗涛
 date: '2021-02-04'
 slug: dalianjie
 tags: [读后感]

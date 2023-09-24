@@ -1,6 +1,6 @@
 ---
 title: 读《变量》
-author: shitao
+author: 吴诗涛
 date: '2020-08-20'
 slug: bianliang
 tags: [读后感]

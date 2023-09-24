@@ -1,6 +1,6 @@
 ---
 title: 读《未来的冲击》
-author: shitao
+author: 吴诗涛
 date: '2020-12-20'
 slug: weilaidechongji
 tags: [读后感]

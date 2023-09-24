@@ -1,6 +1,6 @@
 ---
 title: 读《学会提问》
-author: shitao
+author: 吴诗涛
 date: '2021-06-18'
 slug: xuehuitiwen
 tags: [读后感]

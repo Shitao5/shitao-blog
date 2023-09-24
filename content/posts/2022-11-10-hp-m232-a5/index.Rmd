@@ -1,6 +1,6 @@
 ---
 title: HP M232 双面打印 A5 活页内芯
-author: shitao
+author: 吴诗涛
 date: '2022-11-10'
 slug: hp-m232-a5
 categories: []

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu 之伤
-author: shitao
+author: 吴诗涛
 date: '2022-10-30'
 slug: ubuntu
 categories: []

@@ -1,6 +1,6 @@
 ---
 title: 读《赤裸裸的统计学》
-author: shitao
+author: 吴诗涛
 date: '2021-01-04'
 slug: chiluoluodetongjixue
 tags: [读后感]

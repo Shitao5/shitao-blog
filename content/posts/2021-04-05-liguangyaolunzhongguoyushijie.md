@@ -1,6 +1,6 @@
 ---
 title: 读《李光耀论中国与世界》
-author: shitao
+author: 吴诗涛
 date: '2021-04-05'
 slug: liguangyaolunzhongguoyushijie
 tags: [读后感]

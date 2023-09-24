@@ -1,6 +1,6 @@
 ---
 title: 读《数学之美》
-author: shitao
+author: 吴诗涛
 date: '2021-02-14'
 slug: shuxuezhimei
 tags: [读后感]

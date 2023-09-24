@@ -1,6 +1,6 @@
 ---
 title: 利用 Webhook 将 R 消息推送至钉钉和企业微信
-author: shitao
+author: 吴诗涛
 date: '2023-06-02'
 slug: send-message
 categories: []

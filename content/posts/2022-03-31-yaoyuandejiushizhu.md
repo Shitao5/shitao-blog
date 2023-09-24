@@ -1,6 +1,6 @@
 ---
 title: 读《遥远的救世主——豆豆》
-author: shitao
+author: 吴诗涛
 date: '2022-03-31'
 slug: yaoyuandejiushizhu
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《南怀瑾讲演录》
-author: shitao
+author: 吴诗涛
 date: '2021-05-21'
 slug: nanhuaijinjiangyanlu
 tags: [读后感]

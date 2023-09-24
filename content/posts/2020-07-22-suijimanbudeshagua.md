@@ -1,6 +1,6 @@
 ---
 title: 读《随机漫步的傻瓜》
-author: shitao
+author: 吴诗涛
 date: '2020-07-22'
 slug: suijimanbudeshagua
 tags: [读后感]

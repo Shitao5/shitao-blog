@@ -1,6 +1,6 @@
 ---
 title: 读《西方现代思想讲义》
-author: shitao
+author: 吴诗涛
 date: '2022-03-06'
 slug: xifangxiandaisixiangjiangyi
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《给青年的十二封信》
-author: shitao
+author: 吴诗涛
 date: '2020-05-14'
 slug: geiqingniandeshierfengxin
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《你的第一本哲学书》
-author: shitao
+author: 吴诗涛
 date: '2020-06-02'
 slug: nidediyibenzhexueshu
 tags: [读后感]

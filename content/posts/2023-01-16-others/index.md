@@ -1,6 +1,6 @@
 ---
 title: 博客新开「他山之石」栏目
-author: shitao
+author: 吴诗涛
 date: '2023-01-16'
 slug: others
 categories: []

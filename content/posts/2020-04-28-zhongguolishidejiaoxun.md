@@ -1,6 +1,6 @@
 ---
 title: 读《中国历史的教训》
-author: shitao
+author: 吴诗涛
 date: '2020-04-28'
 slug: zhongguolishidejiaoxun
 tags: [读后感]

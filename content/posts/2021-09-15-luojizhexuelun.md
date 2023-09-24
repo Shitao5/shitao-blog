@@ -1,6 +1,6 @@
 ---
 title: 读《逻辑哲学论》
-author: shitao
+author: 吴诗涛
 date: '2021-09-15'
 slug: luojizhexuelun
 tags: [读后感]

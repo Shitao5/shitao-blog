@@ -1,6 +1,6 @@
 ---
 title: 读 PyR4MDS
-author: shitao
+author: 吴诗涛
 date: '2023-06-04'
 slug: pyr4mds
 categories: []

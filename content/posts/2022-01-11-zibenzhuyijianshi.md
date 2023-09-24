@@ -2,7 +2,7 @@
 
 title: 读《资本主义简史》 
 
-author: shitao 
+author: 吴诗涛 
 
 date: '2022-01-11' 
 

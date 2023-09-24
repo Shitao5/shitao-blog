@@ -1,6 +1,6 @@
 ---
 title: dplyr 源码学习笔记（一）
-author: shitao
+author: 吴诗涛
 date: '2023-05-14'
 slug: learn-dplyr1
 categories: []

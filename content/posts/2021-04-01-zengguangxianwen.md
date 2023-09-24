@@ -1,6 +1,6 @@
 ---
 title: 读《增广贤文》
-author: shitao
+author: 吴诗涛
 date: '2021-04-01'
 slug: zengguangxianwen
 tags: [读后感]

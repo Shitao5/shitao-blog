@@ -1,6 +1,6 @@
 ---
 title: 读《墨菲定律》
-author: shitao
+author: 吴诗涛
 date: '2019-10-07'
 slug: mofeidinglv
 tags: [读后感]

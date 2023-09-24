@@ -1,6 +1,6 @@
 ---
 title: 读《后真相时代》
-author: shitao
+author: 吴诗涛
 date: '2020-05-09'
 slug: houzhenxiangshidai
 tags: [读后感]

@@ -1,6 +1,6 @@
 ---
 title: 读《论人类不平等的起源和基础》
-author: shitao
+author: 吴诗涛
 date: '2020-05-11'
 slug: lunrenleibupingdengdeqiyuanhejichu
 tags: [读后感]

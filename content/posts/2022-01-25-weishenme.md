@@ -1,6 +1,6 @@
 ---
 title: 读《为什么：关于因果关系的新科学》
-author: shitao
+author: 吴诗涛
 date: '2022-01-25'
 slug: weishenme
 tags: [读后感]

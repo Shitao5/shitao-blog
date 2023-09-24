@@ -1,6 +1,6 @@
 ---
 title: 读《一只特立独行的猪》
-author: shitao
+author: 吴诗涛
 date: '2021-09-08'
 slug: yizhiteliduxingdezhu
 tags: [读后感]

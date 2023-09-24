@@ -1,6 +1,6 @@
 ---
 title: 读《平均分》
-author: shitao
+author: 吴诗涛
 date: '2020-06-11'
 slug: pingjunfen
 tags: [读后感]

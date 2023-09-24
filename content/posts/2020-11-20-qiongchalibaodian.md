@@ -1,6 +1,6 @@
 ---
 title: 读《穷查理宝典：查理·芒格智慧箴言录》
-author: shitao
+author: 吴诗涛
 date: '2020-11-20'
 slug: qiongchalibaodian
 tags: [读后感]

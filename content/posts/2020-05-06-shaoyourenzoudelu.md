@@ -1,6 +1,6 @@
 ---
 title: 读《少有人走的路》
-author: shitao
+author: 吴诗涛
 date: '2020-05-06'
 slug: shaoyourenzoudelu
 tags: [读后感]

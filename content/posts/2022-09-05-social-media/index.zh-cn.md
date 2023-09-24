@@ -1,6 +1,6 @@
 ---
 title: 社交媒体
-author: shitao
+author: 吴诗涛
 date: '2022-09-05'
 slug: social-media
 description: 算法和人互相成全。

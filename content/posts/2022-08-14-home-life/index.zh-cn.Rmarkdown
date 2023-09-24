@@ -1,6 +1,6 @@
 ---
 title: 居家生活记录
-author: shitao
+author: 吴诗涛
 date: '2022-08-17'
 slug: homelife
 tags:
