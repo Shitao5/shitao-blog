@@ -1,5 +1,6 @@
 ---
 title: 找点啥...
+disable_comments: true
 ---
 
 搜索关键词：
