@@ -33,7 +33,7 @@ $$
 
 按照经济学的说法，这个$t_0$是均衡点。神魔乱舞的得分$Y$与$t$是线性关系：
 
-<img src="/posts/2022-09-07-game/index.zh-cn_files/figure-html/unnamed-chunk-4-1.png" width="35%" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="35%" style="display: block; margin: auto;" />
 
 当确保屏幕上有6个以上敌机的时候，使用神魔乱舞就可以慢慢加分了。小时候竟如此生疏，过不了这个「坎」。
 
