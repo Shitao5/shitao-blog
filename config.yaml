@@ -42,7 +42,7 @@ menu:
       weight: 7
 
 params:
-  footer: "&copy; [Shitao Wu](/) 2019 - {Year} <br> Powered by [HUGO](https://gohugo.io/) | Theme - [Paged](https://github.com/yihui/hugo-paged)"
+  footer: "&copy; [Shitao Wu](/) 2019 - {Year} <br> Powered by [Hugo](https://gohugo.io/) | Theme - [Paged](https://github.com/yihui/hugo-paged)"
   logo:
     en:
       alt: 修狗头像
