@@ -1,6 +1,6 @@
 ---
 title: 关于诗涛
-date: "2023-09-24"
+date: "2023-09-27"
 comments: yes
 toc: yes
 ---
@@ -39,7 +39,6 @@ toc: yes
 
 - 输出（正在练习）。
 
-
 # 联系方式
 
 可以找到我的地方：
@@ -64,3 +63,9 @@ toc: yes
 - [左岸读书](http://www.zreading.cn/)
 
 以上按姓氏拼音排序，每一位博主都温暖有力量。
+
+# 我的博客
+
+我的博客是通过 [blogdown](https://pkgs.rstudio.com/blogdown/) 建立的，使用的是 [Hugo-Paged](https://paged.yihui.org/) 主题。评论系统用的是 [Giscus](https://giscus.app/)，它支持楼中楼的评论。
+
+如果你也想搭建博客，我推荐阅读 [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/)。
