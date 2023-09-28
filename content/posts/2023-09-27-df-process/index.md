@@ -5,7 +5,6 @@ date: '2023-09-27'
 slug: df-process
 ---
 
-
 tidyverse 的生态越来越完善，一直把它当超大杯的 Excel 用。这里梳理下批量处理行和列的一些方法，主要会用到：
 
 - `across()`
@@ -236,6 +235,52 @@ df %>% filter(!if_any(everything(), is.na))
 ## 3     5     5     0 A
 ```
 
+## 行排序
+
+除了按照某些列的值进行排序外，也可以按照自定义的顺序对行排序：
+
+
+```r
+order_y = c("B", "C", "A")              # 定义 order_y 的顺序
+df %>% arrange(match(y, order_y), -x1)  # 按照 order_y 和 -x1 的顺序排序
+```
+
+```
+## # A tibble: 6 × 4
+##      x1    x2    x3 y    
+##   <int> <int> <dbl> <chr>
+## 1     4     4    NA B    
+## 2     3    NA     3 B    
+## 3     2     2     4 C    
+## 4     5     5     0 A    
+## 5     1     1     5 A    
+## 6     6    NA    NA <NA>
+```
+
+`match()` 返回需要排序变量中每个元素在参照变量中的位置，返回值是长度与需要排序变量长度相等的数值变量，用 `arrange()` 对其排序即可。
+
+对于不在自定义顺序中的值，可以通过 `match()` 函数的 `nomatch` 参数控制位置:
+
+
+```r
+# 按照 order_y 和 x1 的顺序排序，未匹配到的 y 排在最前面
+df %>% arrange(match(y, order_y, nomatch = 0), x1)
+```
+
+```
+## # A tibble: 6 × 4
+##      x1    x2    x3 y    
+##   <int> <int> <dbl> <chr>
+## 1     6    NA    NA <NA> 
+## 2     3    NA     3 B    
+## 3     4     4    NA B    
+## 4     2     2     4 C    
+## 5     1     1     5 A    
+## 6     5     5     0 A
+```
+
+
+
 ## 行向计算
 
 在 R 中，数据框主要以列的方向存储数据，因此行处理时需要特别注意。
@@ -283,6 +328,4 @@ df %>% filter(!if_any(everything(), is.na))
   ## 5     5     5     0 A        10
   ## 6     6    NA    NA <NA>      6
   ```
-
-
-
+  

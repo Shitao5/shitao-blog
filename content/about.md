@@ -1,6 +1,6 @@
 ---
 title: 关于诗涛
-date: "2023-09-27"
+date: "2023-09-28"
 comments: yes
 toc: yes
 ---
@@ -66,6 +66,6 @@ toc: yes
 
 # 我的博客
 
-我的博客是通过 [blogdown](https://pkgs.rstudio.com/blogdown/) 建立的，使用的是 [Hugo-Paged](https://paged.yihui.org/) 主题。评论系统用的是 [Giscus](https://giscus.app/)，它支持楼中楼的评论。
+我的博客通过 [blogdown](https://pkgs.rstudio.com/blogdown/) 建立，使用了 [Hugo-Paged](https://paged.yihui.org/) 主题。评论系统采用 [Giscus](https://giscus.app/)，它支持楼中楼评论。
 
 如果你也想搭建博客，我推荐阅读 [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/)。
