@@ -45,8 +45,8 @@ params:
   footer: "&copy; [Shitao Wu](/) 2019 - {Year}"
   logo:
     en:
-      alt: 修狗头像
-      img: "logo1.jpg"
+      alt: 修狗
+      img: "logo.png"
   customJS:
     - "comment-utils.js"
     - "hash-notes.js"

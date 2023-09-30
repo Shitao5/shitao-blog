@@ -3,6 +3,7 @@ title: 数据框批量处理行列
 author: 吴诗涛
 date: '2023-09-27'
 slug: df-process
+tags: [R]
 ---
 
 tidyverse 的生态越来越完善，一直把它当超大杯的 Excel 用。这里梳理下批量处理行和列的一些方法，主要会用到：
