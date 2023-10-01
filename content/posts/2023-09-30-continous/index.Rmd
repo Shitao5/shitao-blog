@@ -3,9 +3,7 @@ title: 识别连续数值
 author: 吴诗涛
 date: '2023-09-30'
 slug: continous
-categories: []
-tags:
-  - R
+tags: [R]
 ---
 
 # 连续问题（前后差 1）

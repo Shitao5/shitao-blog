@@ -522,9 +522,26 @@ comments: yes
 
 工作上，本周根据客户反馈对产品进行数据质量排查，写数据质量报告。目前离线的数据主要存放在 Elasticsearch 和 Neo4j 中，非关系型的数据库之前用的不多，还要多多熟悉。尤其是 Elasticsearch，用法比较灵活，多看看[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)。
 
+下周：
+
 1. [*Elasticsearch Guide 8.10*](https://learn.shitao5.org/posts/20230920-es-ref/)；
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
 1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
 
+# 第 39 周（0925-1001）
+
+运动：骑行 101.36 公里。
+
+工作上，数仓已经开始留存后续建模需要的数据，国庆上去有得忙一阵子。进入四季度，工作节奏会加快，仍需保持学习和健身。
+
+周五（0929，中秋）从杭州骑行回家，全程 62 公里，用时 3 小时，其中半小时在等红绿灯。
+
+国庆假期吃吃喝喝，作息也没有日常规律，身体无恙。或许是得益于近来的健身，放在读书时期，我早已要生病了（类似口腔溃疡）。
+
+下周：
+
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
+1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
+1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
