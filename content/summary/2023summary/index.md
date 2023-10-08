@@ -514,7 +514,7 @@ comments: yes
 
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
-1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
 
 # 第 38 周（0918-0924）
 
@@ -528,7 +528,7 @@ comments: yes
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
-1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
 
 # 第 39 周（0925-1001）
 
@@ -544,4 +544,35 @@ comments: yes
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
-1. [《被讨厌的勇气》](https://book.douban.com/subject/26369699/)。
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+
+# 第 40 周（1002-1008）
+
+运动：骑行 134.55 公里，跑步 11.02 公里。
+
+本周工作日和节假日反转，周一至周五（1002-1006）放假，周末（1007-1008）连着下周五天连续上七天班，所以今天（1008）虽然是周日，但也是星期负一。
+
+周二（1003）带着粑粑去皮肤科医院把背上长的一颗小东西给手术切除了。给粑粑上的一课是：小毛病尽早治，拖成大毛病就要挨刀子咯！
+
+周三（1004）早上骑行回杭，假期最后三天闭关调整，学 mlr3verse，基于 R6 和 data.table 的设计让它高效地处理机器学习的项目，还有一些糖函数，专门为我这样的记性差人士准备。
+
+周末已经在公司上手 mlr3verse 了，希望自己上手的第一个机器学习项目顺利。
+
+下周：
+
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
+1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+
+
+
+
+
+
+
+
+
+
+
+
+
