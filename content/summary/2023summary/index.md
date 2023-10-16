@@ -564,7 +564,20 @@ comments: yes
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
 
+# 第 41 周（1009-1015）
 
+运动：骑行 150.55 公里。
+
+本周工作忙得团团转，又是跑模型又是写数据报告。周四（1012）顶不住没有「申请加班」，骑行 50 公里，浑身舒爽。有时候困倦袭来，不是休息太少，或许是需要运动。
+
+周六（1014）晚和小王相约钱塘江边绿道骑行，没曾想低估了晚上的温度，两人冻得鼻涕水直流。好不容易骑到钱塘江边，以为目标达成，一看百度地图，连绿道起点都没到。好在两人一致同意掉头跑路，回来吃了羊肉面和羊肉串嘿嘿。
+
+周日（1015）玩 Docker 把电脑玩炸了，索性全盘装了 Ubuntu 系统，再来折腾一番。
+
+下周：
+
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
 
 
 
