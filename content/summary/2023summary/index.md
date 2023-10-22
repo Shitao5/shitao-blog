@@ -572,16 +572,27 @@ comments: yes
 
 周六（1014）晚和小王相约钱塘江边绿道骑行，没曾想低估了晚上的温度，两人冻得鼻涕水直流。好不容易骑到钱塘江边，以为目标达成，一看百度地图，连绿道起点都没到。好在两人一致同意掉头跑路，回来吃了羊肉面和羊肉串嘿嘿。
 
-周日（1015）玩 Docker 把电脑玩炸了，索性全盘装了 Ubuntu 系统，再来折腾一番。
+周日（1015）玩 Docker 把电脑玩炸了（尝试把 D 盘的部分磁盘分配给 C 盘失败），索性全盘装了 Ubuntu 系统，再来折腾一番。
 
 下周：
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
 
+# 第 42 周（1016-1022）
+
+运动：骑行 184.68 公里。
+
+本周结束一个模型，开始进军下一个模型。一种模糊的感觉：建模除了技术和经验，也需要一些想象力。
+
+周六（1021）装回了 Win11，这次只装了一个 C 盘，需要定期备份资料。而后来了一次[青山湖骑行](../../posts/qingshanhu)。
+
+周日（1022）下午和小王去杭师大北边的小乡村骑行一圈，拍了小红书上最近很火的「扛车照」。
 
 
-
+1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
+1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)；
+1. [《书剑恩仇录》](https://book.douban.com/subject/6969088/)。
 
 
 
