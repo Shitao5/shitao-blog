@@ -635,7 +635,7 @@ comments: yes
 
 下周：
 
-1. [《中华人民共和国劳动法》]https://learn.shitao5.org/posts/20231113-labor-law/)。
+1. [《中华人民共和国劳动法》](https://learn.shitao5.org/posts/20231113-labor-law/)。
 
 # 第 46 周（1113-1119）
 
