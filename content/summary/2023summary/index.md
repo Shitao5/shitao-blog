@@ -635,9 +635,19 @@ comments: yes
 
 下周：
 
-1. [《中华人民共和国劳动法》](https://flk.npc.gov.cn/detail2.html?ZmY4MDgwODE2ZjEzNWY0NjAxNmYyMGYxNmVlMTE3Mzc%3D)。
+1. [《中华人民共和国劳动法》]https://learn.shitao5.org/posts/20231113-labor-law/)。
 
+# 第 46 周（1113-1119）
 
+运动：骑行 36.24 公里。
+
+周四（1116）第一次陪同老板去见客户，想起一句话：老板是一个公司最大的销售。实至名归。
+
+周末和小王回家啦！家里的阳光真舒服。姐姐买了个绑在地上的网球，在自家门口的场地上打得出汗。把俺退下来的 [Mate 30 Pro](../../posts/xiaomi14) 给麻麻用了。
+
+下周：
+
+1. [《管理行为》](https://learn.shitao5.org/posts/20231119-glxw/)。
 
 
 
