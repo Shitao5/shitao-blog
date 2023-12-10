@@ -674,8 +674,26 @@ comments: yes
 下周：
 
 1. [《精益企业》](https://learn.shitao5.org/posts/20231124-jyqy/)；
-1. [《卓有成效的管理者》](https://book.douban.com/subject/1322025/)。
+1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/)。
 
+# 第 49 周（1204-1210）
+
+运动：骑行 93.64 公里。
+
+工作：
+
+1. 在同事指导下给出差的老板订北京的包厢；
+1. 陪同老板见客户，再次感受「老板是最大的销售」；
+1. 以总助的身份接待来访人员；
+1. 起草了公司层面的文件，正在过审。
+
+生活：周六（1209）一口气读完了[《Python 神经网络编程》](https://learn.shitao5.org/posts/20231209-MakeYourOwnNeuralNetwork/)并在周日（1210）写了[读后感](../../posts/sjwlbc)。
+
+下周：
+
+1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
+1. [《公司法学（修订本）》](https://book.douban.com/subject/34440842/);
+1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
 
 
 
