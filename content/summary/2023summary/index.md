@@ -695,7 +695,24 @@ comments: yes
 1. [《公司法学（修订本）》](https://book.douban.com/subject/34440842/);
 1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
 
+# 第 50 周（1211-1217）
 
+运动：骑行 20 公里。
+
+工作：
+
+1. 周五（1215）公司举办了数字服务大会，工作后第一次穿正装；
+1. 周一（1211）到周四（1214）在写稿子。
+
+生活：周六（1216）大学同学从江苏来杭，俺请客吃饭，尽地主之谊。聊近况、谈规划，到深夜。
+
+下周：
+
+1. [《公司法》](https://learn.shitao5.org/posts/20231210-gsf/)；
+1. [《公司法学（修订本）》](https://book.douban.com/subject/34440842/);
+1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
+1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
+1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
 
 
 
