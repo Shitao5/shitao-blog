@@ -2,16 +2,7 @@
 title: 2023 年周总结
 author: 吴诗涛
 date: '2023-02-19'
-slug: 2023summary
-categories: []
-tags:
-  - 周总结
-description: ~
-image: 2023.jpg
-math: ~
-license: ~
-hidden: no
-comments: yes
+slug: 2023
 ---
 
 <br>
@@ -709,12 +700,33 @@ comments: yes
 下周：
 
 1. [《公司法》](https://learn.shitao5.org/posts/20231210-gsf/)；
-1. [《公司法学（修订本）》](https://book.douban.com/subject/34440842/);
+1. [《公司法学（修订本）》](https://learn.shitao5.org/posts/20231210-gsfx/);
 1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
 1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
 1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
 
+# 第 51 周（1218-1224）
 
+运动：骑行 32.12 公里，跑步 12 公里。
+
+工作：
+
+1. 周三（1220）做了关于制度的线上培训，是一个没有感情的朗读机器；
+1. 周五（1222）整理了时长 3.5 小时的共创会的会议纪要。
+
+生活：
+
+1. 周六（1223）和兴哥一起在零度的夜晚跑步 12 公里，好久没运动，居然还能 55 分钟拿下，看来已经稳稳地守住了四分配；
+1. 周六（1223）写好了 2024 年周总结中运动数据可视化的代码；
+1. 2023 年总结开始动笔；
+1. 2024 年研究生考试今天（1224）结束，祝身边的小伙伴都能如愿以偿。
+
+下周：
+
+1. [《公司法学（修订本）》](https://learn.shitao5.org/posts/20231210-gsfx/);
+1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
+1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
+1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
 
 
 
