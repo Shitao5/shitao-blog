@@ -1,0 +1,68 @@
+---
+title: '2024 年周总结'
+author: 吴诗涛
+date: '2024-01-01'
+slug: 2024
+---
+
+<br><div class='fullwidth'>
+```{r message=FALSE, warning=FALSE, out.width="100%", echo=FALSE}
+# 根据2024年运动记录表作图
+record = read.csv("sport.csv")
+record$日期 = as.Date(record$日期, format = "%Y-%m-%d")
+
+today = ifelse(Sys.Date() >= "2024-01-14", Sys.Date(), "2024-01-14") |> as.Date()
+
+library(echarts4r)
+
+record |>
+  e_charts(日期) |>
+  e_line(骑行, name = "骑行️🚴", y_index = 0) |>
+  e_line(跑步, name = "跑步🏃", y_index = 0) |>
+  e_bar(跳绳, name = "跳绳🪢", y_index = 1) |>
+  e_x_axis(type = "category", axisLabel = list(formatter = htmlwidgets::JS("function(value, index) {
+    var date = echarts.format.formatTime('MM-dd', new Date(value));
+    var dayOfWeek = ['日', '一', '二', '三', '四', '五', '六'][new Date(value).getDay()];
+    return date + '\\n周' + dayOfWeek;
+  }"))) |>
+  e_y_axis(index = 0, name = "公里数") |>
+  e_y_axis(index = 1, name = "个数") |>
+  e_datazoom(startValue = today - 12, endValue = today + 1, toolbox = FALSE) |>
+  e_tooltip(trigger = "axis") |>
+  e_mark_point("骑行️🚴", data = list(type = "max")) |>
+  e_mark_point("跑步🏃", data = list(type = "max")) |>
+  e_mark_point("跳绳🪢", data = list(type = "max")) |>
+  e_title("运动情况", "每周日更新") |>
+  e_toolbox_feature("restore") |>
+  e_toolbox_feature("saveAsImage") |>
+  e_grid(top = '17%') |>
+  e_legend(top = "3%") |>
+  e_color(c("#B80000", "#5F8670", "#FF9800"))
+```
+</div>
+
+# 第一周（0101-0107）
+
+工作：
+
+1. 开年第一周真是忙裂开！
+1. 周四（0104）在同事的协助下给老板订了出差的[机票](../../posts/first-flight-ticket/)和酒店；
+1. 周日（0107）[第一次](../../posts/overtime-request/)周末加班一下午。
+
+生活：
+
+1. 周五（0105）杭州补贴申请到账；
+1. 周日（0107）小王和郭子买了菜，煮了大盘鸡拌面，好吃。
+
+下周：
+
+1. [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
+1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
+1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
+1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
+
+
+
+
+
+
