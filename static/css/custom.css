@@ -104,3 +104,7 @@ span.hash-note::before { content: "　# "; }
     display: none;
   }
 }
+
+.logo img {
+  background: white;
+}
