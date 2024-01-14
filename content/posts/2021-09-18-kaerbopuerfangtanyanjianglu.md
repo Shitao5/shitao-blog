@@ -2,7 +2,7 @@
 title: 读《卡尔·波普尔访谈演讲录》
 author: 吴诗涛
 date: '2021-09-18'
-slug: kaer·bopuerfangtanyanjianglu
+slug: kaerbopuerfangtanyanjianglu
 tags: [读后感]
 ---
 
