@@ -81,7 +81,24 @@ record |>
 1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
 1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
+# 第三周（0115-0121）
 
+工作：
+
+1. 本周拍摄了年会上的一个视频，也提供了自己的麦克风和耳麦，事后是后悔的；
+1. 周五（0119）晚公司年会，做了场控，不喜欢这样的氛围，早早溜了。
+
+生活：
+
+1. 周三（0117）完成人生第一个半马，用时 109 分钟；
+1. 周日（0121）第一次跳绳达 7000 下。
+
+下周：
+
+1. [*Mastering Shiny*](https://learn.shitao5.org/posts/20240119-mastering-shiny/)；
+1. [《平面设计中的网格系统》](https://learn.shitao5.org/posts/20240121-grid-systems/)；
+1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
+1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
 
 
