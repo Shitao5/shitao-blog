@@ -1,6 +1,6 @@
 ---
 title: 关于诗涛
-date: "2024-01-07"
+date: "2024-01-28"
 comments: yes
 toc: yes
 ---
@@ -60,7 +60,7 @@ toc: yes
 - [叶寻](https://cyrusyip.org/zh-cn/)
 - [于淼](https://yufree.cn/cn/)
 - [袁凡](https://yuanfan.rbind.io/)
-- [左岸读书](http://www.zreading.cn/)
+- [左岸读书](http://www.zreading.cn/)（链接已失效）
 
 以上按姓氏拼音排序，每一位博主都温暖有力量。
 
