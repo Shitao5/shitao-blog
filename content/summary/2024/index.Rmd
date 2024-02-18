@@ -165,3 +165,22 @@ record |>
 1. [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
 1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
 1. 写总结。
+
+# 第 07 周（0212-0218）
+
+工作：
+
+1. 周日（0218）开工，上来就是高强度，顶住。
+
+生活：
+
+1. 春节假期，在家看书、学习。家里翻新之后可以学习的地方变多了，小手一动，把路由器放到窗口，这样可以覆盖家里更广的范围。
+1. 周五（0216）周六（0217）去城里把一直闲置的房子墙给刷了两遍。我是一个粉刷匠，粉刷本领强~
+1. 春节期间阅读、思考的深度大于工作时，第一次发现这个问题，需要思考总结下原因。
+
+下周：
+
+1. [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+1. R 包文档阅读：[fusen](https://thinkr-open.github.io/fusen/articles/How-to-use-fusen.html) 和 [targets](https://docs.ropensci.org/targets/articles/overview.html)； 
+1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
+1. 继续写总结。
