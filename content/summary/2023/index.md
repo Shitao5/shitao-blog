@@ -1,5 +1,5 @@
 ---
-title: 2023 年周总结
+title: 2023 年
 author: 吴诗涛
 date: '2023-02-19'
 slug: 2023

@@ -31,15 +31,18 @@ menu:
     - name: 周总结
       url: "/summary/"
       weight: 4
+    # - name: 周论文
+    #   url: "/paper/"
+    #   weight: 5
     - name: 搜索
       url: "/search/"
-      weight: 5
+      weight: 6
     - name: ✒️学习
       url: "https://learn.shitao5.org/"
-      weight: 6
+      weight: 7
     - name: 🎯订阅
       url: "/index.xml"
-      weight: 7
+      weight: 8
 
 params:
   footer: "&copy; [Shitao Wu](/) 2019 - {Year}"
@@ -59,8 +62,6 @@ params:
       en: "编辑"
     license:
       en: "版权"
-    # subscribe:
-    #   cn: "订阅"
     search:
       en: "搜索"
     top:
