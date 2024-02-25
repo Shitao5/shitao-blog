@@ -184,3 +184,22 @@ record |>
 1. R 包文档阅读：[fusen](https://thinkr-open.github.io/fusen/articles/How-to-use-fusen.html) 和 [targets](https://docs.ropensci.org/targets/articles/overview.html)； 
 1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
 1. 继续写总结。
+
+# 第 08 周（0219-0225）
+
+工作：
+
+1. 周一（0219）徒步登山团建，早上踏着小单车上龙井。过灵溪隧道时非机动车道的「火车头」开得很慢导致整个隧道的电瓶车都在按喇叭，夹在中间看看前面和后面感觉还挺有趣的。
+1. 本周降温降水，驴驴载着我上下班。
+
+生活：
+
+1. 周五（0223）回家啦！周六（0224）元宵节虽然不吃汤圆，但还是要团团圆圆。家里的装修还在进行时，下次回家估计就差不多了，小王说拥有了田景房。
+1. 547 大喜临近，好多事项操办中。希望轮到我的时候，移风易俗些。
+
+下周：
+
+1. [*Introduction to Bash Scripting*](https://learn.shitao5.org/posts/20240223-intro-bash/)；
+1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
+

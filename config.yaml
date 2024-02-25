@@ -31,7 +31,7 @@ menu:
     - name: 周总结
       url: "/summary/"
       weight: 4
-    # - name: 周论文
+    # - name: 读论文
     #   url: "/paper/"
     #   weight: 5
     - name: 搜索

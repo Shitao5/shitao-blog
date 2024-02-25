@@ -18,8 +18,8 @@ h1.title::before { content: "ܤ"; }
   margin: 2em 0 1em;
 }
 .main > blockquote:first-child, #TableOfContents + blockquote {
-  border-left-color: yellow;
-  background-color: lightyellow;
+  border-left-color: #12372A;
+  background-color: #FBF9F1;
   font-size: .9em;
 }
 .archive > h2 {

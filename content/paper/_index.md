@@ -1,4 +1,3 @@
 ---
-title: 周论文
-layout: docs
+title: 读论文
 ---
