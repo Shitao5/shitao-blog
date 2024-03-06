@@ -7,6 +7,7 @@ enableEmoji: true
 footnotereturnlinkcontents: "↩"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 features: ["blog"]
+googleAnalytics: "G-TKPT8Q5NBV"
 
 permalinks:
   post: /:year/:month/:slug/
