@@ -203,3 +203,22 @@ record |>
 1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
 1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
 
+# 第 09 周（0226-0303）
+
+工作：
+
+1. 杭州的天气真是孬，工作日下雨很磨人。
+1. 工作时间一长，就会慢慢见识到离谱但又情理之中的事情。
+
+生活：
+
+1. 周一（0226）出考研成绩，身边有些二战的朋友上岸，非常开心。
+1. 周六（0302）和周日（0303）都放晴，出门骑车啦！周日去了[青山湖环湖骑]( https://www.bilibili.com/video/BV1Vi421Z7U7/?share_source=copy_web&vd_source=5a9c9150ffb5584239291e4d5b8e2e5c)，是 2024 年以来最远骑行路线。周日还在家唱歌，慢慢发现唱歌也让我很快乐。
+
+下周：
+
+1. [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
+1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+1. [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
+1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
+
