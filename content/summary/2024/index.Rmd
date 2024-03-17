@@ -235,11 +235,30 @@ record |>
 
 1. 周三（0306）在小区楼下的理发店获得了一个炸裂的发型。
 1. 周六（0309）骑行回家，周日（0310）开着姐姐的车载着自行车返杭。
-<!-- TODO 写完后添加 three-day-weekend 链接-->
+1. 周五（0308）连着周末，过了一个[三天小长假](../../posts/three-day-weekend)。
 
 下周：
 
 1. [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
 1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
 1. [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
+1. [《谈美》](https://book.douban.com/subject/26838438/)（Kindle）。
+
+# 第 11 周（0311-0317）
+
+工作：
+
+1. 周一（0311）晚准备管理会议的内容到零点，骑车回家的路上冷冷清清。
+1. 周二（0312）接待外部营销 1 次。
+1. 周四（0314）职能部门团建啦，主要吃，不喝酒。
+
+生活：
+
+1. 周六（0316）姐姐订婚啦，好事多磨，俺抽签来的[2018吉祥文化珠联璧合金银套币](https://www.chngc.net/common/news-detail?id=59521)终于送出去了哈哈。
+1. 应 QY 召唤，做了熟悉的助教工作。周末在萧山、杭州和桐乡来回跑。周六（0316）开车 104 公里，周日开车（0317）231.2 公里。
+
+下周：
+
+1. 熟悉 99 大洋一年买来的云服务器；
+1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
 1. [《谈美》](https://book.douban.com/subject/26838438/)（Kindle）。
