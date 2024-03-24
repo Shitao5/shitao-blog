@@ -5,7 +5,9 @@ date: '2024-01-01'
 slug: 2024
 ---
 
-<br><div class='fullwidth'>
+<br>
+
+::: fullwidth
 ```{r message=FALSE, warning=FALSE, out.width="100%", echo=FALSE}
 # 根据2024年运动记录表作图
 record = read.csv("sport.csv")
@@ -39,226 +41,246 @@ record |>
   e_legend(top = "3%") |>
   e_color(c("#B80000", "#5F8670", "#FF9800"))
 ```
-</div>
+:::
 
 # 第 01 周（0101-0107）
 
 工作：
 
-1. 开年第一周真是忙裂开！
-1. 周四（0104）在同事的协助下给老板订了出差的[机票](../../posts/first-flight-ticket/)和酒店。
-1. 周日（0107）[第一次](../../posts/overtime-request/)周末加班一下午。
+1.  开年第一周真是忙裂开！
+2.  周四（0104）在同事的协助下给老板订了出差的[机票](../../posts/first-flight-ticket/)和酒店。
+3.  周日（0107）[第一次](../../posts/overtime-request/)周末加班一下午。
 
 生活：
 
-1. 周五（0105）杭州补贴申请到账。
-1. 周日（0107）小王和郭子买了菜，煮了大盘鸡拌面，好吃。
+1.  周五（0105）杭州补贴申请到账。
+2.  周日（0107）小王和郭子买了菜，煮了大盘鸡拌面，好吃。
 
 下周：
 
-1. [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
-1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
-1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
-1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
+1.  [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
+2.  [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
+3.  [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
+4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
 # 第 02 周（0108-0114）
 
 工作：
 
-1. 逐渐成为买机票熟练工，值机抢座熟手。
-1. 周四（0111）催着刚毕业的同事赶快去申请毕业生补贴。
-1. 在工作中思考如何提高开会的效率，目前想到一个法子，下周开始试用看看效果。
+1.  逐渐成为买机票熟练工，值机抢座熟手。
+2.  周四（0111）催着刚毕业的同事赶快去申请毕业生补贴。
+3.  在工作中思考如何提高开会的效率，目前想到一个法子，下周开始试用看看效果。
 
 生活：
 
-1. 周六（0113）上午回家，家里在装修，带去了劳动力和一点小资本。
-1. 周日（0114）和姐姐剥晒干的丝瓜，丝瓜络拿来洗碗。
+1.  周六（0113）上午回家，家里在装修，带去了劳动力和一点小资本。
+2.  周日（0114）和姐姐剥晒干的丝瓜，丝瓜络拿来洗碗。
 
 下周：
 
-1. [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
-1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
-1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
-1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
+1.  [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
+2.  [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
+3.  [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
+4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
 # 第 03 周（0115-0121）
 
 工作：
 
-1. 本周拍摄了年会上的一个视频，也提供了自己的麦克风和耳麦，事后是后悔的。
-1. 周五（0119）晚公司年会，做了场控，不喜欢这样的氛围，早早溜了。
+1.  本周拍摄了年会上的一个视频，也提供了自己的麦克风和耳麦，事后是后悔的。
+2.  周五（0119）晚公司年会，做了场控，不喜欢这样的氛围，早早溜了。
 
 生活：
 
-1. 周三（0117）完成人生第一个半马，用时 109 分钟。
-1. 周日（0121）第一次跳绳达 7000 下。
+1.  周三（0117）完成人生第一个半马，用时 109 分钟。
+2.  周日（0121）第一次跳绳达 7000 下。
 
 下周：
 
-1. [*Mastering Shiny*](https://learn.shitao5.org/posts/20240119-mastering-shiny/)；
-1. [《平面设计中的网格系统》](https://learn.shitao5.org/posts/20240121-grid-systems/)；
-1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
-1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
+1.  [*Mastering Shiny*](https://learn.shitao5.org/posts/20240119-mastering-shiny/)；
+2.  [《平面设计中的网格系统》](https://learn.shitao5.org/posts/20240121-grid-systems/)；
+3.  [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
+4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
 # 第 04 周（0122-0128）
 
 工作：
 
-1. 帮助同事处理数据两次：正则表达式提取手机号、260 万数据处理。
-1. 写了对外的报告。
-1. 大致明确未来两月的工作。
+1.  帮助同事处理数据两次：正则表达式提取手机号、260 万数据处理。
+2.  写了对外的报告。
+3.  大致明确未来两月的工作。
 
 生活：
 
-1. 周三（0124）是和小王在一起的 999 天，准备了鲜花和蛋糕作为惊喜，还用 GoPro 记录了惊喜瞬间。
-1. 周六（0127）载着 GoPro 去学校骑车，剪了[视频](https://www.bilibili.com/video/BV18D4y1f7VX/)；
-1. 周六（0127）晚和兴哥一起吃饭，开着驴驴去天街逛逛，聊聊天，顺便给侄女买了过年礼物。
-1. 周日（0128）和小王逛小区外新开的水果店，第一次买甘蔗吃。
-1. 周末在家吼两嗓，唱歌实习生。
+1.  周三（0124）是和小王在一起的 999 天，准备了鲜花和蛋糕作为惊喜，还用 GoPro 记录了惊喜瞬间。
+2.  周六（0127）载着 GoPro 去学校骑车，剪了[视频](https://www.bilibili.com/video/BV18D4y1f7VX/)；
+3.  周六（0127）晚和兴哥一起吃饭，开着驴驴去天街逛逛，聊聊天，顺便给侄女买了过年礼物。
+4.  周日（0128）和小王逛小区外新开的水果店，第一次买甘蔗吃。
+5.  周末在家吼两嗓，唱歌实习生。
 
 下周：
 
-1. [*Mastering Shiny*](https://learn.shitao5.org/posts/20240119-mastering-shiny/)；
-1. [《平面设计中的网格系统》](https://learn.shitao5.org/posts/20240121-grid-systems/)；
-1. [《定投改变命运》](https://learn.shitao5.org/posts/20240123-dtgbmy/)；
-1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
+1.  [*Mastering Shiny*](https://learn.shitao5.org/posts/20240119-mastering-shiny/)；
+2.  [《平面设计中的网格系统》](https://learn.shitao5.org/posts/20240121-grid-systems/)；
+3.  [《定投改变命运》](https://learn.shitao5.org/posts/20240123-dtgbmy/)；
+4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
 
 # 第 05 周（0129-0204）
 
 工作：
 
-1. 周五（0202）之前在项目部时参与的一个项目成交了第一单，原来的部门请我喝奶茶（虽然我不喝），还是开心。
-1. 周日（0204）晚参加管理层聚餐，第一次喝白的，喝了二两好像没啥事，还能回公司干个活。
-1. 年终岁末，各种杂事越来越多，已经慢慢把 [Logseq](https://logseq.com/) 作为记录事项的主力工具。
+1.  周五（0202）之前在项目部时参与的一个项目成交了第一单，原来的部门请我喝奶茶（虽然我不喝），还是开心。
+2.  周日（0204）晚参加管理层聚餐，第一次喝白的，喝了二两好像没啥事，还能回公司干个活。
+3.  年终岁末，各种杂事越来越多，已经慢慢把 [Logseq](https://logseq.com/) 作为记录事项的主力工具。
 
 生活：
 
-1. 周五（0202）晚下班和小王一起去杭师大门口吃本地鸡窝，这家店陪伴了我和小王从认识到实习到工作。吃完回学校走了一圈，已放寒假，没见着几个人影。
-1. 周六（0203）发现 RStudio 的 Visual 模式很好用，准备多使用这个模式。下载了 Zotero，可以写写东西。
-1. 本周阴雨连绵，骑行上班次数骤减，改成小毛驴上班。
+1.  周五（0202）晚下班和小王一起去杭师大门口吃本地鸡窝，这家店陪伴了我和小王从认识到实习到工作。吃完回学校走了一圈，已放寒假，没见着几个人影。
+2.  周六（0203）发现 RStudio 的 Visual 模式很好用，准备多使用这个模式。下载了 Zotero，可以写写东西。
+3.  本周阴雨连绵，骑行上班次数骤减，改成小毛驴上班。
 
 下周：
 
-1. [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
-1. [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
-1. [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）；
-1. 写总结。
+1.  [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
+2.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+3.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）；
+4.  写总结。
 
 # 第 06 周（0205-0211）
 
 工作：
 
-1. 本周降温下雪，驴驴载俺上班。
-1. 年前最后一周，大家的心都慢慢飞走了，唯有老板忙着收尾，并为来年做准备。老板回家前，送他到地下车库，他说要离开公司回家了，有点伤感。
-1. 坚守到了最后一天，见证了春节临近公司的变化。
+1.  本周降温下雪，驴驴载俺上班。
+2.  年前最后一周，大家的心都慢慢飞走了，唯有老板忙着收尾，并为来年做准备。老板回家前，送他到地下车库，他说要离开公司回家了，有点伤感。
+3.  坚守到了最后一天，见证了春节临近公司的变化。
 
 生活：
 
-1. 周四（2.8）中午下班回家，买了好利来和汪保来，老兵码坐地铁，一路很顺畅。
-1. 周五（2.9）除夕晚，照例睡得很早（十点前已经美美入睡），哪管外面鞭炮声天。
-1. 周五（2.9）去买菜，周六（2.10）上海大伯家一行人来家里吃饭，摆了两桌。这次喝五粮液，发现自己好像真有喝白酒的天赋。大伯们问我近况，和他们简单说了说工作，然后和他们聊了很多。
-1. 周日（2.11）全家总动员，把[年前装修](../../posts/manual-work)拆下来的木头门窗锯成柴火。
+1.  周四（2.8）中午下班回家，买了好利来和汪保来，老兵码坐地铁，一路很顺畅。
+2.  周五（2.9）除夕晚，照例睡得很早（十点前已经美美入睡），哪管外面鞭炮声天。
+3.  周五（2.9）去买菜，周六（2.10）上海大伯家一行人来家里吃饭，摆了两桌。这次喝五粮液，发现自己好像真有喝白酒的天赋。大伯们问我近况，和他们简单说了说工作，然后和他们聊了很多。
+4.  周日（2.11）全家总动员，把[年前装修](../../posts/manual-work)拆下来的木头门窗锯成柴火。
 
 下周：
 
-1. [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
-1. [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
-1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
-1. 写总结。
+1.  [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
+2.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+3.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
+4.  写总结。
 
 # 第 07 周（0212-0218）
 
 工作：
 
-1. 周日（0218）开工，上来就是高强度，顶住。
+1.  周日（0218）开工，上来就是高强度，顶住。
 
 生活：
 
-1. 春节假期，在家看书、学习。家里翻新之后可以学习的地方变多了，小手一动，把路由器放到窗口，这样可以覆盖家里更广的范围。
-1. 周五（0216）周六（0217）去城里把一直闲置的房子墙给刷了两遍。我是一个粉刷匠，粉刷本领强~
-1. 春节期间阅读、思考的深度大于工作时，第一次发现这个问题，需要思考总结下原因。
+1.  春节假期，在家看书、学习。家里翻新之后可以学习的地方变多了，小手一动，把路由器放到窗口，这样可以覆盖家里更广的范围。
+2.  周五（0216）周六（0217）去城里把一直闲置的房子墙给刷了两遍。我是一个粉刷匠，粉刷本领强\~
+3.  春节期间阅读、思考的深度大于工作时，第一次发现这个问题，需要思考总结下原因。
 
 下周：
 
-1. [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
-1. R 包文档阅读：[fusen](https://thinkr-open.github.io/fusen/articles/How-to-use-fusen.html) 和 [targets](https://docs.ropensci.org/targets/articles/overview.html)； 
-1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
-1. 继续写总结。
+1.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+2.  R 包文档阅读：[fusen](https://thinkr-open.github.io/fusen/articles/How-to-use-fusen.html) 和 [targets](https://docs.ropensci.org/targets/articles/overview.html)；
+3.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
+4.  继续写总结。
 
 # 第 08 周（0219-0225）
 
 工作：
 
-1. 周一（0219）徒步登山团建，早上踏着小单车上龙井。过灵溪隧道时非机动车道的「火车头」开得很慢导致整个隧道的电瓶车都在按喇叭，夹在中间看看前面和后面感觉还挺有趣的。
-1. 本周降温降水，驴驴载着我上下班。
+1.  周一（0219）徒步登山团建，早上踏着小单车上龙井。过灵溪隧道时非机动车道的「火车头」开得很慢导致整个隧道的电瓶车都在按喇叭，夹在中间看看前面和后面感觉还挺有趣的。
+2.  本周降温降水，驴驴载着我上下班。
 
 生活：
 
-1. 周五（0223）回家啦！周六（0224）元宵节虽然不吃汤圆，但还是要团团圆圆。家里的装修还在进行时，下次回家估计就差不多了，小王说拥有了田景房。
-1. 547 大喜临近，好多事项操办中。希望轮到我的时候，移风易俗些。
+1.  周五（0223）回家啦！周六（0224）元宵节虽然不吃汤圆，但还是要团团圆圆。家里的装修还在进行时，下次回家估计就差不多了，小王说拥有了田景房。
+2.  547 大喜临近，好多事项操办中。希望轮到我的时候，移风易俗些。
 
 下周：
 
-1. [*Introduction to Bash Scripting*](https://learn.shitao5.org/posts/20240223-intro-bash/)；
-1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
-1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
+1.  [*Introduction to Bash Scripting*](https://learn.shitao5.org/posts/20240223-intro-bash/)；
+2.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+3.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
 
 # 第 09 周（0226-0303）
 
 工作：
 
-1. 杭州的天气真是孬，工作日下雨很磨人。
-1. 工作时间一长，就会慢慢见识到离谱但又情理之中的事情。
+1.  杭州的天气真是孬，工作日下雨很磨人。
+2.  工作时间一长，就会慢慢见识到离谱但又情理之中的事情。
 
 生活：
 
-1. 周一（0226）出考研成绩，身边有些二战的朋友上岸，非常开心。
-1. 周六（0302）和周日（0303）都放晴，出门骑车啦！周日去了[青山湖环湖骑]( https://www.bilibili.com/video/BV1Vi421Z7U7/?share_source=copy_web&vd_source=5a9c9150ffb5584239291e4d5b8e2e5c)，是 2024 年以来最远骑行路线。周日还在家唱歌，慢慢发现唱歌也让我很快乐。
+1.  周一（0226）出考研成绩，身边有些二战的朋友上岸，非常开心。
+2.  周六（0302）和周日（0303）都放晴，出门骑车啦！周日去了[青山湖环湖骑](https://www.bilibili.com/video/BV1Vi421Z7U7/?share_source=copy_web&vd_source=5a9c9150ffb5584239291e4d5b8e2e5c)，是 2024 年以来最远骑行路线。周日还在家唱歌，慢慢发现唱歌也让我很快乐。
 
 下周：
 
-1. [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
-1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
-1. [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
-1. [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
+1.  [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
+2.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+3.  [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
+4.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）。
 
 # 第 10 周（0304-0310）
 
 工作：
 
-1. 收集市场团队的部分业绩考核情况。
-1. 接待外部营销 2 次，客户 1 次，分别作为甲方和乙方去感受商务谈判。
-1. 安排公司内部聚餐 2 次，并在聚餐后通过聊天获得聚餐人员对餐厅和聚餐的反馈。
-1. 周五（0308）作为后勤人员参加团建。
+1.  收集市场团队的部分业绩考核情况。
+2.  接待外部营销 2 次，客户 1 次，分别作为甲方和乙方去感受商务谈判。
+3.  安排公司内部聚餐 2 次，并在聚餐后通过聊天获得聚餐人员对餐厅和聚餐的反馈。
+4.  周五（0308）作为后勤人员参加团建。
 
 生活：
 
-1. 周三（0306）在小区楼下的理发店获得了一个炸裂的发型。
-1. 周六（0309）骑行回家，周日（0310）开着姐姐的车载着自行车返杭。
-1. 周五（0308）连着周末，过了一个[三天小长假](../../posts/three-day-weekend)。
+1.  周三（0306）在小区楼下的理发店获得了一个炸裂的发型。
+2.  周六（0309）骑行回家，周日（0310）开着姐姐的车载着自行车返杭。
+3.  周五（0308）连着周末，过了一个[三天小长假](../../posts/three-day-weekend)。
 
 下周：
 
-1. [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
-1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
-1. [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
-1. [《谈美》](https://book.douban.com/subject/26838438/)（Kindle）。
+1.  [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
+2.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+3.  [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
+4.  [《谈美》](https://book.douban.com/subject/26838438/)（Kindle）。
 
 # 第 11 周（0311-0317）
 
 工作：
 
-1. 周一（0311）晚准备管理会议的内容到零点，骑车回家的路上冷冷清清。
-1. 周二（0312）接待外部营销 1 次。
-1. 周四（0314）职能部门团建啦，主要吃，不喝酒。
+1.  周一（0311）晚准备管理会议的内容到零点，骑车回家的路上冷冷清清。
+2.  周二（0312）接待外部营销 1 次。
+3.  周四（0314）职能部门团建啦，主要吃，不喝酒。
 
 生活：
 
-1. 大四曾拿过其他学院设立的奖学金，周三（0313）该学院团学的同学联系我，告知俺本周需要提供个人事迹文字稿和类似于回访的内容。拿人手短，周日（0317）加班加点终于写完了。
-1. 周六（0316）姐姐订婚，好事多磨，俺抽签来的[2018吉祥文化珠联璧合金银套币](https://www.chngc.net/common/news-detail?id=59521)终于送出去了哈哈。
-1. 应 QY 召唤，周末做熟悉的助教工作，和新手小王一起，在萧山、杭州和桐乡来回跑。周六（0316）开车 104 公里，周日开车（0317）231.2 公里。
+1.  大四曾拿过其他学院设立的奖学金，周三（0313）该学院团学的同学联系我，告知俺本周需要提供个人事迹文字稿和类似于回访的内容。拿人手短，周日（0317）加班加点终于写完了。
+2.  周六（0316）姐姐订婚，好事多磨，俺抽签来的[2018吉祥文化珠联璧合金银套币](https://www.chngc.net/common/news-detail?id=59521)终于送出去了哈哈。
+3.  应 QY 召唤，周末做熟悉的助教工作，和新手小王一起，在萧山、杭州和桐乡来回跑。周六（0316）开车 104 公里，周日开车（0317）231.2 公里。
 
 下周：
 
-1. 熟悉 99 大洋一年买来的云服务器；
-1. [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)。
+1.  [熟悉](../../posts/ecs1) 99 大洋一年买来的云服务器；
+2.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)。
+
+# 第 12 周（0318-0324）
+
+工作：
+
+1.  周二（0319）挑了花篮送给公司配合默契的团队。
+2.  周五（0322）接待外部领导 1 次。
+3.  本周天气回暖，大家似乎有些躁动，工作上也有一些小摩擦。应人力的需求，以总经办的名义发了全员邮件。
+
+生活：
+
+1.  周六（0323）和小王一起爬了十里琅珰，咱俩都是第一次用登山杖爬山，确实轻松不少。西湖龙井开始采摘了，游客络绎不绝。
+2.  周日（0324）洗了自行车链条，清理了刹车片。出门骑行溜达，在杭师大门口买了衢州烤饼赶紧带回家给小王吃，她惦记好久了。还是以前的味道，就是涨了一块钱。
+
+下周：
+
+1.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
+2.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
+3.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
+4.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（ Kindle）。
