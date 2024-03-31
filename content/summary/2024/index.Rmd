@@ -284,3 +284,23 @@ record |>
 2.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
 3.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
 4.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（ Kindle）。
+
+# 第 13 周（0325-0331）
+
+工作：
+
+1.  本周统计了钉钉后台的数据，如果后续需定期统计，可以尝试搭建 Shiny 应用。
+2.  周日（0331）晚接待了北京来的品牌团队，在西溪湿地餐厅点菜、吃了晚饭。
+<!-- 秐合餐厅 -->
+
+生活：
+
+1.  周五（0329）请年假一天，坐在学校图书馆学习半天，中午和 PL 老师一起吃了饭，聊到毕业后工作情况、未来的发展等等。
+2.  周六（0330）早起搭 Shiny，一口气写到了六点，写了 Excel 批量合并以及拆分两个[功能](http://120.26.131.2:3838/ds/)。
+3.  本周末都是在家做饭吃，好吃+省钱。
+
+下周：
+
+1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
+2.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
+3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（ Kindle）。
