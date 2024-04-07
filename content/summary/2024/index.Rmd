@@ -283,15 +283,14 @@ record |>
 1.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
 2.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
 3.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
-4.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（ Kindle）。
+4.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）。
 
 # 第 13 周（0325-0331）
 
 工作：
 
 1.  本周统计了钉钉后台的数据，如果后续需定期统计，可以尝试搭建 Shiny 应用。
-2.  周日（0331）晚接待了北京来的品牌团队，在西溪湿地餐厅点菜、吃了晚饭。
-<!-- 秐合餐厅 -->
+2.  周日（0331）晚接待了北京来的品牌团队，在西溪湿地餐厅点菜、吃了晚饭。 <!-- 秐合餐厅 -->
 
 生活：
 
@@ -303,4 +302,51 @@ record |>
 
 1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
 2.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
-3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（ Kindle）。
+3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）。
+
+# 第 14 周（0401-0407）
+
+工作：
+
+1.  周二（0402）又整起了 SQL，用来检查 CRM 系统使用情况，从数据库去统计相比直接使用 CRM 去统计简直天差地别，或许这里可以用下「降维打击」这个词。
+1.  本周清明假期，周四（0404）到周六（0407）休息，工作日很忙碌，每天都十点之后。
+
+生活：
+
+1.  周三（0403）下班就回家了，家里仍在紧锣密鼓地装修。周四（0404）抽干了家里的井除味；周五（0405）开垦了一半下水道，用于后续浇灌水泥场地后排水；周六（0406）在家处理工作上的事情，主要是数据可视化，还和高中同学一起吃了饭。
+1.  周五（0405）写好了[数据分析工具箱](http://120.26.131.2:3838/ds/)的表连接和简介部分，ChatGPT 4 的写代码能力确实很棒。
+1.  周日（0407）早上七点出门，老爸送我到高铁站，坐高铁+地铁+步行来上班。
+1.  清明在家思考了很多，摸索了很多，产生了很多新的想法，或许后面会慢慢发芽。
+
+下周：
+
+1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
+2.  [《漫长的危机》](https://learn.shitao5.org/posts/20240321-mcdwj/)；
+3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
+4.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
