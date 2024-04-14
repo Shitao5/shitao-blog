@@ -325,8 +325,25 @@ record |>
 3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
 4.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
 
+# 第 15 周（0408-0414）
 
+工作：
 
+1.  本周部门来新同事啦！
+1.  准备和全程参与了五六周年员工私享会。
+1.  随机分配了十多万的联系方式供商务电销，偶尔工作上写写代码挺好玩。
+1.  预定四次餐厅。
+
+生活：
+
+1.  周五（0412）晚和姐姐哥哥小王一起回家，去高铁站载了博哥二人，去镇上吃了阿能面。
+1.  周末姐姐结婚。
+
+下周：
+
+1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
+3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
+4.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
 
 
 
