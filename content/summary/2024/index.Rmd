@@ -342,8 +342,29 @@ record |>
 下周：
 
 1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
-3.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
-4.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
+1.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
+1.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
+
+# 第 16 周（0415-0421）
+
+工作：
+
+1.  再次尝试在市场部周会中引入书面汇报，后期看效果。
+1.  给新来的算法工程师讲解之前的产品实现思路和代码，好在当时有「先见之明」重构过代码，讲起来很流畅。
+
+生活：
+
+1.  周五周六（0419-0420）小表姐结婚。
+1.  周日（0421）和 LT、PL 还有以为大二的同学青山湖骑行。
+
+<!-- 老彭、天亮 --> 
+
+下周：
+
+1.  [*Efficient Linux at the Command Line*](https://learn.shitao5.org/posts/20240324-efficient-linux/)；
+1.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
+1.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
+
 
 
 
