@@ -38,12 +38,15 @@ menu:
     - name: 搜索
       url: "/search/"
       weight: 6
+    - name: 对话
+      url: "/chat/"
+      weight: 7
     - name: ✒️学习
       url: "https://learn.shitao5.org/"
-      weight: 7
+      weight: 8
     - name: 🎯订阅
       url: "/index.xml"
-      weight: 8
+      weight: 9
 
 params:
   footer: "&copy; [Shitao Wu](/) 2019 - {Year}"
