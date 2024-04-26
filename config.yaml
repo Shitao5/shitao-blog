@@ -38,7 +38,7 @@ menu:
     - name: 搜索
       url: "/search/"
       weight: 6
-    - name: 对话
+    - name: 👋对话
       url: "/chat/"
       weight: 7
     - name: ✒️学习
