@@ -355,7 +355,7 @@ record |>
 生活：
 
 1.  周五周六（0419-0420）小表姐结婚。
-1.  周日（0421）和 LT、PL 还有以为大二的同学青山湖骑行。
+1.  周日（0421）和 LT、PL 还有一位大二的同学[青山湖骑行](https://www.bilibili.com/video/BV1AE421j7vy/)。
 
 <!-- 老彭、天亮 --> 
 
@@ -365,7 +365,23 @@ record |>
 1.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
 1.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
 
+# 第 17 周（0422-0428）
 
+工作：
+
+1.  和老板一起过了遍他的事项，他肯定了我的工作，告诉我后续事项较多，让我继续加油。
+
+生活：
+
+<!-- 正一 --> 
+1.  周二（0423）托在学校工作的 YZ 去门口捷安特店里帮高中同学订了自行车。周六（0427）早上和小王一起去车店，陪高中同学提车。试骑结束付完尾款，骑上十公里去她家附近的城西银泰蹭饭。她说回家倒头就睡，起来屁股疼。好嘛，多骑骑，练个铁腚。
+1.  买了腾讯云的服务器，搞事情！
+1.  注册了一个十年的域名，SSL 证书搞了好久，终于齐活儿了。
+
+下周：
+
+1.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
+1.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
 
 
 
