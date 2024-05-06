@@ -383,15 +383,15 @@ record |>
 1.  [《世上为什么要有图书馆》](https://book.douban.com/subject/30157597/)（Kindle）；
 1.  [*An Overview on Edge Computing Research*](https://ieeexplore.ieee.org/abstract/document/9083958)。
 
+# 第 18 周（0429-0505）
 
+1. 给[数据分析工具箱](http://120.26.131.2:3838/ds/#)补上 Kindle 笔记整理、电子书格式转化等功能。
+1. 捣鼓了仿朋友圈的[博客](../../moments/)，真有意思。
+1. 五一假期三次长距离骑行，共计约两百公里。
+1. 回家把家里的井水再一次[抽干](../../posts/drain-a-well/)，这次老爸还买了生石灰撒进去，希望这次井水可以没味儿了。
+1. 近两周冒出很多想法，五一做了减法，后续继续思考。
 
-
-
-
-
-
-
-
+<!-- 减法链接博客 -->
 
 
 
