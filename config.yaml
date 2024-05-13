@@ -29,7 +29,7 @@ menu:
     - name: ️日志
       url: "/posts/"
       weight: 3
-    - name: 周总结
+    - name: 总结
       url: "/summary/"
       weight: 4
     # - name: 读论文

@@ -1,4 +1,4 @@
 ---
-title: 周总结
+title: 总结
 layout: docs
 ---
