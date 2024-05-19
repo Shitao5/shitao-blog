@@ -1,0 +1,88 @@
+---
+title: 颤抖吧！打工人
+author: 吴诗涛
+date: '2024-05-16'
+slug: tremble-slave
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+钉钉导出的考勤时间表，每个员工一行数据，每天所有的打卡时间为一列。根据需求，计算**纯工时**：去除午休（12:00-13:30）和晚餐（如有，18:00-19:00）的工作时间。
+
+```{r message=FALSE}
+library(tidyverse)
+```
+
+```{r message=FALSE}
+dt = readxl::read_xlsx("test.xlsx")
+names(dt) = c("姓名", paste0("date", 1:30))
+DT::datatable(dt |> select(1, 16:20))
+```
+
+请出 ChatGPT-4o 「帮助」打工人计算工时（单位：小时）[^1]：
+
+[^1]: `<-` 赋值的是 GPT 写的，`=` 赋值的是俺自己写的。
+
+```{r}
+# 创建一个函数来计算每日出勤时间
+calculate_attendance_time <- function(times) {
+  
+  # 将日期数据转为数值秒数
+  second = function(x) {
+    hm(x) |> as.numeric()
+  }
+  
+  times = second(times)
+  noon = second("12:00")
+  afternoon_start = second("13:30")
+  evening_start = second("18:00")
+  evening_end = second("19:00")
+  latest_time = max(times)
+  
+  # 计算上午出勤时间
+  morning_start <- min(times)
+  morning_end <- ifelse(morning_start < noon, noon, morning_start)
+  morning_time <- morning_end - morning_start
+  
+  # 计算下午出勤时间
+  afternoon_start_time <- ifelse(latest_time > afternoon_start, afternoon_start, latest_time)
+  afternoon_end_time = ifelse(latest_time > evening_end, evening_start, latest_time)
+  afternoon_time <- afternoon_end_time - afternoon_start_time
+  
+  # 计算晚上出勤时间
+  evening_time <- ifelse(latest_time > evening_end, latest_time - evening_end, 0)
+  
+  tibble(
+    morning = morning_time / 3600,
+    afternoon = afternoon_time / 3600,
+    evening = evening_time / 3600,
+    total = (morning_time + afternoon_time + evening_time) / 3600
+  )
+}
+```
+
+测试 `calculate_attendance_time()` 函数效果：
+
+```{r}
+c("09:00", "21:00") |> calculate_attendance_time()  # 福报
+c("08:30", "22:16") |> calculate_attendance_time()  # 至尊打工人
+c("08:59", "18:24", "21:00", "21:01") |> calculate_attendance_time()  # 卡点
+c("8:55", "18:01") |> calculate_attendance_time()  # 你的生活我的梦
+c("10:00", "17:30") |> calculate_attendance_time()  # 宇宙尽头
+```
+
+芜湖！没问题，批量计算工作日**纯工时**：
+
+```{r}
+dt |> 
+  pivot_longer(2:31, names_to = "date", values_to = "check") |> 
+  drop_na(check) |> 
+  mutate(
+    res = map(str_split(check, "  \r\n"), calculate_attendance_time)
+  ) |> 
+  unnest_wider(res) |> 
+  mutate(across(4:7, \(x) round(x, 2))) |> 
+  select(-check)
+```
