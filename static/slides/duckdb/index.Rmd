@@ -1,7 +1,7 @@
 ---
 title: "DuckDB 学习笔记"
 author: "吴诗涛"
-date: "2024/05/28"
+date: "2024-05-28"
 output:
   xaringan::moon_reader:
     css: [default, zh-CN.css]
@@ -27,7 +27,7 @@ class: center, middle, inverse
 
 <img src="DuckDB_Logo.png" height="150px" />
 
-DuckDB 是一种高性能、内嵌的 SQL OLAP 数据库管理系统，旨在处理分析查询。它具有以下特点<sup>1<sup/>：
+DuckDB 是一种高性能、内嵌的 SQL OLAP 数据库管理系统，旨在处理分析查询。它具有以下特点：<sup>1<sup/>
 
 1. 简单易用：无需外部依赖，支持在应用内运行或作为单一二进制文件运行。
 1. 跨平台：支持 Linux、macOS 和 Windows 等主流操作系统。
