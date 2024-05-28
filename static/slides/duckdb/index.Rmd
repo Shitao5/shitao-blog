@@ -1,0 +1,199 @@
+---
+title: "DuckDB 学习笔记"
+author: "吴诗涛"
+date: "2024/05/28"
+output:
+  xaringan::moon_reader:
+    css: [default, zh-CN.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+if (file.exists("local.duckdb")) {
+  file.remove("local.duckdb")
+}
+```
+
+class: center, middle, inverse
+# DuckDB 介绍
+
+---
+## 什么是 DuckDB
+
+<img src="DuckDB_Logo.png" height="150px" />
+
+DuckDB 是一种高性能、内嵌的 SQL OLAP 数据库管理系统，旨在处理分析查询。它具有以下特点<sup>1<sup/>：
+
+1. 简单易用：无需外部依赖，支持在应用内运行或作为单一二进制文件运行。
+1. 跨平台：支持 Linux、macOS 和 Windows 等主流操作系统。
+1. 功能丰富：支持读取和写入 CSV、Parquet、JSON 等文件格式，支持本地文件系统和远程端点（如 S3）。
+1. 高性能：通过列式存储引擎实现快速查询，支持并行执行和超内存工作负载。
+1. 可扩展：支持第三方扩展，如新的数据类型、函数和文件格式。
+
+.footnote[
+  [1] [DuckDB 官方网站](https://duckdb.org/)
+]
+
+---
+class: center, middle, inverse
+
+# 使用方法一：DuckDB + SQL
+
+这种方法相对简单，把数据存入 DuckDB 数据库后，用 SQL 查询即可。
+
+---
+
+
+## 创建 DuckDB 数据库
+
+```{r message=FALSE}
+# install.packages("duckdb")
+library(duckdb)
+
+# 创建 DuckDB 连接，同时会在本地创建 local.duckdb 文件
+con = dbConnect(duckdb(), dbdir = "local.duckdb")
+```
+
+---
+## 向 DuckDB 数据库写入表
+
+可以将 R 中的数据框写入到 DuckDB 数据库中：
+
+```{r}
+# 写入 R 中的数据框
+dbWriteTable(con, "table_iris", iris)
+dbWriteTable(con, "table_mtcars", mtcars)
+dbListTables(con)
+```
+
+--
+
+也可以将本地的文件直接导入到 DuckDB 数据库中，这个方法可以突破内存大小的限制：
+
+```{r}
+# 创建本地 CSV 文件
+data.frame(
+  Species = c("setosa", "versicolor", "virginica"),
+  code = LETTERS[1:3]
+) |> write.csv("species_code.csv", row.names = FALSE)
+
+# 将本地 CSV 文件直接导入 DuckDB
+duckdb_read_csv(con, "table_code", "species_code.csv")
+dbListTables(con)
+```
+
+---
+
+## 从 DuckDB 数据库删除表
+
+```{r}
+dbRemoveTable(con, "table_mtcars")
+dbListTables(con)
+```
+
+--
+
+## 使用 SQL 查询 DuckDB 数据库
+
+```{r}
+dbGetQuery(con, "SELECT * FROM table_iris LIMIT 3;")
+```
+
+---
+
+## 使用 SQL 查询 DuckDB 数据库
+
+```{r}
+dbGetQuery(con, "SELECT Species, COUNT(*) AS n
+                 FROM table_iris
+                 GROUP BY Species
+                 ORDER BY n;")
+```
+
+```{r}
+# 表连接
+dbGetQuery(con, "SELECT a.Species, code, n FROM
+                 (
+                   SELECT Species, COUNT(*) AS n
+                   FROM table_iris
+                   GROUP BY Species
+                 ) a
+                 LEFT JOIN table_code b
+                 ON a.Species = b.Species;")
+```
+
+---
+## 断开 DuckDB 连接
+
+```{r}
+# 断开数据库连接
+dbDisconnect(con)
+```
+
+---
+class: center, middle, inverse
+
+# 使用方法二：duckplyr
+
+---
+## 加载 duckplyr 和 dplyr
+
+```{r message=FALSE}
+# install.packages("duckplyr")
+library(duckplyr)
+library(dplyr)
+
+con = dbConnect(duckdb(), dbdir = "local.duckdb")
+```
+
+## 从 DuckDB 创建数据源
+
+使用 `tbl()` 连接 DuckDB 数据库中的表，可以看到表的行数是 `??`，因为 **duckplyr** 采用惰性计算，只是生成了查询计算，并没有实际执行。
+
+```{r}
+table_iris = tbl(con, "table_iris")
+table_iris
+```
+
+---
+
+## 使用管道操作数据
+
+现在就可以和平常的数据一样进行分析了，要得到最终执行结果，需在管道最后接上 `collect()`。
+
+```{r}
+table_iris |> 
+  count(Species) |> 
+  collect()
+```
+
+```{r}
+table_code = tbl(con, "table_code")
+
+table_iris |> 
+  count(Species) |> 
+  left_join(table_code, join_by(Species)) |> 
+  select(Species, code, n) |> 
+  collect()
+```
+
+---
+
+## 断开 DuckDB 连接
+
+数据库用完，记得断开连接哦！
+
+```{r}
+# 断开数据库连接
+dbDisconnect(con)
+```
+
+---
+class: center, middle
+
+# 🚀🚀🚀
