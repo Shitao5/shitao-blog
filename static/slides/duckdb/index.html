@@ -185,7 +185,7 @@ con = dbConnect(duckdb(), dbdir = "local.duckdb")
 
 ## 从 DuckDB 创建数据源
 
-使用 `tbl()` 连接 DuckDB 数据库中的表，可以看到表的行数是 `??`，因为 **duckplyr** 采用惰性计算，只是生成了查询计算，并没有实际执行。
+使用 `tbl()` 连接 DuckDB 数据库中的表，可以看到表的行数是 `??`，因为 **duckplyr** 采用惰性计算，只是生成了查询计划，并没有实际执行。
 
 
 ``` r
