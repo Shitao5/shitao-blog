@@ -56,7 +56,7 @@ blockquote {
   border-left-width: 3px;
   padding: 0 2em;
 }
-.home blockquote, .cn blockquote:not(:hover) {
+.home blockquote, blockquote:not(:hover) {
   border-left-color: transparent;
 }
 ol, ul {
@@ -68,10 +68,10 @@ code[class="fullwidth"] {
 .comments {
   margin-top: 1em;
 }
-.cn del {
-  background-color: #444;
+del {
+  background-color: #D3D3D3;
 }
-.cn del:hover {
+del:hover {
   background-color: inherit;
   text-decoration: inherit;
 }
@@ -86,7 +86,7 @@ span.hash-note::before { content: "　# "; }
     max-width: none;
     margin-left: auto;
   }
-  .cn #TableOfContents {
+  #TableOfContents {
     columns: 2;
   }
   .nav-next {
