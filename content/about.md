@@ -1,6 +1,6 @@
 ---
 title: 关于诗涛
-date: "2024-02-25"
+date: "2024-09-05"
 comments: yes
 toc: yes
 ---
@@ -41,13 +41,15 @@ toc: yes
 
 # 工作之余我在干什么
 
-- 跑步：每周三西溪湿地北门组团夜跑，一起变强；
+- 运动：骑行、跑步、跳绳；
 
-- 骑行：公路车菜腿，日常休闲骑，骑帅不骑快；
+- [阅读](../posts/multiple-books)；
 
-- 输入：[学习笔记](https://learn.shitao5.org/)高频更新；
+- 创作：写博客、录制和剪辑视频；
 
-- 输出（正在练习）。
+- [铲屎](../posts/my-cat)；
+
+- 偶尔和朋友聚聚。
 
 # 联系方式
 
@@ -70,7 +72,6 @@ toc: yes
 - [叶寻](https://cyrusyip.org/zh-cn/)
 - [于淼](https://yufree.cn/cn/)
 - [袁凡](https://yuanfan.rbind.io/)
-- [左岸读书](http://www.zreading.cn/)（链接已失效）
 
 以上按姓氏拼音排序，每一位博主都温暖有力量。
 
