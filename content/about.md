@@ -12,7 +12,7 @@ toc: yes
     <td>吴诗涛，浙江嘉兴人，1999 年生，土生土长农村人。2017 - 19 年在天津生活，迷彩两年；2019 - 23 年在杭州读大学，经历了完整的疫情。现居杭州，数据分析师转岗到总经理助理。
 
 喜欢捣鼓电脑，UseR，喜欢[阅读](../tags/读后感/)，重度使用 Kindle。甘愿做一个平庸的人，走在成为我自己的道路上。</td>
-    <td><center><img src="../images/Shitao5.jpg" width=340></center></td>
+    <td><center><img src="../Shitao5.jpg" width=340></center></td>
   </tr>
 </table>
 
