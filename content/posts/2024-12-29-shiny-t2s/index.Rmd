@@ -1,0 +1,72 @@
+---
+title: "Shiny应用：繁体转简体"
+author: 吴诗涛
+date: 2024-12-29
+slug: "shiny-t2s"
+---
+
+千呼万唤，许成钢教授的[新书](https://gpi.culture.tw/books/1011301244)终于面世了，目前只有英文版和繁体中文版。想看简体中文，写个繁体转简体应用吧！
+
+查了下，[ropencc 包](https://github.com/Lchiffon/ropencc)可以很方便地进行中文繁简转化，不只是繁体转简体。安装该包：
+
+```{r,eval=FALSE}
+devtools::install_github("Lchiffon/ropencc")
+```
+
+测试繁体转简体效果：
+
+```{r}
+library(ropencc)
+trans <- converter(TW2SP)
+run_convert(trans, "開放中文轉換軟體")
+```
+
+让 ChatGPT 帮忙把上面的代码改成 Shiny 应用：
+
+```{r, eval=FALSE}
+library(shiny)
+library(ropencc)
+
+# 创建转换器
+trans <- converter(TW2SP)
+
+# UI 部分
+ui <- fluidPage(
+  titlePanel("繁体转简体字工具"),
+  
+  verticalLayout(
+    # 输入框部分
+    textAreaInput("input_text", "请输入繁体字文本", value = "開放中文轉換軟體", rows = 10),
+    
+    # 转换按钮
+    actionButton("convert_button", "转换"),
+    
+    # 输出框部分
+    h4("转换后的简体字文本"),
+    uiOutput("output_text")  # 使用 uiOutput 来动态渲染输出
+  )
+)
+
+# Server 部分
+server <- function(input, output) {
+  
+  # 监听转换按钮点击事件
+  observeEvent(input$convert_button, {
+    # 获取输入文本
+    input_text <- input$input_text
+    
+    # 使用 converter 进行转换
+    simplified_text <- run_convert(trans, input_text)
+    
+    # 将换行符转为 <br> 标签以便渲染
+    output$output_text <- renderUI({
+      HTML(gsub("\n", "<br>", simplified_text))  # 保留换行
+    })
+  })
+}
+
+# 启动 Shiny 应用
+shinyApp(ui = ui, server = server)
+```
+
+看书学习！
