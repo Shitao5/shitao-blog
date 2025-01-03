@@ -108,3 +108,8 @@ span.hash-note::before { content: "　# "; }
 .logo img {
   background: white;
 }
+
+/* 中文没有斜体 */
+h1.title:lang(zh-CN) {
+  font-style: unset;
+}
