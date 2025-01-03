@@ -1,0 +1,45 @@
+---
+title: 命名向量：R 语言中的键值对
+author: 吴诗涛
+date: '2025-01-03'
+slug: r-named-vectors-key-value-pairs
+---
+
+
+
+潜水在[答疑群](../admin)，有小伙伴提出用 `dplyr::case_when()` 将十二个月份或一周七天的英文映射为数字太繁琐，问有没有更便捷的编码方式。张老师给出了两个解决方法：
+
+1. 转化成因子，再转化成数值；
+1. 数据连接。
+
+这个问题的核心是需要一组映射关系，`dplyr::case_when()` 的方法是用条件语句把映射关系表达出来。另外也可以使用表格，或者键值对。
+
+使用表格的「数据连接」方法应该是最普适的办法，Excel 也能操作：新建含「原值」和「映射值」两列的表格，把所有情况一一列出，用 `vlookup()` 函数查询填充即可。在 R 中便是新建数据框，表连接。
+
+除此之外，在 R 中，用命名向量作为键值对，也可以很方便地解决问题，这个方法最早是在学习 dplyr 的[源码](https://github.com/tidyverse/dplyr/blob/fb25640fa1eb74746a7a74a06090045106e5d20f/data-raw/starwars.R#L71C1-L90C2)时看到的。以将英文的星期转为数字为例：
+
+
+
+```r
+# 创建命名向量，表达映射关系
+xq = setNames(1:7, c("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"))
+xq
+#> Mon Tue Wed Thu Fri Sat Sun 
+#>   1   2   3   4   5   6   7
+```
+
+
+```r
+library(dplyr)
+
+tibble(day = c("Mon", "Thu", "Sat")) |> 
+  mutate(day2 = xq[day])  # 在数据框中映射
+#> # A tibble: 3 × 2
+#>   day    day2
+#>   <chr> <int>
+#> 1 Mon       1
+#> 2 Thu       4
+#> 3 Sat       6
+```
+
+也还算简洁滴！
