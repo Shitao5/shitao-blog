@@ -1,0 +1,69 @@
+---
+title: '2025 年周总结'
+author: 吴诗涛
+date: '2025-01-05'
+slug: 2025
+---
+
+<br>
+
+::: fullwidth
+```{r message=FALSE, warning=FALSE, out.width="100%", echo=FALSE}
+# 根据2024年运动记录表作图
+record = read.csv("sport.csv")
+record$日期 = as.Date(record$日期, format = "%Y-%m-%d")
+
+today = ifelse(Sys.Date() >= "2025-01-14", Sys.Date(), "2025-01-14") |> as.Date()
+
+library(echarts4r)
+
+record |>
+  e_charts(日期) |>
+  e_line(骑行, name = "骑行️🚴", y_index = 0) |>
+  e_line(跑步, name = "跑步🏃", y_index = 0) |>
+  e_bar(跳绳, name = "跳绳🪢", y_index = 1) |>
+  e_x_axis(type = "category", axisLabel = list(formatter = htmlwidgets::JS("function(value, index) {
+    var date = echarts.format.formatTime('MM-dd', new Date(value));
+    var dayOfWeek = ['日', '一', '二', '三', '四', '五', '六'][new Date(value).getDay()];
+    return date + '\\n周' + dayOfWeek;
+  }"))) |>
+  e_y_axis(index = 0, name = "公里数") |>
+  e_y_axis(index = 1, name = "个数") |>
+  e_datazoom(startValue = today - 12, endValue = today + 1, toolbox = FALSE) |>
+  e_tooltip(trigger = "axis") |>
+  e_mark_point("骑行️🚴", data = list(type = "max")) |>
+  e_mark_point("跑步🏃", data = list(type = "max")) |>
+  e_mark_point("跳绳🪢", data = list(type = "max")) |>
+  e_title("运动情况", "每周日更新") |>
+  e_toolbox_feature("restore") |>
+  e_toolbox_feature("saveAsImage") |>
+  e_grid(top = '17%') |>
+  e_legend(top = "3%") |>
+  e_color(c("#B80000", "#5F8670", "#FF9800"))
+```
+:::
+
+# 第 01 周（1230-0105）
+
+1. 2025 年啦！本周开始安排春节前后老客户回访和部分员工的访谈，老板春节前后行程满满。
+1. 周末小王回安吉组织和参加健康管理员培训，俺做司机。和前几次不一样的是这次来回都顺风车接了单，小王说爱上了接单的感觉，她坐副驾凭啥说这个啊哈哈？！
+1. 周末被[《天幕红尘》](https://book.douban.com/subject/24748615/)的剧情深深吸引，读了将近一半，风格和[《遥远的救世主》](../../posts/yaoyuandejiushizhu/)很像。记得后者是大学时连续两个晚上读到凌晨三四点，酣畅淋漓地读完的。虽然现在工作不能这么疯狂了，但一个星期断断续续拿下还是没问题的。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
