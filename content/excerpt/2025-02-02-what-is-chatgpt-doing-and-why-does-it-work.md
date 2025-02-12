@@ -5,11 +5,8 @@ date: "2025-02-02"
 slug: "what-is-chatgpt-doing-and-why-does-it-work"
 ---
 
-
 - 斯蒂芬·沃尔弗拉姆  《这就是 ChatGPT》
-
 - https://book.douban.com/subject/36449803/
-
 - [书摘卡片](http://49.234.56.82:5244/drive/Card/%E8%BF%99%E5%B0%B1%E6%98%AF%20ChatGPT)
 
 # ChatGPT 在做什么？它为何能做到这些？

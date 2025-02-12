@@ -505,7 +505,7 @@ slug: 2023
 
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 38 周（0918-0924）
 
@@ -519,7 +519,7 @@ slug: 2023
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
 1. [《精通计量：从原因到结果的探寻之旅》](https://learn.shitao5.org/posts/20230904-mm/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 39 周（0925-1001）
 
@@ -535,7 +535,7 @@ slug: 2023
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 40 周（1002-1008）
 
@@ -553,7 +553,7 @@ slug: 2023
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
 1. [《Hello 算法》](https://learn.shitao5.org/posts/20230914-hello-algo/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 41 周（1009-1015）
 
@@ -568,7 +568,7 @@ slug: 2023
 下周：
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 42 周（1016-1022）
 
@@ -583,7 +583,7 @@ slug: 2023
 下周：
 
 1. [*Applied Machine Learning Using mlr3 in R*](https://learn.shitao5.org/posts/20230816-mlr3book/)；
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)；
+1. [《被讨厌的勇气》](../../posts/btydyq/)；
 1. [《书剑恩仇录》](https://book.douban.com/subject/6969088/)。
 
 # 第 43 周（1023-1029）
@@ -596,7 +596,7 @@ slug: 2023
 
 下周：
 
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 44 周（1030-1105）
 
@@ -610,7 +610,7 @@ slug: 2023
 
 下周：
 
-1. [《被讨厌的勇气》](https://learn.shitao5.org/posts/20230928-btydyq/)。
+1. [《被讨厌的勇气》](../../posts/btydyq/)。
 
 # 第 45 周（1106-1112）
 
@@ -665,7 +665,7 @@ slug: 2023
 下周：
 
 1. [《精益企业》](https://learn.shitao5.org/posts/20231124-jyqy/)；
-1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/)。
+1. [《卓有成效的管理者》](../../posts/zycxdglz/)。
 
 # 第 49 周（1204-1210）
 
@@ -682,9 +682,9 @@ slug: 2023
 
 下周：
 
-1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
+1. [《卓有成效的管理者》](../../posts/zycxdglz/);
 1. [《公司法学（修订本）》](https://book.douban.com/subject/34440842/);
-1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
+1. [《苏世民:我的经验与教训》](../../posts/ssm/)（Kindle）。
 
 # 第 50 周（1211-1217）
 
@@ -702,8 +702,8 @@ slug: 2023
 1. [《公司法》](https://learn.shitao5.org/posts/20231210-gsf/)；
 1. [《公司法学（修订本）》](https://learn.shitao5.org/posts/20231210-gsfx/);
 1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
-1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
-1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
+1. [《卓有成效的管理者》](../../posts/zycxdglz/);
+1. [《苏世民:我的经验与教训》](../../posts/ssm/)（Kindle）。
 
 # 第 51 周（1218-1224）
 
@@ -725,8 +725,8 @@ slug: 2023
 
 1. [《公司法学（修订本）》](https://learn.shitao5.org/posts/20231210-gsfx/);
 1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
-1. [《卓有成效的管理者》](https://learn.shitao5.org/posts/20231205-zycxdglz/);
-1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
+1. [《卓有成效的管理者》](../../posts/zycxdglz/);
+1. [《苏世民:我的经验与教训》](../../posts/ssm/)（Kindle）。
 
 # 第 52 周（1225-1231）
 
@@ -749,4 +749,4 @@ slug: 2023
 1. [《公司法学（修订本）》](https://learn.shitao5.org/posts/20231210-gsfx/);
 1. [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
 1. [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
-1. [《苏世民:我的经验与教训》](https://book.douban.com/subject/34952676/)（Kindle）。
+1. [《苏世民:我的经验与教训》](../../posts/ssm/)（Kindle）。

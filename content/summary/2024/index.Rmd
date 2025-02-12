@@ -58,7 +58,7 @@ record |>
 
 下周：
 
-1.  [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
+1.  [《详谈：赵鹏》](../../posts/xtzp/);
 2.  [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
 3.  [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
 4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
@@ -78,7 +78,7 @@ record |>
 
 下周：
 
-1.  [《详谈：赵鹏》](https://learn.shitao5.org/posts/20240106-xtzp/);
+1.  [《详谈：赵鹏》](../../posts/xtzp/);
 2.  [《荣格自传》](https://learn.shitao5.org/posts/20231228-rgzz/)；
 3.  [学习 Web 开发](https://learn.shitao5.org/posts/20231217-web/)；
 4.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）。
@@ -142,7 +142,7 @@ record |>
 下周：
 
 1.  [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
-2.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+2.  [《王川宝典》](../../posts/wcbd/)；
 3.  [《行为设计学：让创意更有黏性》](https://book.douban.com/subject/30390604/)（Kindle）；
 4.  写总结。
 
@@ -164,7 +164,7 @@ record |>
 下周：
 
 1.  [*Building reproducible analytical pipelines with R*](https://learn.shitao5.org/posts/20240203-raps-with-r/)；
-2.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+2.  [《王川宝典》](../../posts/wcbd/)；
 3.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
 4.  写总结。
 
@@ -182,7 +182,7 @@ record |>
 
 下周：
 
-1.  [《王川宝典》](https://learn.shitao5.org/posts/20240203-wcbd/)；
+1.  [《王川宝典》](../../posts/wcbd/)；
 2.  R 包文档阅读：[fusen](https://thinkr-open.github.io/fusen/articles/How-to-use-fusen.html) 和 [targets](https://docs.ropensci.org/targets/articles/overview.html)；
 3.  [《财务自由之路》](https://book.douban.com/subject/30328453/)（Kindle）；
 4.  继续写总结。
@@ -244,7 +244,7 @@ record |>
 1.  [*Statistical Thinking for the 21st Century*](https://learn.shitao5.org/posts/20240302-statsthinking21/)；
 2.  [*Trust in Data Science*](https://dl.acm.org/doi/10.1145/3274405)；
 3.  [《权力的 48 条法则》](https://learn.shitao5.org/posts/20240228-48laws-power/)；
-4.  [《谈美》](https://book.douban.com/subject/26838438/)（Kindle）。
+4.  [《谈美》](../../posts/tm/)（Kindle）。
 
 # 第 11 周（0311-0317）
 
@@ -475,7 +475,7 @@ record |>
 1. 周四（0711）老爸告知家里的冰箱坏了，京东上买了新的多门冰箱。奶奶总说冰箱太小不够放，新冰箱容积是旧冰箱的两倍，应该可以顶一阵。旧冰箱以旧换新，抵 70 大洋。
 1. 周四（0711）整理了关于行程安排的经验分享。
 1. 周五（0712）周六（0713）两天参加公司培训。
-1. 周日（0714）看完[《找事：给年青一代的就业解惑书》](https://book.douban.com/subject/36491565/)。
+1. 周日（0714）看完[《找事：给年青一代的就业解惑书》](../../excerpt/zs/)。
 
 # 第 29 周（0715-0721）
 
@@ -516,7 +516,7 @@ record |>
 1. 周六（0817）早六点多载上麻麻来浙二检查，半路扎了钉子，小心翼翼开到之后补了胎。
 1. 周日（0818）给根管的牙齿换药，下次是三个月后。另外另一颗牙也开始根管治疗，俺可怜的牙牙。医生说我特别能忍痛，可不是嘛，忍得俺满头大汗。
 1. 周日（0818）晚和小王一起去吃虹料理（海鲜自助）啦！这位小王小朋友居然小过敏了哈哈！
-1. 周日（0818）晚看完[《中年之路：人格的第二次成型》](https://book.douban.com/subject/36139391/)了，这本书对我启发很大，几乎每一章节都是大段的摘录。把它放到我的二刷清单里边。
+1. 周日（0818）晚看完[《中年之路：人格的第二次成型》](../../excerpt/znzl/)了，这本书对我启发很大，几乎每一章节都是大段的摘录。把它放到我的二刷清单里边。
 
 # 第 34 周（0819-0825）
 
