@@ -1,6 +1,6 @@
 ---
 title: 关于诗涛
-date: "2024-09-05"
+date: "2025-04-19"
 comments: yes
 toc: yes
 ---
@@ -9,9 +9,9 @@ toc: yes
 
 <table>
   <tr>
-    <td>吴诗涛，浙江嘉兴人，1999 年生，土生土长农村人。2017 - 19 年在天津生活，迷彩两年；2019 - 23 年在杭州读大学，经历了完整的疫情。现居杭州，数据分析师转岗到总经理助理。
+    <td>吴诗涛，浙江嘉兴人，1999 年生，土生土长农村人。2017 - 19 年在天津生活，军旅人生；2019 - 23 年在杭州读大学，经历了完整的疫情。现居杭州，数据分析师转岗到总经理助理。
 
-喜欢捣鼓电脑，UseR，喜欢[阅读](../tags/读后感/)，重度使用 Kindle。甘愿做一个平庸的人，走在成为我自己的道路上。</td>
+喜欢捣鼓电脑，UseR，爱阅读，走在成为我自己的道路上。</td>
     <td><center><img src="../images/Shitao5.jpg" width=340></center></td>
   </tr>
 </table>
@@ -37,29 +37,19 @@ toc: yes
   </tr>
 </table>
 
-将英雄主义贯彻到底。
 
-# 工作之余我在干什么
+# 我的人生路
 
-- 运动：骑行、跑步、跳绳；
+- 2017.09 - 2019.09：服役，获优秀义务兵两次，个人嘉奖两次。
+- 2019.09 - 2023.07：就读于杭州师范大学，一等奖学金全勤，获国家奖学金、省政府奖学金、十佳大学生、经亨颐奖学金。
+- 2023.02 - 2023.11：数据分析师，从实习到转正。 
+- 2023.11 - 至今：总经理助理。
 
-- [阅读](../posts/multiple-books)；
+# 我的联系方式
 
-- 创作：写博客、录制和剪辑视频；
-
-- [铲屎](../posts/my-cat)；
-
-- 偶尔和朋友聚聚。
-
-# 联系方式
-
-可以找到我的地方：
-
-- [GitHub](https://github.com/Shitao5)
-
-- 微信（`wuchouchouer`）
-
-- 邮件（`wuchouchouer@163.com`）
+- 微信：wuchouchouer
+- 邮件：wuchouchouer@163.com
+- 博客评论区留言
 
 # 我常看的博客
 
@@ -75,8 +65,8 @@ toc: yes
 
 以上按姓氏拼音排序，每一位博主都温暖有力量。
 
-# 我的博客
+# 关于本站
 
-我的博客通过 [blogdown](https://pkgs.rstudio.com/blogdown/) 建立，使用了 [Hugo-Paged](https://paged.yihui.org/) 主题。评论系统采用 [Giscus](https://giscus.app/)，它支持楼中楼评论。
+本站通过 [blogdown](https://pkgs.rstudio.com/blogdown/) 建立，使用了 [Hugo-Paged](https://paged.yihui.org/) 主题。评论系统采用 [Giscus](https://giscus.app/)，它支持楼中楼评论。
 
-如果你也想搭建博客，我推荐阅读 [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/)。
+如果您也想搭建博客，我推荐阅读 [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/)。
