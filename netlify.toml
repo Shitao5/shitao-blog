@@ -26,3 +26,6 @@ HUGO_ENABLEGITINFO = "true"
   from = "https://shitao.netlify.app/*"
   to = "https://shitao5.org/:splat"
   force = true
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse@^6"
