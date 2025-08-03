@@ -43,8 +43,4 @@
   to    = "https://shitao5.org/:splat"
   force = true
 
-###############################################
-# 插件
-###############################################
-[[plugins]]
-  package = "@netlify/plugin-lighthouse@6.0.0"  # 或直接写 "@netlify/plugin-lighthouse"
+
