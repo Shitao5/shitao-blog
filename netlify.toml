@@ -1,31 +1,50 @@
+###############################################
+# Hugo + Node 20 + Lighthouse 6
+###############################################
+
 [build]
-command = 'hugo'
-publish = 'public'
+  command = "hugo"
+  publish = "public"
+
 [build.environment]
-HUGO_VERSION = '0.127.0'
+  HUGO_VERSION = "0.127.0"
+  NODE_VERSION = "20"
 
+###############################################
+# 部署上下文
+###############################################
 
-[context]
-[context.branch-deploy]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
-[context.deploy-preview]
-command = 'hugo -F -b $DEPLOY_PRIME_URL'
-
+# 正式环境（默认）
 [context.production]
-command = 'hugo --buildFuture'
+  command = "hugo --buildFuture"
+
 [context.production.environment]
-HUGO_ENV = 'production'
-HUGO_ENABLEGITINFO = "true"
-TZ = "/usr/share/zoneinfo/Asia/Shanghai"
+  HUGO_ENV          = "production"
+  HUGO_ENABLEGITINFO = "true"
+  TZ                = "/usr/share/zoneinfo/Asia/Shanghai"
 
+# 分支部署（除 main 以外的分支）
+[context.branch-deploy]
+  command = "hugo -F -b $DEPLOY_PRIME_URL"
+
+# Pull Request 预览
+[context.deploy-preview]
+  command = "hugo -F -b $DEPLOY_PRIME_URL"
+
+# next 分支的额外环境变量示例
 [context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+  HUGO_ENABLEGITINFO = "true"
 
+###############################################
+# 重定向
+###############################################
 [[redirects]]
-  from = "https://shitao.netlify.app/*"
-  to = "https://shitao5.org/:splat"
+  from  = "https://shitao.netlify.app/*"
+  to    = "https://shitao5.org/:splat"
   force = true
 
+###############################################
+# 插件
+###############################################
 [[plugins]]
-  package = "@netlify/plugin-lighthouse@^6"
+  package = "@netlify/plugin-lighthouse@6.0.0"  # 或直接写 "@netlify/plugin-lighthouse"
