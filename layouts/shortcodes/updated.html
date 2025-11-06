@@ -1,0 +1,9 @@
+{{ $date := .Get "date" }}
+<div class="updated-block">
+  <div class="updated-content">
+    {{ .Inner | markdownify }}
+  </div>
+  {{ with $date }}
+  <div class="updated-meta">更新时间：{{ . }}</div>
+  {{ end }}
+</div>

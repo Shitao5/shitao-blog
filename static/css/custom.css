@@ -113,3 +113,62 @@ span.hash-note::before { content: "　# "; }
 h1.title:lang(zh-CN) {
   font-style: unset;
 }
+
+.updated-block {
+  margin: 1.5rem 0;
+  padding: 1rem 1.1rem 1.6rem;
+  border: 1px solid rgba(255, 152, 0, 0.12);
+  border-radius: 8px;
+  background: rgba(255, 152, 0, 0.03);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+}
+
+.updated-block-removed {
+  border-color: rgba(96, 125, 139, 0.24);
+  background: rgba(96, 125, 139, 0.02);
+}
+
+.updated-meta {
+  font-size: 0.75rem;
+  color: #616161;
+  position: absolute;
+  right: 1rem;
+  bottom: -0.45rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  white-space: nowrap;
+}
+
+.updated-content-removed {
+  color: rgba(55, 71, 79, 0.45);
+  text-decoration: line-through;
+  text-decoration-color: rgba(55, 71, 79, 0.35);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.updated-block-removed:hover .updated-content-removed,
+.updated-block-removed:focus-within .updated-content-removed {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.updated-content-removed p,
+.updated-content-removed li {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.updated-block-removed:hover .updated-content-removed p,
+.updated-block-removed:hover .updated-content-removed li,
+.updated-block-removed:focus-within .updated-content-removed p,
+.updated-block-removed:focus-within .updated-content-removed li {
+  color: inherit;
+  text-decoration: inherit;
+}
