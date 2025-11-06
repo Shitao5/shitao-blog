@@ -172,3 +172,41 @@ h1.title:lang(zh-CN) {
   color: inherit;
   text-decoration: inherit;
 }
+
+.summary-doc {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.summary-doc__toc {
+  margin-bottom: 1rem;
+}
+
+.summary-doc__body {
+  line-height: 1.7;
+}
+
+.summary-doc__toc .toc-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.5rem;
+  padding-left: 1.25rem;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.summary-doc__toc .toc-list > li {
+  flex: 0 0 calc(50% - 0.75rem);
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .summary-doc__toc .toc-list > li {
+    flex-basis: calc(33.333% - 1rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .summary-doc__toc .toc-list > li {
+    flex-basis: calc(25% - 1.125rem);
+  }
+}

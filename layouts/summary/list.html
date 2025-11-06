@@ -1,0 +1,17 @@
+{{ define "summary" }}
+{{ $toc := partial "toc-list.html" . }}
+{{ if or (ne (strings.TrimSpace $toc) "") .Params.summary_show_content }}
+<div class="summary-doc">
+  {{ if ne (strings.TrimSpace $toc) "" }}
+  <div class="summary-doc__toc">
+    {{ $toc }}
+  </div>
+  {{ end }}
+  {{ if .Params.summary_show_content }}
+  <div class="summary-doc__body">
+    {{ .Content }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}
+{{ end }}
