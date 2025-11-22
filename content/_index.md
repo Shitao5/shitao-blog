@@ -23,6 +23,6 @@ title: 首页
 
 <br><br>
 
-<h1 class="title">Hello, I'm Shitao Wu.</h1>
+<h1 class="title"><strong><em>Hello, I'm Shitao Wu.</em></strong></h1>
 
-<h2>你好，我是吴诗涛。</h2>
+<h2><strong>你好，我是吴诗涛。</strong></h2>
