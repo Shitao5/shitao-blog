@@ -107,23 +107,32 @@ span.hash-note::before { content: "　# "; }
 
 .nav-top {
   align-items: center;
+  min-height: 2.75rem;
+  padding: 0.25rem 0;
 }
 .nav-top .logo {
   margin-top: 0;
   line-height: 0;
+  display: flex;
+  align-items: center;
 }
 .nav-top .logo a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
+  width: 2.25rem;
+  height: 2.25rem;
   border-radius: 50% !important;
   overflow: hidden !important;
   background: white;
 }
+.nav-top .menu {
+  display: flex;
+  align-items: center;
+}
 .nav-top .menu span {
   margin-top: 0;
+  line-height: 1;
 }
 .nav-top .logo picture {
   display: block;
