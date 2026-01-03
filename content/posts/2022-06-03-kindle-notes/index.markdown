@@ -25,7 +25,7 @@ Kindle要停运了，对于用kindle看电子书的小伙伴影响估计不小�
 
 <div class="figure" style="text-align: center">
 
-<img src="images/my-clipping.png" alt="My Clipping" width="80%" />
+{{< img src="images/my-clipping.png" alt="My Clipping" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:my-clipping"></span>Figure 1: My Clipping
 </p>
@@ -286,7 +286,7 @@ dfs <- text4 %>%
 
 这步我会，请出懒猫**purrr**:
 
-<img src="images/logo.png" width="20%" style="display: block; margin: auto;" />
+{{< img src="images/logo.png" width="20%" style="display: block; margin: auto;" loading="lazy" decoding="async" >}}
 
 先从**text4**中提取出书名**index**，并形成文件名**files**。我的kindle书名比较乱，有的带了特殊字符会导致写入报错，所以用正则做了一定的调整。我以后肯定重命名好电子书再导入kindle~~才怪，看心情~~。
 
@@ -339,7 +339,7 @@ walk2(dfs, files, write.table,
 
 <div class="figure" style="text-align: center">
 
-<img src="images/result.png" alt="写出结果" width="80%" />
+{{< img src="images/result.png" alt="写出结果" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:result"></span>Figure 2: 写出结果
 </p>
@@ -348,7 +348,7 @@ walk2(dfs, files, write.table,
 
 <div class="figure" style="text-align: center">
 
-<img src="images/result1.png" alt="文件内容" width="80%" />
+{{< img src="images/result1.png" alt="文件内容" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:result1"></span>Figure 3: 文件内容
 </p>

@@ -17,46 +17,46 @@ httr2 (pronounced hitter2) is a ground-up rewrite of [httr](https://httr.r-lib.o
 现在暂时用不到这么高级的功能，于是乎拿起自己的博客试一试构建请求和处理响应。
 
 
-```r
+``` r
 library(httr2)
 ```
 
 # 构建请求
 
 
-```r
+``` r
 req = request("https://shitao5.org/")
 ```
 
 通过 `req_dry_run()` 查看 httr2 将要发送给服务器的请求内容，但实际上并不会真的发送请求。
 
 
-```r
+``` r
 req %>% req_dry_run()
 ```
 
 ```
 ## GET / HTTP/1.1
-## Host: shitao5.org
-## User-Agent: httr2/1.0.0 r-curl/5.1.0 libcurl/8.3.0
-## Accept: */*
-## Accept-Encoding: deflate, gzip
+## accept: */*
+## accept-encoding: deflate, gzip
+## host: shitao5.org
+## user-agent: httr2/1.2.1 r-curl/7.0.0 libcurl/8.14.1
 ```
 
 我的目标是把[博客日志页](https://shitao5.org/posts/)上的内容摘下来，所以需要构建对日志页的请求：
 
 
-```r
+``` r
 req_posts = req %>% req_url_path("/posts")
 req_posts %>% req_dry_run()
 ```
 
 ```
 ## GET /posts HTTP/1.1
-## Host: shitao5.org
-## User-Agent: httr2/1.0.0 r-curl/5.1.0 libcurl/8.3.0
-## Accept: */*
-## Accept-Encoding: deflate, gzip
+## accept: */*
+## accept-encoding: deflate, gzip
+## host: shitao5.org
+## user-agent: httr2/1.2.1 r-curl/7.0.0 libcurl/8.14.1
 ```
 
 # 发送请求，获取响应
@@ -64,7 +64,7 @@ req_posts %>% req_dry_run()
 `req_perform()` 即可：
 
 
-```r
+``` r
 resp = req_posts %>% req_perform()
 ```
 
@@ -75,7 +75,7 @@ resp = req_posts %>% req_perform()
 `resp_raw()` 用于查看从服务器接收到的响应：
 
 
-```r
+``` r
 # 内容过多不展示
 resp %>% resp_raw()
 ```
@@ -85,14 +85,14 @@ resp %>% resp_raw()
 ### 提取响应中 body 部分
 
 
-```r
+``` r
 resp_body = resp %>% resp_body_html()
 resp_body
 ```
 
 ```
 ## {html_document}
-## <html lang="en-us">
+## <html lang="zh-CN">
 ## [1] <head>\n<meta http-equiv="Content-Type" content="text/html; charset=UTF-8 ...
 ## [2] <body class=" posts">\n    <div class="crop-h"></div>\n<div class="crop-v ...
 ```
@@ -102,12 +102,12 @@ resp_body
 这时候该操起 [rvest](https://rvest.tidyverse.org/) 了。
 
 
-```r
+``` r
 library(rvest)
 ```
 
 
-```r
+``` r
 dates = resp_body %>% 
   html_elements("li") %>% 
   html_element("span") %>% 
@@ -117,14 +117,14 @@ dates %>% head()
 ```
 
 ```
-## [1] "2023-12-06" "2023-12-02" "2023-12-02" "2023-11-15" "2023-11-14"
-## [6] "2023-11-11"
+## [1] "2026-01-02" "2026-01-01" "2025-11-22" "2025-11-22" "2025-11-10"
+## [6] "2025-11-06"
 ```
 
 ### 获取博客标题
 
 
-```r
+``` r
 titles = resp_body %>% 
   html_elements("li") %>% 
   html_element("a") %>% 
@@ -134,14 +134,14 @@ titles %>% head()
 ```
 
 ```
-## [1] "一个阅读中发现的困惑"   "学 R 第五年"            "骑行路上的老奶奶"      
-## [4] "读《劳动法》"           "一则反思：首先表达关怀" "读《被讨厌的勇气》"
+## [1] "手表应急充电方法" "翻译·转写"        "内容与样式分离"   "出身·选择"       
+## [5] "和自然的交换"     "自律与舒适圈"
 ```
 
 ### 获取博客链接
 
 
-```r
+``` r
 links = resp_body %>% 
   html_elements("li") %>% 
   html_elements("a") %>% 
@@ -152,18 +152,18 @@ links %>% head()
 ```
 
 ```
-## [1] "https://shitao5.org/posts/reading-issue/"  
-## [2] "https://shitao5.org/posts/r5/"             
-## [3] "https://shitao5.org/posts/cycling-grandma/"
-## [4] "https://shitao5.org/posts/labor-law/"      
-## [5] "https://shitao5.org/posts/care-others/"    
-## [6] "https://shitao5.org/posts/btydyq/"
+## [1] "https://shitao5.org/posts/xiaomi-reverse-charge-huawei-gt4/"            
+## [2] "https://shitao5.org/posts/local-ai-tools-translation-and-transcription/"
+## [3] "https://shitao5.org/posts/content-vs-style/"                            
+## [4] "https://shitao5.org/posts/origin-and-choices/"                          
+## [5] "https://shitao5.org/posts/exchange-with-nature/"                        
+## [6] "https://shitao5.org/posts/discipline-and-comfort-zone/"
 ```
 
 ## 汇总提取信息
 
 
-```r
+``` r
 library(tidyverse)
 
 blog_posts = tibble(
@@ -177,20 +177,20 @@ blog_posts %>% select(-link)
 ```
 
 ```
-## # A tibble: 169 × 2
-##    title                  date      
-##    <chr>                  <date>    
-##  1 一个阅读中发现的困惑   2023-12-06
-##  2 学 R 第五年            2023-12-02
-##  3 骑行路上的老奶奶       2023-12-02
-##  4 读《劳动法》           2023-11-15
-##  5 一则反思：首先表达关怀 2023-11-14
-##  6 读《被讨厌的勇气》     2023-11-11
-##  7 手机换新               2023-11-05
-##  8 洗链条                 2023-11-04
-##  9 I my bike 维修记       2023-10-29
-## 10 回家吃饭               2023-10-29
-## # ℹ 159 more rows
+## # A tibble: 252 × 2
+##    title              date      
+##    <chr>              <date>    
+##  1 手表应急充电方法   2026-01-02
+##  2 翻译·转写          2026-01-01
+##  3 内容与样式分离     2025-11-22
+##  4 出身·选择          2025-11-22
+##  5 和自然的交换       2025-11-10
+##  6 自律与舒适圈       2025-11-06
+##  7 购入第一台苹果电脑 2025-11-05
+##  8 近期的外向时刻     2025-11-05
+##  9 勤俭与时代红利     2025-11-04
+## 10 及时记录想法       2025-10-02
+## # ℹ 242 more rows
 ```
 
 # 博客更新分析
@@ -198,26 +198,26 @@ blog_posts %>% select(-link)
 ## 每天更新数量
 
 
-```r
+``` r
 day_n = blog_posts %>% count(date)
 day_n %>% arrange(desc(date))
 ```
 
 ```
-## # A tibble: 151 × 2
+## # A tibble: 223 × 2
 ##    date           n
 ##    <date>     <int>
-##  1 2023-12-06     1
-##  2 2023-12-02     2
-##  3 2023-11-15     1
-##  4 2023-11-14     1
-##  5 2023-11-11     1
-##  6 2023-11-05     1
-##  7 2023-11-04     1
-##  8 2023-10-29     2
-##  9 2023-10-26     1
-## 10 2023-10-24     1
-## # ℹ 141 more rows
+##  1 2026-01-02     1
+##  2 2026-01-01     1
+##  3 2025-11-22     2
+##  4 2025-11-10     1
+##  5 2025-11-06     1
+##  6 2025-11-05     2
+##  7 2025-11-04     1
+##  8 2025-10-02     2
+##  9 2025-08-30     1
+## 10 2025-08-27     2
+## # ℹ 213 more rows
 ```
 
 ## 2022-2023 年更新情况
@@ -225,7 +225,7 @@ day_n %>% arrange(desc(date))
 分析 2022 和 2023 年每天的发文情况：
 
 
-```r
+``` r
 year_dates = seq.Date(as.Date("2022-01-01"), as.Date("2023-12-31"), by = "day")
 year_day = tibble(date = ymd(year_dates)) %>% 
   left_join(day_n, join_by(date)) %>% 
@@ -234,7 +234,7 @@ year_day = tibble(date = ymd(year_dates)) %>%
 
 
 
-```r
+``` r
 library(echarts4r)
 
 year_day %>% 
@@ -248,7 +248,7 @@ year_day %>%
 ```
 
 <div class='fullwidth'>
-<img src="calendar.png">
+{{< img src="calendar.png" loading="lazy" decoding="async" >}}
 </div>
 
 果然还是周末写得多。

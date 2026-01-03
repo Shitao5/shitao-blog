@@ -59,15 +59,15 @@ $\eta$ 是称为学习率的正的常数，读作「伊塔」。根据学习率�
 
 在回归中要考虑的是答案不完全一致时的误差，而分类中要考虑的是答案是否正确。分类结果为正的情况是 Positive、为负的情况是 Negative。分类成功为 True、分类失败为 False。
 
-<center><img src="accuracy.jpeg" width = 250/></center>
+<center>{{< img src="accuracy.jpeg" width="250" loading="lazy" decoding="async" >}}</center>
 
 **精度：** $Accuracy = \frac{TP + TN}{TP + FP + FN + TN}$，表示在整个数据集中，被正确分类的数据 TP 和 TN 所占的比例。
 
-<center><img src="precision.jpeg" width = 250/></center>
+<center>{{< img src="precision.jpeg" width="250" loading="lazy" decoding="async" >}}</center>
 
 **精确率：** $Precision = \frac{TP}{TP + FP}$，表示在被分类为 Positive 的数据中，实际是 Positive 的数据所占的比例。
 
-<center><img src="recall.jpeg" width = 250/></center>
+<center>{{< img src="recall.jpeg" width="250" loading="lazy" decoding="async" >}}</center>
 
 **召回率：** $Recall = \frac{TP}{TP + FN}$，表示在 Positive 数据中，实际被分类为 Positive 的数据所占的比例。
 
@@ -113,7 +113,7 @@ $\theta_{0}$ 这种只有参数的项称为**偏置项**，一般不对它进行
 
 如果模型过于简单，那么随着数据量的增加，误差也会一点点变大。换句话说就是精度会一点点下降。 
 
-<center><img src="acc.jpeg" width = 250/></center>
+<center>{{< img src="acc.jpeg" width="250" loading="lazy" decoding="async" >}}</center>
 
 将两份数据的精度用图来展示后，如果是这种形状，就说明出现了欠拟合的状态。也有一种说法叫作高偏差，指的是一回事。
 

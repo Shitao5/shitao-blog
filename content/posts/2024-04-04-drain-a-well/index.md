@@ -15,8 +15,8 @@ slug: drain-a-well
 
 <table>
   <tr>
-    <td><center><img src="drain.jpg" width = 300 /><br>简易抽水装置</center></td>
-    <td><center><img src="well.jpg" width = 300 /><br>抽干后的井</center></td>
+    <td><center>{{< img src="drain.jpg" width="300" loading="lazy" decoding="async" >}}<br>简易抽水装置</center></td>
+    <td><center>{{< img src="well.jpg" width="300" loading="lazy" decoding="async" >}}<br>抽干后的井</center></td>
   </tr>
 </table>
 

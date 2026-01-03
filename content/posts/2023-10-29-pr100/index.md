@@ -16,4 +16,4 @@ author: 吴诗涛
 
 骑行记录：
 
-<center><img src="pr100.jpg" width=251></center>
+<center>{{< img src="pr100.jpg" width="251" loading="lazy" decoding="async" >}}</center>

@@ -111,7 +111,7 @@ A method is a function that is called by an object.
 
 ## Chapter 4: Data Format Context
 
-<center><img src="image_1685449171185_0.png" width=550></center>
+<center>{{< img src="image_1685449171185_0.png" width="550" loading="lazy" decoding="async" >}}</center>
 <center>Difference between common data format pipelines</center>
 
 There is a danger in overusing third-party packages, and you have to be aware of when the right time to go back to the basics is. Otherwise, you might fall victim to a false sense of security and become reliant on the training wheels provided by tools such as pandas. This might lead to difficulties when dealing with more specific real-world challenges.

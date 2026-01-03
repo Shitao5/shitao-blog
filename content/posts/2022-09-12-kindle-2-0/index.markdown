@@ -31,7 +31,7 @@ comments: yes
 先克隆仓库至看官您的电脑上，仓库地址：<https://github.com/Shitao5/kindler>。不会用 git 的小伙伴直接下载仓库的压缩包解压即可：
 
 <div class="figure" style="text-align: center">
-<img src="imgs/git.png" alt="从 GitHub 下载仓库" width="80%" />
+{{< img src="imgs/git.png" alt="从 GitHub 下载仓库" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:git"></span>Figure 1: 从 GitHub 下载仓库</p>
 </div>
 
@@ -44,7 +44,7 @@ comments: yes
 国内的小伙伴先切换国内镜像，在 RStudio 的 `Tools -> Global Options -> Packages -> Change` 选择一个国内的镜像。
 
 <div class="figure" style="text-align: center">
-<img src="imgs/mirror.png" alt="切换下载镜像" width="80%" />
+{{< img src="imgs/mirror.png" alt="切换下载镜像" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:mirror"></span>Figure 2: 切换下载镜像</p>
 </div>
 
@@ -66,7 +66,7 @@ install.packages(c("tidyverse", "lubridate", "cli"))
 同样是为了示范，仓库中的 `files` 文件夹中已有部分文件，可以先清空该文件夹，而后运行 `script.R`。
 
 <div class="figure" style="text-align: center">
-<img src="imgs/source.png" alt="使用 RStudio 的小伙伴直接点击该按钮" width="80%" />
+{{< img src="imgs/source.png" alt="使用 RStudio 的小伙伴直接点击该按钮" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:source"></span>Figure 3: 使用 RStudio 的小伙伴直接点击该按钮</p>
 </div>
 
@@ -123,7 +123,7 @@ text2 <- text2 %>%
 目前的输出是文本内容+笔记时间：
 
 <div class="figure" style="text-align: center">
-<img src="imgs/note.png" alt="当前输出示例" width="80%" />
+{{< img src="imgs/note.png" alt="当前输出示例" width="80%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:note"></span>Figure 4: 当前输出示例</p>
 </div>
 

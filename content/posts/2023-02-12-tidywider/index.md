@@ -172,7 +172,7 @@ df3 %>%
   theme_bw()
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-9-1.png" width="480" style="display: block; margin: auto;" />
+{{< img src="index_files/figure-html/unnamed-chunk-9-1.png" width="480" style="display: block; margin: auto;" >}}
 
 ## 整洁数据转为超宽表
 

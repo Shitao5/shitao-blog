@@ -29,7 +29,7 @@ knitr::opts_chunk$set(
 
 在学习《概率论与数理统计》的时候运用集合运算较多，在实际数据处理的场景中，集合运算也非常实用。目前 **dplyr** 支持集合的交、并、补运算，可以从[速查表](https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf)中查看：
 
-<center><img src="dplyr-set.jpg" width=350></center>
+<center>{{< img src="dplyr-set.jpg" width="350" loading="lazy" decoding="async" >}}</center>
 <center>dplyr 目前支持的集合运算</center>
 
 

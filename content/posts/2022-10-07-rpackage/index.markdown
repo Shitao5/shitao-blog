@@ -36,7 +36,7 @@ rstatix::cor_test(iris, Sepal.Length, Petal.Length)
 
 输出结果中 `cor` 只保留两位小数，而有时候我们需要更多位数。通过查看 rstatix 包函数源码发现：作者在[源码](https://github.com/kassambara/rstatix/blob/666db2884443286e409e7e6d85e28d48e139af83/R/cor_test.R#L189)中直接设置了保留 2 位，且没有办法通过传参修改位数。
 
-<img src="imgs/source-code.png" width="330" style="display: block; margin: auto;" />
+{{< img src="imgs/source-code.png" width="330" style="display: block; margin: auto;" loading="lazy" decoding="async" >}}
 
 为此需要通过修改 `as_tidy_cor()` 函数的源码。
 
@@ -58,7 +58,7 @@ trace(rstatix:::as_tidy_cor, edit = T) # 修改后保存
 #> [1] "as_tidy_cor"
 ```
 
-<img src="imgs/update-source-code.png" width="474" style="display: block; margin: auto;" />
+{{< img src="imgs/update-source-code.png" width="474" style="display: block; margin: auto;" loading="lazy" decoding="async" >}}
 
 再次调用该函数，可以看到效果：
 

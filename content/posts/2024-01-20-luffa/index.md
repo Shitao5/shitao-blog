@@ -7,13 +7,13 @@ slug: luffa
 
 丝瓜爱爬树，树高摘不到，于是从夏天到挂到冬天，被太阳晒得精干：
 
-<center><img src="img1.jpg" width=300></center>
+<center>{{< img src="img1.jpg" width="300" loading="lazy" decoding="async" >}}</center>
 
 上周树因为屋顶[换瓦片](../manual-work)被砍[^1]，树上的丝瓜也被丢在田埂边。我和姐姐便干起活来，把晒干的丝瓜表皮剥掉，剩下里边的丝瓜络：
 
 <center>
-<img src="img2.jpg"  width = 200/>
-<img src="img3.jpg" width = 200/>
+{{< img src="img2.jpg" width="200" loading="lazy" decoding="async" >}}
+{{< img src="img3.jpg" width="200" loading="lazy" decoding="async" >}}
 </center>
 
 细看丝瓜络的纹理，毫无章法，却撑起了内部独立的空间，让丝瓜籽藏于其中。人类最顶尖的技术，在大自然的鬼斧神工面前，似乎都不值一提。

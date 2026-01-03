@@ -11,8 +11,8 @@ author: 吴诗涛
 
 <table>
   <tr>
-    <td><center><img src="broken.jpg" width = 300 /><br>坏掉的</center></td>
-    <td><center><img src="repaired.jpg" width = 300 /><br>修好的</center></td>
+    <td><center>{{< img src="broken.jpg" width="300" loading="lazy" decoding="async" >}}<br>坏掉的</center></td>
+    <td><center>{{< img src="repaired.jpg" width="300" loading="lazy" decoding="async" >}}<br>修好的</center></td>
   </tr>
 </table>
 

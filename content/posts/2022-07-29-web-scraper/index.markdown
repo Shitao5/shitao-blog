@@ -46,7 +46,7 @@ comments: yes
 
 <div class="figure" style="text-align: center">
 
-<img src="imgs/search.png" alt="在网页搜索框中输入关键词，这里为“数据”。" width="640" />
+{{< img src="imgs/search.png" alt="在网页搜索框中输入关键词，这里为“数据”。" width="640" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:search"></span>Figure 1: 在网页搜索框中输入关键词，这里为“数据”。
 </p>
@@ -59,7 +59,7 @@ comments: yes
 
 <div class="figure" style="text-align: center">
 
-<img src="imgs/search2.png" alt="通过点击翻页，并复制网址地址，可以发现网址中的规律" width="326" />
+{{< img src="imgs/search2.png" alt="通过点击翻页，并复制网址地址，可以发现网址中的规律" width="326" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:search2"></span>Figure 2: 通过点击翻页，并复制网址地址，可以发现网址中的规律
 </p>
@@ -121,7 +121,7 @@ web
 
 <div class="figure" style="text-align: center">
 
-<img src="imgs/selector.png" alt="通过SelectorGadget，确认标题在该网页中被定义为“h3”（三级标题），因此只要提取该网页文件中所有的被定义为“h3”的文本，就可以获取这一页上所有的标题。" width="456" />
+{{< img src="imgs/selector.png" alt="通过SelectorGadget，确认标题在该网页中被定义为“h3”（三级标题），因此只要提取该网页文件中所有的被定义为“h3”的文本，就可以获取这一页上所有的标题。" width="456" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:selector"></span>Figure 3: 通过SelectorGadget，确认标题在该网页中被定义为“h3”（三级标题），因此只要提取该网页文件中所有的被定义为“h3”的文本，就可以获取这一页上所有的标题。
 </p>
@@ -147,7 +147,7 @@ title
 
 <div class="figure" style="text-align: center">
 
-<img src="imgs/selector2.png" alt="通过检查元素，最终确认标题在该网页中被定义为“label”，同上，提取该网页文件中所有的被定义为“label”的文本，就可以获取这一页上所有的日期。" width="442" />
+{{< img src="imgs/selector2.png" alt="通过检查元素，最终确认标题在该网页中被定义为“label”，同上，提取该网页文件中所有的被定义为“label”的文本，就可以获取这一页上所有的日期。" width="442" loading="lazy" decoding="async" >}}
 <p class="caption">
 <span id="fig:selector2"></span>Figure 4: 通过检查元素，最终确认标题在该网页中被定义为“label”，同上，提取该网页文件中所有的被定义为“label”的文本，就可以获取这一页上所有的日期。
 </p>
@@ -225,7 +225,7 @@ DT::datatable(scraper_data[1:10, ])
 <div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2" style="width:100%;height:auto;"></div>
 <script type="application/json" data-for="htmlwidget-2">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["东方甄选又爆了，入淘宝直播首秀一场卖出1亿！","狂卖170亿，今年电影为啥大爆发？","2023年夏日经济之现制咖啡&amp;茶饮市场洞察报告，线上总用户达1.51亿","详拆「茶百道」招股书：新茶饮TOP3的喜与忧","暂停4年，维密在中国“咸鱼翻身”了","上半年饮品大数据来了！咖门×美团发布《2023春夏1000+新品报告》","2023中国移动互联网半年大报告，大厂重回快速增长","从618、端午的最新数据，看到难处和机会点","MAGNA全球广告预测23年夏季版：亚洲市场将继续强劲增长","2023淘宝天猫618品牌成交排行榜出炉！"],["2023-08-31","2023-08-20","2023-08-17","2023-08-17","2023-08-16","2023-08-14","2023-08-07","2023-06-30","2023-06-27","2023-06-26"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>title<\/th>\n      <th>date<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
-<img src="imgs/success.gif" style="display: block; margin: auto;" />
+{{< img src="imgs/success.gif" style="display: block; margin: auto;" loading="lazy" decoding="async" >}}
 
 # 总结
 

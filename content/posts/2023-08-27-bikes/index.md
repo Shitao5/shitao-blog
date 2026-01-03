@@ -49,7 +49,7 @@ comments: yes
 
 这辆车是有名字的！它有个车铃，上面印着「I ❤️️ my bike」，后来遇到小王的时候，❤️ 已经褪色看不见了，所以小王就叫它「I my bike」。
 
-<center><img src="Imybike.jpg" width=550></center>
+<center>{{< img src="Imybike.jpg" width="550" loading="lazy" decoding="async" >}}</center>
 <center>I my bike</center>
 
 它载着我在宿舍、图书馆、教学楼和我的 102 教室之间里飞奔，每晚我都会将它停到宿舍地下车库。四年多过去，我已经离开校园，它也跟着我来到现在住的地方，停在地下车库。
@@ -62,7 +62,7 @@ comments: yes
 
 花了一个月左右的时间，请教了朋友圈里骑行的朋友，也去学校门口的捷安特体验店试骑，最终果断出手，全款拿下人生第一辆公路车。
 
-<center><img src="bike4.jpg" width=550></center>
+<center>{{< img src="bike4.jpg" width="550" loading="lazy" decoding="async" >}}</center>
 <center>俺的第一辆公路车</center>
 
 在做功课时感悟到每个领域都有学问。比如公路车车架有铝合金和碳纤维，套件有机械和电子变速，轮组也有碳轮和铝轮……和之前加入跑步群后了解到碳板跑鞋一样。

@@ -56,7 +56,25 @@
     {{ with default .Site.Params.logo.en (index .Site.Params.logo $section) }}
       <a href="{{ relURL .url }}">
       {{ if .img }}
-      <img src="{{ relURL .img }}" alt="{{ .alt }}" />
+      {{- $img := .img -}}
+      {{- $clean := strings.TrimPrefix "/" $img -}}
+      {{- $ext := path.Ext $clean -}}
+      {{- $base := strings.TrimSuffix $ext $clean -}}
+      {{- $webpExists := fileExists (printf "static/%s.webp" $base) -}}
+      {{- $avifExists := fileExists (printf "static/%s.avif" $base) -}}
+      {{- if or $webpExists $avifExists -}}
+      <picture>
+        {{- if $avifExists -}}
+        <source type="image/avif" srcset="{{ printf "/%s.avif" $base }}">
+        {{- end -}}
+        {{- if $webpExists -}}
+        <source type="image/webp" srcset="{{ printf "/%s.webp" $base }}">
+        {{- end -}}
+        <img src="{{ relURL $img }}" alt="{{ .alt }}" loading="lazy" decoding="async" />
+      </picture>
+      {{- else -}}
+      <img src="{{ relURL $img }}" alt="{{ .alt }}" loading="lazy" decoding="async" />
+      {{- end -}}
       {{ else }}
       {{ .alt }}
       {{ end }}

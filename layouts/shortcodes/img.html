@@ -1,0 +1,107 @@
+{{- $src := .Get "src" -}}
+{{- $alt := default "" (.Get "alt") -}}
+{{- $title := .Get "title" -}}
+{{- $class := .Get "class" -}}
+{{- $style := .Get "style" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $loading := default "lazy" (.Get "loading") -}}
+{{- $decoding := default "async" (.Get "decoding") -}}
+{{- $sizes := default "(min-width: 1024px) 900px, 100vw" (.Get "sizes") -}}
+
+{{- $widthIsNum := and $width (findRE "^\\d+$" $width) -}}
+{{- $heightIsNum := and $height (findRE "^\\d+$" $height) -}}
+{{- $styleParts := slice -}}
+{{- with $style -}}
+  {{- $styleParts = $styleParts | append . -}}
+{{- end -}}
+{{- if and $width (not $widthIsNum) -}}
+  {{- $styleParts = $styleParts | append (printf "width:%s" $width) -}}
+{{- end -}}
+{{- if and $height (not $heightIsNum) -}}
+  {{- $styleParts = $styleParts | append (printf "height:%s" $height) -}}
+{{- end -}}
+{{- $styleFinal := "" -}}
+{{- if gt (len $styleParts) 0 -}}
+  {{- $styleFinal = delimit $styleParts "; " -}}
+{{- end -}}
+
+{{- if or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+<img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $class }} class="{{ . }}"{{ end }}{{ with $styleFinal }} style="{{ . }}"{{ end }}{{ if $widthIsNum }} width="{{ $width }}"{{ end }}{{ if $heightIsNum }} height="{{ $height }}"{{ end }}>
+{{- else -}}
+  {{- $res := .Page.Resources.GetMatch $src -}}
+  {{- if not $res -}}
+    {{- $res = .Page.Resources.GetMatch (printf "**/%s" $src) -}}
+  {{- end -}}
+
+  {{- if $res -}}
+    {{- $widths := slice 480 768 1024 1280 1600 -}}
+    {{- $srcset := slice -}}
+    {{- $srcsetWebp := slice -}}
+    {{- $srcsetAvif := slice -}}
+
+    {{- range $widths -}}
+      {{- if ge $res.Width . -}}
+        {{- $r := $res.Resize (printf "%dx" .) -}}
+        {{- $w := $res.Resize (printf "%dx webp q80" .) -}}
+        {{- $a := $res.Resize (printf "%dx avif q50" .) -}}
+        {{- $srcset = $srcset | append (printf "%s %dw" $r.RelPermalink .) -}}
+        {{- $srcsetWebp = $srcsetWebp | append (printf "%s %dw" $w.RelPermalink .) -}}
+        {{- $srcsetAvif = $srcsetAvif | append (printf "%s %dw" $a.RelPermalink .) -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- if eq (len $srcset) 0 -}}
+      {{- $srcset = slice (printf "%s %dw" $res.RelPermalink $res.Width) -}}
+      {{- $srcsetWebp = slice (printf "%s %dw" ($res.Resize (printf "%dx webp q80" $res.Width)).RelPermalink $res.Width) -}}
+      {{- $srcsetAvif = slice (printf "%s %dw" ($res.Resize (printf "%dx avif q50" $res.Width)).RelPermalink $res.Width) -}}
+    {{- end -}}
+
+    {{- $imgWidth := "" -}}
+    {{- $imgHeight := "" -}}
+    {{- if $widthIsNum -}}
+      {{- $imgWidth = $width -}}
+    {{- else if not $width -}}
+      {{- $imgWidth = printf "%d" $res.Width -}}
+    {{- end -}}
+    {{- if $heightIsNum -}}
+      {{- $imgHeight = $height -}}
+    {{- else if and (not $width) (not $height) -}}
+      {{- $imgHeight = printf "%d" $res.Height -}}
+    {{- end -}}
+
+    <picture{{ with $class }} class="{{ . }}"{{ end }}>
+      <source type="image/avif" srcset="{{ delimit $srcsetAvif ", " }}" sizes="{{ $sizes }}">
+      <source type="image/webp" srcset="{{ delimit $srcsetWebp ", " }}" sizes="{{ $sizes }}">
+      <img
+        src="{{ $res.RelPermalink }}"
+        srcset="{{ delimit $srcset ", " }}"
+        sizes="{{ $sizes }}"
+        {{- if $imgWidth }} width="{{ $imgWidth }}"{{ end }}
+        {{- if $imgHeight }} height="{{ $imgHeight }}"{{ end }}
+        alt="{{ $alt }}"
+        loading="{{ $loading }}"
+        decoding="{{ $decoding }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $styleFinal }} style="{{ . }}"{{ end }}>
+    </picture>
+  {{- else -}}
+    {{- $clean := strings.TrimPrefix "/" $src -}}
+    {{- $ext := path.Ext $clean -}}
+    {{- $base := strings.TrimSuffix $ext $clean -}}
+    {{- $webpExists := fileExists (printf "static/%s.webp" $base) -}}
+    {{- $avifExists := fileExists (printf "static/%s.avif" $base) -}}
+
+    {{- if or $webpExists $avifExists -}}
+      <picture{{ with $class }} class="{{ . }}"{{ end }}>
+        {{- if $avifExists -}}
+        <source type="image/avif" srcset="{{ printf "/%s.avif" $base }}">
+        {{- end -}}
+        {{- if $webpExists -}}
+        <source type="image/webp" srcset="{{ printf "/%s.webp" $base }}">
+        {{- end -}}
+        <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $styleFinal }} style="{{ . }}"{{ end }}{{ if $widthIsNum }} width="{{ $width }}"{{ end }}{{ if $heightIsNum }} height="{{ $height }}"{{ end }}>
+      </picture>
+    {{- else -}}
+      <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="{{ $loading }}" decoding="{{ $decoding }}"{{ with $title }} title="{{ . }}"{{ end }}{{ with $class }} class="{{ . }}"{{ end }}{{ with $styleFinal }} style="{{ . }}"{{ end }}{{ if $widthIsNum }} width="{{ $width }}"{{ end }}{{ if $heightIsNum }} height="{{ $height }}"{{ end }}>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

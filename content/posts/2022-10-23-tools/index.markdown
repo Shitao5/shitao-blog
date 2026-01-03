@@ -296,7 +296,7 @@ df3 %>%
 利用这样形式的数据可以在数据框中直接完成许多需要多重循环才能解决的事情。
 
 <div class="figure" style="text-align: center">
-<img src="imgs/nest.png" alt="数据嵌套" width="280" />
+{{< img src="imgs/nest.png" alt="数据嵌套" width="280" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-12"></span>Figure 1: 数据嵌套</p>
 </div>
 

@@ -170,7 +170,7 @@ CREATE
 ```
 
 <br>
-<center><img src="image_1684504759108_0.png" width=500></center>
+<center>{{< img src="image_1684504759108_0.png" width="500" loading="lazy" decoding="async" >}}</center>
 <center>三元闭包</center>
 
 局部桥这个概念比较有趣的是，它描述了组织中不同群组间的沟通渠道。这种渠道对企业的活力来说极其重要。尤其是要保证公司的健康度，我们应该确保局部桥联系是健康和活跃的，或者说同样的我们应该监控局部桥以确保没有不正当行为（贪污、诈骗等）的发生。
@@ -190,7 +190,7 @@ CREATE
 ```
 
 <br>
-<center><img src="image_1684505170778_0.png" width=650></center>
+<center>{{< img src="image_1684505170778_0.png" width="650" loading="lazy" decoding="async" >}}</center>
 <center>局部桥</center>
 
 ## 附录：NoSQL 概览

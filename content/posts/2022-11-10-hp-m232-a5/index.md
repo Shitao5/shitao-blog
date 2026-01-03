@@ -18,7 +18,7 @@ toc: yes
 明早有个比较正式的宣讲，被叫去听咯，还要带上小本本和笔做记录，吓得我都不敢带 Kindle。后来想到可以把想看的一些内容[^todo]打印在小本本上，如图：
 
 <div class="figure" style="text-align: center">
-<img src="imgs/res.jpg" alt="双面打印的 A5 活页小本本" width="49%" />
+{{< img src="imgs/res.jpg" alt="双面打印的 A5 活页小本本" width="49%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-1"></span>Figure 1: 双面打印的 A5 活页小本本</p>
 </div>
 
@@ -33,7 +33,7 @@ toc: yes
 ## 偶数页逆序打印
 
 <div class="figure" style="text-align: center">
-<img src="imgs/ou.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" /><img src="imgs/import1.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" />
+{{< img src="imgs/ou.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" loading="lazy" decoding="async" >}}{{< img src="imgs/import1.jpg" alt="偶数页逆序打印设置及纸张放置" width="40%" height="20%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-2"></span>Figure 2: 偶数页逆序打印设置及纸张放置</p>
 </div>
 
@@ -55,7 +55,7 @@ toc: yes
 打印完偶数页之后是这样的：
 
 <div class="figure" style="text-align: center">
-<img src="imgs/res1.jpg" alt="偶数页逆序打印效果" width="49%" />
+{{< img src="imgs/res1.jpg" alt="偶数页逆序打印效果" width="49%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-3"></span>Figure 3: 偶数页逆序打印效果</p>
 </div>
 
@@ -66,7 +66,7 @@ toc: yes
 ## 奇数页正序打印
 
 <div class="figure" style="text-align: center">
-<img src="imgs/ji.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" /><img src="imgs/import2.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" />
+{{< img src="imgs/ji.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" loading="lazy" decoding="async" >}}{{< img src="imgs/import2.jpg" alt="奇数页正序打印设置及纸张放置" width="40%" height="20%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-4"></span>Figure 4: 奇数页正序打印设置及纸张放置</p>
 </div>
 
@@ -86,7 +86,7 @@ toc: yes
 打印完奇数页之后是这样的：
 
 <div class="figure" style="text-align: center">
-<img src="imgs/res2.jpg" alt="奇数页正序打印效果" width="49%" />
+{{< img src="imgs/res2.jpg" alt="奇数页正序打印效果" width="49%" loading="lazy" decoding="async" >}}
 <p class="caption"><span id="fig:unnamed-chunk-5"></span>Figure 5: 奇数页正序打印效果</p>
 </div>
 

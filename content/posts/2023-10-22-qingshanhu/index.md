@@ -11,4 +11,4 @@ author: 吴诗涛
 
 傍晚，不经意落在黄昏线上，左手边是昏暗的远山，右手边是夕阳下的城市。不需要禅修，不需要冥想，自然把我带入「心外无物」之境。
 
-<center><img src="qingshan.jpg" width=600></center>
+<center>{{< img src="qingshan.jpg" width="600" loading="lazy" decoding="async" >}}</center>

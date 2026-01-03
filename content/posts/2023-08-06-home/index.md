@@ -47,8 +47,8 @@ comments: yes
 
 <table>
   <tr>
-    <td><center><img src="wuhuaguo.jpg" width = 300 /><br>无花果</center></td>
-    <td><center><img src="qiukui.jpg" width = 300 /><br>秋葵</center></td>
+    <td><center>{{< img src="wuhuaguo.jpg" width="300" loading="lazy" decoding="async" >}}<br>无花果</center></td>
+    <td><center>{{< img src="qiukui.jpg" width="300" loading="lazy" decoding="async" >}}<br>秋葵</center></td>
   </tr>
 </table>
 
@@ -60,8 +60,8 @@ comments: yes
 
 <table>
   <tr>
-    <td><center><img src="zhima.jpg" width = 300 /><br>芝麻</center></td>
-    <td><center><img src="jidan.jpg" width = 300 /><br>鸡蛋</center></td>
+    <td><center>{{< img src="zhima.jpg" width="300" loading="lazy" decoding="async" >}}<br>芝麻</center></td>
+    <td><center>{{< img src="jidan.jpg" width="300" loading="lazy" decoding="async" >}}<br>鸡蛋</center></td>
   </tr>
 </table>
 

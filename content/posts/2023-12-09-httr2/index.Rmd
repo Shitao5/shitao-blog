@@ -157,7 +157,7 @@ year_day %>%
 ```
 
 <div class='fullwidth'>
-<img src="calendar.png">
+{{< img src="calendar.png" loading="lazy" decoding="async" >}}
 </div>
 
 果然还是周末写得多。
