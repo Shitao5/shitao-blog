@@ -146,7 +146,7 @@ span.hash-note::before { content: "　# "; }
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0.5rem;
+  bottom: 0.75rem;
   border-bottom: 1px solid currentColor;
   z-index: 0;
 }
