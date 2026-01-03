@@ -107,10 +107,11 @@ span.hash-note::before { content: "　# "; }
 
 .nav-top {
   align-items: center;
-  min-height: 3.25rem;
+  height: 3.25rem;
   padding: 0;
   position: relative;
   border-bottom: none;
+  overflow: visible;
 }
 .nav-top .logo {
   margin-top: 0;
