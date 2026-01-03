@@ -70,10 +70,10 @@
         {{- if $webpExists -}}
         <source type="image/webp" srcset="{{ printf "/%s.webp" $base }}">
         {{- end -}}
-        <img src="{{ relURL $img }}" alt="{{ .alt }}" loading="lazy" decoding="async" />
+        <img src="{{ relURL $img }}" alt="{{ .alt }}" width="48" height="48" loading="lazy" decoding="async" />
       </picture>
       {{- else -}}
-      <img src="{{ relURL $img }}" alt="{{ .alt }}" loading="lazy" decoding="async" />
+      <img src="{{ relURL $img }}" alt="{{ .alt }}" width="48" height="48" loading="lazy" decoding="async" />
       {{- end -}}
       {{ else }}
       {{ .alt }}
