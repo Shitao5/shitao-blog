@@ -1,0 +1,2 @@
+!function(t){const e=t.querySelector("section.comments");if(!e)return;if(function(){let t=!0;try{t=window.self!==window.top}catch(t){}return t}())return void e.remove();location.hash.match(/^#comment-[0-9]+$/)&&e.scrollIntoView();const r=e.querySelector("script[data-src]");if(!r)return;const c=r.dataset.src,n=t.createElement("script");[...r.attributes].forEach(t=>{n.setAttribute(t.name,t.value)}),n.src=c,r.remove(),e.appendChild(n)}(document);
+//# sourceMappingURL=comment-utils.min.js.map

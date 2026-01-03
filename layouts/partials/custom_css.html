@@ -4,6 +4,13 @@
 <link rel="stylesheet" href="{{ (replaceRE "^.*/" "hardlink/css/" .) | relURL }}">
 {{ end }}
 {{ else }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.css$" "npm/@xiee/$1/css/$2.min.css" ".") "," }}">
+{{ range . }}
+{{ if hasPrefix . "utils/" }}
+{{ $name := replaceRE "^utils/(.+)\\.css$" "$1" . }}
+<link rel="stylesheet" href="{{ (printf "vendor/xiee-utils/css/%s.min.css" $name) | relURL }}">
+{{ else }}
+<link rel="stylesheet" href="{{ . | relURL }}">
+{{ end }}
+{{ end }}
 {{ end }}
 {{ end }}

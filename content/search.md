@@ -41,5 +41,5 @@ disable_comments: true
 </section>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/fuse-search.min.js" defer></script>
+<script src="/vendor/fuse/fuse.min.js" defer></script>
+<script src="/vendor/xiee-utils/js/fuse-search.min.js" defer></script>

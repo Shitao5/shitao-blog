@@ -1,0 +1,2 @@
+(t=>{if(!t.body.classList.contains("has-notes"))return;const e=t.querySelector(".author");if(!e)return;let s=sessionStorage.getItem("hide-notes");e.classList.add("toggle-notes"),e.onclick=function(e){null===s&&!/^(localhost|[0-9.]+)$/.test(location.hostname)&&alert("你好像点了个神秘开关……请勿公开，自行阅读即可（再次点击可关闭），谢谢！"),s=t.body.classList.toggle("hide-notes");try{sessionStorage.setItem("hide-notes",s)}catch(e){}},null!==s&&t.body.classList.toggle("hide-notes","true"===s)})(document);
+//# sourceMappingURL=toggle-notes.min.js.map
