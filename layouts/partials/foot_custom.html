@@ -15,10 +15,8 @@
 {{- if $has_img -}}
 <script src="{{ "vendor/xiee-utils/js/alt-title.min.js" | relURL }}" defer></script>
 {{ end }}
-{{- if not (default (not $has_code) .Params.disable_highlight) -}}
+{{- if not (default false .Params.disable_highlight) -}}
 <link rel="stylesheet" href="{{ "vendor/prism/prism-xcode.css" | relURL }}">
-<script src="{{ "vendor/prism/prism-core.min.js" | relURL }}" defer></script>
-<script src="{{ "vendor/prism/prism-autoloader.min.js" | relURL }}" defer></script>
 {{ end }}
 {{- if not (default false .Params.disable_math) -}}
 <link rel="stylesheet" href="{{ "vendor/katex/katex.min.css" | relURL }}">

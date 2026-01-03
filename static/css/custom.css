@@ -105,8 +105,44 @@ span.hash-note::before { content: "　# "; }
   }
 }
 
-.logo img {
+.nav-top .logo a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50% !important;
+  overflow: hidden !important;
   background: white;
+}
+.nav-top .logo picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  vertical-align: middle;
+  position: relative;
+}
+.nav-top .logo picture img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: static;
+  top: auto;
+  max-height: none;
+  object-fit: cover;
+}
+.nav-top .logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% !important;
+  background: white;
+  position: static;
+  top: auto;
+  max-height: none;
+  object-fit: cover;
+  vertical-align: middle;
 }
 
 /* 中文没有斜体 */
