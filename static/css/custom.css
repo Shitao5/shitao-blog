@@ -107,8 +107,10 @@ span.hash-note::before { content: "　# "; }
 
 .nav-top {
   align-items: center;
-  min-height: 3rem;
-  padding: 0.25rem 0;
+  min-height: 3.25rem;
+  padding: 0;
+  position: relative;
+  border-bottom: none;
 }
 .nav-top .logo {
   margin-top: 0;
@@ -120,8 +122,8 @@ span.hash-note::before { content: "　# "; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
   border-radius: 50% !important;
   overflow: hidden !important;
   background: white;
@@ -133,6 +135,14 @@ span.hash-note::before { content: "　# "; }
 .nav-top .menu span {
   margin-top: 0;
   line-height: 1;
+}
+.nav-top::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid currentColor;
 }
 .nav-top .logo picture {
   display: block;
