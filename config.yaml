@@ -49,6 +49,7 @@ menu:
       weight: 9
 
 params:
+  description: "吴诗涛的个人博客，记录工作实践、思考沉淀、技术探索与生活随笔。"
   footer: "&copy; [Shitao Wu](/) 2019 - {Year}"
   logo:
     en:
@@ -82,4 +83,3 @@ markup:
       autoHeadingIDType: blackfriday
   tableOfContents:
     startLevel: 1
-

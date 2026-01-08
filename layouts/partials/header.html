@@ -13,11 +13,16 @@
     {{ end }}
     <meta name="twitter:card" content="summary">
     {{ if eq .RelPermalink "/" }}
-    <meta property="description" content="{{ .Site.Params.description }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
     {{ else }}
-      {{ with (trim (partial "summary.html" .) "\n ") }}
-      <meta property="description" content="{{- . -}}">
-      <meta property="og:description" content="{{- . -}}">
+      {{ $summary := (trim (partial "summary.html" .) "\n ") }}
+      {{ if $summary }}
+      <meta name="description" content="{{- $summary -}}">
+      <meta property="og:description" content="{{- $summary -}}">
+      {{ else }}
+      <meta name="description" content="{{ .Site.Params.description }}">
+      <meta property="og:description" content="{{ .Site.Params.description }}">
       {{ end }}
     {{ end }}
 
