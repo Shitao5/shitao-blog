@@ -264,6 +264,11 @@ h1.title:lang(zh-CN) {
   text-align: center;
 }
 
+/* Keep hugo-paged list counters after KaTeX resets body counters. */
+html body {
+  counter-reset: pageNumber katexEqnNo mmlEqnNo;
+}
+
 .summary-doc {
   margin: 1.5rem 0 2.5rem;
 }

@@ -1,3 +1,13 @@
+{{ define "page-list" }}
+{{ range $index, $page := .RegularPages }}
+<h2 class="toc-line"><a href="{{ $page.RelPermalink }}">{{ $page.Title | markdownify }}</a><span class="dots"></span><span class="page-num-static small">{{ add $index 1 }}</span></h2>
+<div class="meta-line small">
+{{ partial "meta.html" $page }}
+</div>
+{{ template "summary" $page }}
+{{ end }}
+{{ end }}
+
 {{ define "summary" }}
 {{ $toc := partial "toc-list.html" . }}
 {{ if or (ne (strings.TrimSpace $toc) "") .Params.summary_show_content }}
