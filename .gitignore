@@ -8,6 +8,7 @@
 Thumbs.db
 /public/
 /resources/
+/node_modules/
 .Rdata
 .httr-oauth
 /stopwrite/

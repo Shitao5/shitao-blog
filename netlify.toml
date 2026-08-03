@@ -3,7 +3,7 @@
 ###############################################
 
 [build]
-  command = "hugo"
+  command = "hugo && npm run postbuild:anchors"
   publish = "public"
 
 [build.environment]
@@ -16,7 +16,7 @@
 
 # 正式环境（默认）
 [context.production]
-  command = "hugo --buildFuture"
+  command = "hugo --buildFuture && npm run postbuild:anchors"
 
 [context.production.environment]
   HUGO_ENV          = "production"
@@ -25,11 +25,11 @@
 
 # 分支部署（除 main 以外的分支）
 [context.branch-deploy]
-  command = "hugo -F -b $DEPLOY_PRIME_URL"
+  command = "hugo -F -b $DEPLOY_PRIME_URL && npm run postbuild:anchors"
 
 # Pull Request 预览
 [context.deploy-preview]
-  command = "hugo -F -b $DEPLOY_PRIME_URL"
+  command = "hugo -F -b $DEPLOY_PRIME_URL && npm run postbuild:anchors"
 
 # next 分支的额外环境变量示例
 [context.next.environment]
