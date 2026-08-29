@@ -3,7 +3,10 @@
   "private": true,
   "scripts": {
     "postbuild:anchors": "node scripts/transliterate-heading-anchors.mjs public",
-    "test:anchors": "node --test scripts/transliterate-heading-anchors.test.mjs"
+    "postbuild:moments": "node scripts/sort-moments.mjs public",
+    "test:anchors": "node --test scripts/transliterate-heading-anchors.test.mjs",
+    "test:moments": "node --test scripts/sort-moments.test.mjs",
+    "test": "npm run test:anchors && npm run test:moments"
   },
   "dependencies": {
     "parse5": "7.3.0",

@@ -1,13 +1,10 @@
 ---
-title: 随记
-comments: no
+title: 此刻
+comments: yes
 ---
 
-随记博客原地址：<https://moments.shitao5.org/>，这里是一个单页嵌入。
+{{< moment date="2026-08-29 19:06" title="此刻，启航！" >}}
+承蒙 GPT-5.6-sol 设计 + 开发。
 
-<iframe 
-src="https://moments.shitao5.org/"
-style="width: 680px; height: 800px;" 
-frameborder="0">
-</iframe>
-
+此刻，启航！
+{{< /moment >}}

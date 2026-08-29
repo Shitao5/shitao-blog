@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<h1 class="title">{{ .Title | markdownify }}</h1>
+
+<div class="main moments-page">
+  {{ if strings.TrimSpace .Content }}
+  <div class="moments-feed">
+    {{ .Content }}
+  </div>
+  {{ else }}
+  <p class="moments-empty">还没有记录。</p>
+  {{ end }}
+</div>
+
+<script src="{{ "js/sort-moments.js" | relURL }}" defer></script>
+
+{{ partial "footer.html" . }}

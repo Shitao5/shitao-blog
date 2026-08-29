@@ -31,19 +31,19 @@ menu:
       weight: 3
     - name: 总结
       url: "/summary/"
+      weight: 5
+    - name: 此刻
+      url: "/moments/"
       weight: 4
     - name: 书摘
       url: "/excerpt/"
-      weight: 5
+      weight: 6
     - name: 搜索
       url: "/search/"
-      weight: 6
+      weight: 7
     # - name: 👋对话
     #   url: "/chat/"
     #   weight: 8
-    # - name: 随记
-    #   url: "/moments/"
-    #   weight: 7
     - name: 🎯订阅
       url: "/index.xml"
       weight: 9

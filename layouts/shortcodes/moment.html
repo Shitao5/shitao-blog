@@ -1,0 +1,29 @@
+{{- $rawDate := strings.TrimSpace (.Get "date") -}}
+{{- if not $rawDate -}}
+  {{- errorf "moment shortcode requires a date" -}}
+{{- end -}}
+{{- $date := $rawDate -}}
+{{- if findRE `^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$` $rawDate -}}
+  {{- $date = printf "%s:00+08:00" (replace $rawDate " " "T") -}}
+{{- end -}}
+{{- $momentDate := time $date -}}
+{{- $id := strings.TrimSpace (.Get "id") -}}
+{{- if not $id -}}
+  {{- $id = $momentDate.Format "20060102-1504" -}}
+{{- end -}}
+{{- $weekdays := slice "周日" "周一" "周二" "周三" "周四" "周五" "周六" -}}
+{{- $displayDate := $momentDate.Format "2006-01-02" -}}
+{{- $displayTime := printf "%s %s" (index $weekdays (int $momentDate.Weekday)) ($momentDate.Format "15:04") -}}
+
+<article class="moment-entry" id="{{ $id }}" data-moment-time="{{ $momentDate.Unix }}">
+  <time class="moment-entry__time" datetime="{{ $momentDate.Format "2006-01-02T15:04:05Z07:00" }}">
+    <a class="moment-entry__permalink" href="{{ printf "%s#%s" .Page.RelPermalink $id }}" aria-label="链接到此刻：{{ $displayDate }} {{ $displayTime }}">
+      <span>{{ $displayDate }}</span>
+      <span>{{ $displayTime }}</span>
+    </a>
+  </time>
+  <div class="moment-entry__content">
+    {{ with .Get "title" }}<h2 class="moment-entry__title">{{ . | markdownify }}</h2>{{ end }}
+    <div class="moment-entry__body">{{ .Inner | markdownify }}</div>
+  </div>
+</article>

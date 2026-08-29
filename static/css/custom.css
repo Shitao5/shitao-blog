@@ -306,3 +306,140 @@ html body {
     flex-basis: calc(25% - 1.125rem);
   }
 }
+
+.moments-page {
+  width: min(100%, 720px);
+}
+
+.moments-feed {
+  --moment-axis: 7.5rem;
+  position: relative;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.moments-feed::before {
+  position: absolute;
+  top: .45rem;
+  bottom: .9rem;
+  left: var(--moment-axis);
+  border-left: 1px solid var(--border-color);
+  content: "";
+}
+
+.moment-entry {
+  display: grid;
+  grid-template-columns: var(--moment-axis) minmax(0, 1fr);
+  column-gap: 1.75rem;
+  position: relative;
+  padding: 0 0 2.35rem;
+}
+
+.moment-entry:last-child {
+  padding-bottom: .5rem;
+}
+
+.moment-entry::before {
+  position: absolute;
+  top: .3rem;
+  left: calc(var(--moment-axis) - .28rem);
+  width: .5rem;
+  height: .5rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: var(--bg-body);
+  content: "";
+}
+
+.moment-entry__time {
+  grid-column: 1;
+  align-self: start;
+  padding: .05rem .95rem 0 0;
+  color: #666;
+  font-size: .78rem;
+  line-height: 1.4;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.moment-entry__permalink {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-bottom: none;
+  color: inherit;
+  font-variant-numeric: tabular-nums;
+}
+
+.moment-entry__permalink:hover,
+.moment-entry__permalink:focus-visible {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.moment-entry__content {
+  grid-column: 2;
+  min-width: 0;
+}
+
+.moments-page .moment-entry__title {
+  margin: 0 0 .55rem;
+  border-bottom: none;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.moment-entry__body {
+  line-height: 1.78;
+}
+
+.moment-entry__body > :first-child {
+  margin-top: 0;
+}
+
+.moment-entry__body > :last-child {
+  margin-bottom: 0;
+}
+
+.moments-empty {
+  color: #666;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .moments-page {
+    width: 100%;
+  }
+
+  .moments-feed {
+    --moment-axis: 1.25rem;
+    margin-left: .15rem;
+  }
+
+  .moments-feed::before {
+    left: .2rem;
+  }
+
+  .moment-entry {
+    display: block;
+    padding: 0 0 2rem 1.3rem;
+  }
+
+  .moment-entry::before {
+    left: -.05rem;
+  }
+
+  .moment-entry__time {
+    margin-bottom: .35rem;
+    padding: 0;
+    text-align: left;
+  }
+
+  .moment-entry__permalink {
+    flex-direction: row;
+    align-items: baseline;
+    gap: .45em;
+  }
+}
