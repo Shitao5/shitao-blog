@@ -13,13 +13,14 @@
 {{- end -}}
 {{- $weekdays := slice "周日" "周一" "周二" "周三" "周四" "周五" "周六" -}}
 {{- $displayDate := $momentDate.Format "2006-01-02" -}}
-{{- $displayTime := printf "%s %s" (index $weekdays (int $momentDate.Weekday)) ($momentDate.Format "15:04") -}}
+{{- $displayWeekday := index $weekdays (int $momentDate.Weekday) -}}
+{{- $displayTime := $momentDate.Format "15:04" -}}
+{{- $displayDayLabel := printf "%s %s" $displayDate $displayWeekday -}}
 
-<article class="moment-entry" id="{{ $id }}" data-moment-time="{{ $momentDate.Unix }}">
+<article class="moment-entry" id="{{ $id }}" data-moment-time="{{ $momentDate.Unix }}" data-moment-day="{{ $displayDate }}" data-moment-day-label="{{ $displayDayLabel }}">
   <time class="moment-entry__time" datetime="{{ $momentDate.Format "2006-01-02T15:04:05Z07:00" }}">
-    <a class="moment-entry__permalink" href="{{ printf "%s#%s" .Page.RelPermalink $id }}" aria-label="链接到此刻：{{ $displayDate }} {{ $displayTime }}">
-      <span>{{ $displayDate }}</span>
-      <span>{{ $displayTime }}</span>
+    <a class="moment-entry__permalink" href="{{ printf "%s#%s" .Page.RelPermalink $id }}" aria-label="链接到此刻：{{ $displayDayLabel }} {{ $displayTime }}">
+      <span class="moment-entry__clock">{{ $displayTime }}</span>
     </a>
   </time>
   <div class="moment-entry__content">

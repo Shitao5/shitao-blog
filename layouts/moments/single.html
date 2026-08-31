@@ -1,5 +1,8 @@
 {{ partial "header.html" . }}
 
+{{- $momentsCSSHash := printf "%.12s" (sha256 (readFile "static/css/custom.css")) -}}
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}?v={{ $momentsCSSHash }}">
+
 <h1 class="title">{{ .Title | markdownify }}</h1>
 
 <div class="main moments-page">
@@ -12,6 +15,7 @@
   {{ end }}
 </div>
 
-<script src="{{ "js/sort-moments.js" | relURL }}" defer></script>
+{{- $momentsScriptHash := printf "%.12s" (sha256 (readFile "static/js/sort-moments.js")) -}}
+<script src="{{ "js/sort-moments.js" | relURL }}?v={{ $momentsScriptHash }}" defer></script>
 
 {{ partial "footer.html" . }}
