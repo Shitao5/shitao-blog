@@ -26,6 +26,8 @@ test('groups entries by day, sorts newest first, and preserves links', () => {
     /data-moment-day="2026-08-31"[\s\S]*data-moment-day="2026-08-30"[\s\S]*data-moment-day="2026-08-29"/,
   );
   assert.equal((result.html.match(/class="moment-day"/g) ?? []).length, 3);
+  assert.match(result.html, /class="moment-day__date">2026-08-31<\/span>/);
+  assert.match(result.html, /class="moment-day__weekday">周一<\/span>/);
   assert.match(result.html, /href="\/moments\/#20260831-1906">new<\/a>/);
 });
 
@@ -42,7 +44,10 @@ test('merges multiple entries from one day and is idempotent', () => {
   assert.equal(secondRun.changed, false);
   assert.equal((firstRun.html.match(/class="moment-day"/g) ?? []).length, 2);
   assert.match(firstRun.html, /moment-second[\s\S]*moment-first/);
-  assert.match(firstRun.html, /2026-08-31 周一[\s\S]*2026-08-30 周日/);
+  assert.match(
+    firstRun.html,
+    /moment-day__date">2026-08-31<\/span>[\s\S]*moment-day__weekday">周一<\/span>[\s\S]*moment-day__date">2026-08-30<\/span>[\s\S]*moment-day__weekday">周日<\/span>/,
+  );
 });
 
 test('keeps source order for equal timestamps within a day', () => {

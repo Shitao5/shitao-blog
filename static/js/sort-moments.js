@@ -30,6 +30,18 @@
     parent.replaceChildren(...children);
   };
 
+  const createMomentDayLabel = (day, dayLabel) => {
+    const parts = dayLabel.trim().split(/\s+/u);
+    const weekday = parts.slice(1).join(' ') || dayLabel.trim();
+    const dateText = document.createElement('span');
+    dateText.className = 'moment-day__date';
+    dateText.textContent = day;
+    const weekdayText = document.createElement('span');
+    weekdayText.className = 'moment-day__weekday';
+    weekdayText.textContent = weekday;
+    return [dateText, document.createTextNode(' '), weekdayText];
+  };
+
   const createDayGroup = (entries) => {
     const firstEntry = entries[0];
     const headingId = `moment-day-${firstEntry.day.replaceAll('-', '')}`;
@@ -43,10 +55,10 @@
     heading.className = 'moment-day__title';
     heading.id = headingId;
 
-    const date = document.createElement('time');
-    date.dateTime = firstEntry.day;
-    date.textContent = firstEntry.dayLabel;
-    heading.append(date);
+    const dayLabel = document.createElement('time');
+    dayLabel.dateTime = firstEntry.day;
+    dayLabel.append(...createMomentDayLabel(firstEntry.day, firstEntry.dayLabel));
+    heading.append(dayLabel);
     group.append(heading, ...entries.map(({ element }) => element));
     return group;
   };

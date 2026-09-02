@@ -31,6 +31,24 @@ function createTextNode(value) {
   return { nodeName: '#text', value };
 }
 
+function createMomentDayLabel(day, dayLabel) {
+  const parts = dayLabel.trim().split(/\s+/u);
+  const weekday = parts.slice(1).join(' ') || dayLabel.trim();
+  return [
+    createElement(
+      'span',
+      [createAttribute('class', 'moment-day__date')],
+      [createTextNode(day)],
+    ),
+    createTextNode(' '),
+    createElement(
+      'span',
+      [createAttribute('class', 'moment-day__weekday')],
+      [createTextNode(weekday)],
+    ),
+  ];
+}
+
 function createElement(tagName, attrs = [], childNodes = []) {
   return {
     nodeName: tagName,
@@ -145,7 +163,7 @@ function createMomentDayGroup(entries) {
     [createElement(
       'time',
       [createAttribute('datetime', firstEntry.day)],
-      [createTextNode(firstEntry.dayLabel)],
+      createMomentDayLabel(firstEntry.day, firstEntry.dayLabel),
     )],
   );
 

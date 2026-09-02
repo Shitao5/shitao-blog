@@ -312,7 +312,8 @@ html body {
 }
 
 .moments-feed {
-  --moment-axis: 7.5rem;
+  --moment-axis: 6.25rem;
+  --moment-gap: .75rem;
   position: relative;
   margin: 1.5rem 0 2.5rem;
 }
@@ -337,7 +338,7 @@ html body {
 .single .moments-page .moment-day__title {
   display: grid;
   grid-template-columns: var(--moment-axis) minmax(0, 1fr);
-  column-gap: 1.75rem;
+  column-gap: var(--moment-gap);
   border-bottom: none;
   margin: 0 0 .9rem;
   padding: 0;
@@ -360,7 +361,7 @@ html body {
 .moment-entry {
   display: grid;
   grid-template-columns: var(--moment-axis) minmax(0, 1fr);
-  column-gap: 1.75rem;
+  column-gap: var(--moment-gap);
   position: relative;
   padding: 0 0 2.35rem;
 }
@@ -463,12 +464,23 @@ html body {
   .moments-page .moment-day__title {
     display: grid;
     margin-bottom: .65rem;
-    column-gap: .75rem;
   }
 
   .moment-entry {
-    column-gap: .75rem;
     padding-bottom: 2rem;
+  }
+
+  .moment-day__title time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: .05em;
+    white-space: normal;
+  }
+
+  .moment-day__date,
+  .moment-day__weekday {
+    display: block;
   }
 
   .moment-entry::before {
@@ -482,5 +494,12 @@ html body {
   .moment-entry__permalink {
     flex-direction: column;
     align-items: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .moments-feed {
+    --moment-axis: clamp(6.25rem, 15vw, 7.5rem);
+    --moment-gap: clamp(1rem, 2.2vw, 1.75rem);
   }
 }
