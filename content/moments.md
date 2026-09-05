@@ -115,3 +115,35 @@ ChatGPT 语音功能，新建会话直接语音交流，相比文字交流后启
 {{< moment date="2026-09-04 17:53" title="" >}}
 今晚自制熟醉沼虾，已经被好几个朋友盯上了。保护我方沼虾！
 {{< /moment >}}
+
+
+{{< moment date="2026-09-05 17:25" title="" >}}
+看 Cybercab 的视频，讲如果 Cybercab 的利用率提升，那么城市就不需要那么多车和停车场，可以把停车场改造成为人服务的场所，这真是太对了。现在开车出门最麻烦的就是停车以及停车费。
+{{< /moment >}}
+
+
+{{< moment date="2026-09-05 17:56" title="" >}}
+Vibe Coding 来了之后，有人说产品需求文档（PRD）已死，但我自己实践下来还是觉得，PRD 才是产品的生命记录。如 [Spec Kit](https://github.com/github/spec-kit/) [文档](https://github.com/github/spec-kit/blob/main/spec-driven.md)所写：
+
+> The Product Requirements Document (PRD) isn't a guide for implementation; it's the source that generates implementation.
+
+{{< /moment >}}
+
+
+{{< moment date="2026-09-05 22:48" title="" >}}
+试了下让 ChatGPT 直接分析「此刻」这个页面，已经能给出一些对自己不错的分析结果了，继续记录。
+{{< /moment >}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
