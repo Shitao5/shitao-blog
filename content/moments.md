@@ -381,6 +381,8 @@ MacBook 24G 内存告急，清理了 Codex 闲置的 MCP，把 Chrome 的内存�
 {{< /moment >}}
 
 
-
+{{< moment date="2026-09-26 10:10" title="" >}}
+小白七万公里啦，是在从桐乡去安吉的路上，刚从桐乡上高速。
+{{< /moment >}}
 
 
